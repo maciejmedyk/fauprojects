@@ -1,0 +1,190 @@
+/*///////////////////////////////
+//           BODY              //
+///////////////////////////////*/
+body{
+	background-color: #aaa;
+}
+
+tr:nth-child(even) {
+	background-color: #e3e3e3;
+}
+tr:nth-child(odd) {
+	background-color: #f5f5f5;
+}
+/*///////////////////////////////
+//        NAVIGATION           //
+///////////////////////////////*/
+.nav {
+	overflow: hidden;
+}
+.navbar-brand img{
+	margin-top: 0px;
+}
+.navbar-brand {
+	margin-left: 15px;
+}
+.navmenu{
+	font-family: "Quattrocento Sans", sans-serif;
+	margin: 0 40px 0 0;
+	padding-top: 10px;
+}
+.navbar-toggle{
+	font-family: "Quattrocento Sans", sans-serif;
+	margin: 10px 30px 0 0;
+}
+.selected {
+	background-color: white;
+	border-radius: 25% 25% 0 0;
+}
+/*///////////////////////////////
+//          FOOTER             //
+///////////////////////////////*/
+.footer{
+    /*border-top: thin double #666;*/
+	text-align: center;
+	clear: both;
+	margin: 0 0;
+}
+.footer img{
+	margin: 10px 0;
+	padding: 5px;
+	max-height: 65px;
+	max-width: 65px;
+}
+/*///////////////////////////////
+//           INDEX             //
+///////////////////////////////*/
+.breadtitle {
+	/*font-family: "Maven Pro", sans-serif;*/
+	font-family: "Quattrocento Sans", sans-serif;
+	width: auto;
+	background-color: tomato;
+	padding: 10px;
+	margin-top: -20px;
+	color: white;
+	font-weight: bolder;
+	text-align: center;
+	font-size: 1.75em;
+	border-bottom: thin double #666;
+	border-top: thin double #666;
+	margin-bottom: thin;
+
+}
+.resulttable th {
+	font-family: "Quattrocento Sans", sans-serif;
+	text-align: center;
+	padding: 10px 10px;
+	background-color: orange;
+	color: white;
+	border-color: black;
+}
+#q0101{
+	width: 10000px;
+	font-family: "Quattrocento Sans", sans-serif;
+	padding: 5px 10px;
+}
+#q0201{
+	width: 10000px;
+	font-family: "Quattrocento Sans", sans-serif;
+	padding: 5px 10px;
+}
+#q0301{
+	font-family: "Quattrocento Sans", sans-serif;
+	padding: 5px 10px;
+}
+#q0302{
+	font-family: "Quattrocento Sans", sans-serif;
+	text-align: center;
+	padding: 5px 10px;
+}
+#q0303{
+	font-family: "Quattrocento Sans", sans-serif;
+	text-align: center;
+	padding: 5px 10px;
+}
+#q0304{
+	font-family: "Quattrocento Sans", sans-serif;
+	text-align: center;
+	padding: 5px 10px;
+}
+#q0401{
+	font-family: "Quattrocento Sans", sans-serif;
+	padding: 5px 10px;
+}
+#q0402{
+	font-family: "Quattrocento Sans", sans-serif;
+	text-align: center;
+	padding: 5px 10px;
+}
+#q0403{
+	font-family: "Quattrocento Sans", sans-serif;
+	text-align: center;
+	padding: 5px 10px;
+}
+#q0501{
+	font-family: "Quattrocento Sans", sans-serif;
+	text-align: center;
+	padding: 5px 10px;
+}
+#q0502{
+	width: 10000px;
+	font-family: "Quattrocento Sans", sans-serif;
+	padding: 5px 10px;
+}
+#q0601{
+	width: 10000px;
+	font-family: "Quattrocento Sans", sans-serif;
+	padding: 5px 10px;
+}
+#q0701{
+	font-family: "Quattrocento Sans", sans-serif;
+	padding: 5px 10px;
+}
+#q0702{
+	font-family: "Quattrocento Sans", sans-serif;
+	text-align: center;
+	padding: 5px 10px;
+}
+#q0801{
+	font-family: "Quattrocento Sans", sans-serif;
+	padding: 5px 10px;
+}
+#q0802{
+	font-family: "Quattrocento Sans", sans-serif;
+	text-align: center;
+	padding: 5px 10px;
+}
+#q0901{
+	width: 10000px;
+	font-family: "Quattrocento Sans", sans-serif;
+	padding: 5px 10px;
+}
+#q1001{
+	width: 10000px;
+	font-family: "Quattrocento Sans", sans-serif;
+	text-align: center;
+	padding: 5px 10px;
+}
+#q1101{
+	font-family: "Quattrocento Sans", sans-serif;
+	padding: 5px 10px;
+}
+#q1102{
+	font-family: "Quattrocento Sans", sans-serif;
+	text-align: center;
+	padding: 5px 10px;
+}
+#q1201{
+	font-family: "Quattrocento Sans", sans-serif;
+	text-align: center;
+	padding: 5px 10px;
+}
+#q1202{
+	font-family: "Quattrocento Sans", sans-serif;
+	padding: 5px 10px;
+}
+#q1203{
+	font-family: "Quattrocento Sans", sans-serif;
+	text-align: center;
+	padding: 5px 10px;
+}

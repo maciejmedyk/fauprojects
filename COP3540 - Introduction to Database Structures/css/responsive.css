@@ -1,0 +1,28 @@
+/*///////////////////////////////
+//           BODY              //
+///////////////////////////////*/
+@media(max-width: 1240px) {
+.navmenu{
+	margin: 0 40px 0 0;
+}
+.navbar-toggle {
+	margin-top: 200px;
+}
+.navbar-brand img{
+	margin-top: 10px;
+}
+.selected {
+	background-color: white;
+	border-radius: 0 0 0 0;
+}
+}
+
+/*///////////////////////////////
+//        NAVIGATION           //
+///////////////////////////////*/
+.navbar-toggle{
+	margin: 20px 25px 0 0;
+}
+/*///////////////////////////////
+//           INDEX             //
+///////////////////////////////*/
