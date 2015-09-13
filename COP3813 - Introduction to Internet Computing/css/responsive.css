@@ -1,0 +1,326 @@
+/*///////////////////////////////
+//           BODY              //
+///////////////////////////////*/
+@media screen and (min-width: 660px) {
+.navmenu{
+	padding-top: 10px;
+	margin: 0 40px 0 0;
+}
+/*///////////////////////////////
+//        NAVIGATION           //
+///////////////////////////////*/
+.navbar-toggle{
+	margin: 20px 25px 0 0;
+}
+.spacer {
+	width: 100%;
+	min-height: 400px;
+	text-align: center;
+}
+/*///////////////////////////////
+//           INDEX             //
+///////////////////////////////*/
+.heading {
+	background-image:url('../img/openbook.jpg');
+	background-size: 100% 400px;
+	background-repeat: no-repeat;
+	min-height: 420px;
+}	
+.searchbar{
+	text-align: center;
+	padding-top: 130px;	
+}
+.searchbar h6{
+	font-size: 30px;
+}
+#promo_content img{
+	max-width: 100%;
+	border-style: solid;
+}	
+#credentials {
+	float: left;
+	padding: 2%;
+	margin: 1.25%;
+	max-width: 30.833%;
+}
+#review {
+	float: left;
+	padding: 2%;
+	margin: 1.25%;
+	max-width: 30.833%;
+}
+#fau {
+	float: left;
+	padding: 2%;
+	margin: 1.25%;
+	max-width: 30.833%;
+}
+#credentials h4{
+	font-size: 1.5em;
+	font-weight: bold;
+}
+#review h4{
+	font-size: 1.5em;
+	font-weight: bold;
+}
+#fau h4{
+	font-size: 1.5em;
+	font-weight: bold;
+}
+.leftside{
+	float:left;
+	padding: 2%;
+	width: 45%;
+	margin: 2.5%;
+	background-color: #ddd;
+	border-radius: 10%
+}
+.rightside{
+	float:right;
+	padding: 2%;
+	width: 45%;
+	margin: 2.5%;
+	background-color: #ddd;
+	border-radius: 10%
+}
+#search
+{
+	margin: 0 25%;
+	max-width: 50%;
+	text-align: center;
+}
+.searchbar{
+	text-align: center;
+	margin: 0;
+	max-width: 130%;
+}
+#across_content img{
+	float:left;
+	max-width: 20%;
+	min-width: 20%;
+	border-style: solid;
+	border:5px solid #eee;
+	border-radius: 20%;
+	margin: 0 2% -1% 2.5%;
+}
+#across_content h4{
+	font-family: "Maven Pro", sans-serif;
+	font-weight: bold;
+	text-align: left;
+	font-size: 3.25em;
+	padding: 1.25% 0 0 2.5%;
+}
+#across_content {
+	float: left;
+	padding: 2%;
+	margin: 0 1.25%;
+	max-width: 97.50%;
+	background-color: #ddd;
+}
+/*///////////////////////////////
+//           LOGIN             //
+///////////////////////////////*/
+#reg_container{
+	background-color: #eee;
+	margin-top: -5px;
+	padding: 0;
+	min-height: 700px;
+}
+#acct_container{
+	margin-top: -5px;
+	padding: 0;
+	min-height: 700px;
+}
+.acctleftside{
+	background-color: #eee;
+	min-width: 250px;
+	max-width: 250px;
+	padding: 0;
+	min-height: 700px;
+	float: left;
+}
+.acctleftside h5{
+	text-align: center;
+	font-size: 1.00em;
+	padding: 2% 5%;
+}
+.acctrightside{
+	background-color: #ddd;
+	min-width: auto;
+	padding: 0;
+	min-height: 700px;
+}
+.inputform{
+	min-height: 580px;
+}
+.searchtleftside{
+	background-color: #eee;
+	min-width: 250px;
+	max-width: 250px;
+	padding: 0;
+	min-height: 700px;
+	float: left;
+}
+.searchrightside{
+	background-color: #ddd;
+	min-width: auto;
+	padding: 0;
+	min-height: 700px;
+}
+.composeside {
+	margin: 0 20px 0 270px;
+	min-height: 627px;
+}
+/*///////////////////////////////
+//           BODY              //
+///////////////////////////////*/
+@media screen and (min-width: 991px) {
+.navmenu{
+	padding-top: 10px;
+	margin: 0 40px 0 0;
+}
+.navbar-toggle{
+	margin: 20px 25px 0 0;
+}
+.heading {
+	background-image:url('../img/openbook.jpg');
+	background-size: 100% 500px;
+	background-repeat: no-repeat;
+	min-height: 520px;
+}	
+.spacer {
+	width: 100%;
+	min-height: 500px;
+	text-align: center;
+}
+/*///////////////////////////////
+//           INDEX             //
+///////////////////////////////*/
+#search
+{
+	margin: 0 35%;
+	max-width: 30%;
+	text-align: center;
+}
+.searchbar{
+	text-align: center;
+	padding-top: 200px;
+}
+.searchbar h6{
+	font-size: 40px;
+}
+#reg_container{
+	background-color: #eee;
+	margin-top: -5px;
+	padding: 0;
+	min-height: 700px;
+}
+#across_content img{
+	float:left;
+	max-width: 15%;
+	min-width: 15%;
+	border-style: solid;
+	border:5px solid #eee;
+	border-radius: 20%;
+	margin: 0 2% -1% 2.5%;
+}
+#across_content h4{
+	font-family: "Maven Pro", sans-serif;
+	font-weight: bold;
+	text-align: left;
+	font-size: 3.25em;
+	padding: 3% 0 0 2.5%;
+}
+/*///////////////////////////////
+//           SEARCH            //
+///////////////////////////////*/
+.searchagain{
+	background-color: #fff;
+	min-width: 100%;
+	min-height: 0px;
+	margin: 0 0 3px 0;
+}
+#searchtable{
+	font-size: 12px;
+	padding: 0 20% 0 20%;
+}
+#searchtable th{
+	background-color: #eee;
+	text-align: center;
+	padding: 10px 0px;
+}
+#searchtable td{
+	font-size: 12px;
+	padding: 5px 5px;
+	border-color: #eee;
+}
+.searchagainform input{
+	min-width: 95%;
+	margin: 0 2.5%;
+	text-align: center;
+}
+.searchagainform label{
+	min-width: 95%;
+	margin: 0 2.5%;
+	text-align: center;
+}
+.searchagainform button{
+	min-width: 95%;
+	margin: 0 2.5%;
+	text-align: center;
+}
+#activebutton {
+	border-style: solid;
+	border-width: 2px;
+	width: 100%;
+	margin: 1px 0;
+	text-align: left;
+	background-color: #ddd;	
+	color: black;
+	font-weight: bold;
+}
+/*///////////////////////////////
+//         MESSAGES            //
+///////////////////////////////*/
+#messagetable{
+	font-size: 12px;
+	padding: 0 20% 0 20%;
+	border-color: #eee;
+}
+#messagetable th{
+	background-color: #eee;
+	text-align: center;
+	padding: 10px 0px;
+}
+#messagetable td{
+	font-size: 12px;
+	padding: 5px 5px;
+}
+.messagespacer {
+	min-height: 73px;
+	max-height: 73px;
+}
+.messagespacer h4{
+	font-family: "Maven Pro", sans-serif;
+	font-weight: bold;
+	text-align: center;
+	font-size: 23px;
+	padding: 20px;
+}
+.searchleftside{
+	background-color: #eee;
+	max-width: 250px;
+	min-width: 250px;
+	min-height: 700px;
+	padding: 0;
+	float: left;
+}
+.searchrightside{
+	padding: 0;
+	min-width: 100%;
+	max-width: auto;
+}
+.searchleftside{
+	padding: 19px 0 20px 0;
+}
+

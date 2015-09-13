@@ -1,0 +1,464 @@
+/*///////////////////////////////
+//           BODY              //
+///////////////////////////////*/
+body{
+	background-color: #ccc;
+}
+@media (max-width: 1500px) and (orientation: landscape) {
+  .navbar-fixed-top .navbar-collapse,
+  .navbar-fixed-bottom .navbar-collapse {
+    max-height: 200px;
+  }
+}
+@media (max-width: 1500px) {
+  .navbar-form .form-group {
+    margin-bottom: 5px;
+  }
+}
+/*///////////////////////////////
+//        NAVIGATION           //
+///////////////////////////////*/
+.nav {
+	overflow: hidden;
+}
+.spacer {
+	width: 100%;
+	min-height: 10px;
+	text-align: center;
+}
+.navbar-brand {
+	margin-left: 15px;
+}
+.navmenu{
+	font-family: "Quattrocento Sans", sans-serif;
+	margin: 0 40px 0 0;
+	padding-top: 10px;
+}
+.navbar-toggle{
+	font-family: "Quattrocento Sans", sans-serif;
+	margin: 10px 30px 0 0;
+}
+/*///////////////////////////////
+//          FOOTER             //
+///////////////////////////////*/
+.footer{
+    border-top: thin double #666;
+	text-align: center;
+	clear: both;
+}
+.footer img{
+	margin: 10px 0;
+	padding: 5px;
+	max-height: 65px;
+	max-width: 65px;
+}
+/*///////////////////////////////
+//           INDEX             //
+///////////////////////////////*/
+.heading {
+	background-image:url('../img/openbook.jpg');
+	background-size: 100% 250px;
+	background-repeat: no-repeat;
+	margin-top: -20px;
+	min-height: 270px;
+}	
+.searchbar{
+	text-align: center;
+	padding-top: 70px;	
+}	
+#promo_content{
+	clear: both;
+}
+#promo_content img{
+	float:right;
+	max-width: 30%;
+	min-width: 30%;
+	border-style: solid;
+	border:5px solid #eee;
+	border-radius: 20%;
+	margin-bottom: 5%
+}
+#credentials {
+	float: left;
+	padding: 2%;
+	margin: 2.5%;
+	max-width: 95%;
+	background-color: #ddd;
+}
+#review {
+	float: left;
+	padding: 2%;
+	margin: 2.5%;
+	max-width: 95%;
+	background-color: #ddd;
+}
+#fau {
+	float: left;
+	padding: 2%;
+	margin: 2.5%;
+	max-width: 95%;
+	background-color: #ddd;
+}
+#credentials h4, p{
+	float:left;
+	font-family: "Quattrocento Sans", sans-serif;
+	margin-top: 5px;
+	padding: 3%;
+}
+#review h4, p{
+	float: left;
+	font-family: "Quattrocento Sans", sans-serif;
+	margin-top: 5px;
+	padding: 3%;
+}
+#fau h4, p{
+	float: left;
+	font-family: "Quattrocento Sans", sans-serif;
+	margin-top: 5px;
+	padding: 3%;
+}
+#credentials h4{
+	font-family: "Maven Pro", sans-serif;
+	font-weight: bold;
+	text-align: center;
+	font-size: 1.75em;
+}
+#review h4{
+	font-family: "Maven Pro", sans-serif;
+	font-weight: bold;
+	text-align: center;
+	font-size: 1.75em;
+}
+#fau h4{
+	font-family: "Maven Pro", sans-serif;
+	font-weight: bold;
+	text-align: center;
+	font-size: 1.75em;	
+}
+#search
+{
+	margin: 0 15%;
+	max-width: 70%;
+	text-align: center;
+}
+.searchbar{
+	text-align: center;
+	margin: 0;
+	max-width: 150%;
+}
+.searchbar h6{
+	text-align: center;
+	font-family: "Maven Pro", sans-serif;
+	color:  white;
+	font-size: 22px;
+	font-weight: bold;
+}
+.searchbar button{
+	margin-top: 10px;
+}
+#across_content img{
+	float:right;
+	max-width: 29%;
+	min-width: 29%;
+	border-style: solid;
+	border:5px solid #eee;
+	border-radius: 20%;
+	margin-bottom: 1%
+}
+#across_content {
+	float: left;
+	padding: 2%;
+	margin: 0 2.5%;
+	max-width: 95.00%;
+	background-color: #ddd;
+}
+#across_content h4{
+	font-family: "Maven Pro", sans-serif;
+	font-weight: bold;
+	text-align: left;
+	font-size: 1.75em;
+	padding: 0 2.5%;
+}
+#across_content h4{
+	float:left;
+	max-width: 70%;
+	min-width: 70%;
+}
+/*///////////////////////////////
+//           ABOUT             //
+///////////////////////////////*/
+.table h3, h5{
+	margin-left: 5%; 
+	font-family: "Quattrocento Sans", sans-serif;
+}
+.table p{
+	font-family: "Quattrocento Sans", sans-serif;
+	margin: 0 10px 0 -10px;
+}
+#about_container{
+	margin-top: -5px;
+}
+/*///////////////////////////////
+//           LOGIN             //
+///////////////////////////////*/
+#reg_container{
+	background-color: #eee;
+	margin-top: -5px;
+	padding: 5%;
+}
+#reg_container tr{
+	border: none;
+}
+.leftside{
+	text-align: center;
+	padding: 2%;
+	width: 95%;
+	margin: 0 2.5% 5% 2.5%;
+	background-color: #ddd;
+	border-radius: 5%
+}
+.leftside p {
+	text-align: center;
+	width: 100%;
+	margin: -10px auto;
+	color: red;
+	font-size: 12px;
+	font-weight: bold;
+}
+.rightside{
+	text-align: center;
+	padding: 2%;
+	width: 95%;
+	margin: 0 2.5% 5% 2.5%;
+	background-color: #ddd;
+	border-radius: 5%
+}
+.inputform {
+	font-family: "Quattrocento Sans", sans-serif;
+}
+.form-control{
+	margin: 0 10%;
+	max-width: 80%;
+	text-align: center;
+}
+.panel-heading h3{
+	font-family: "Maven Pro", sans-serif;
+	font-weight: bold;
+	text-align: center;
+	font-size: 1.75em;
+}
+.rightside button{
+	margin-bottom: 20px;
+}
+.leftside button{
+	margin-bottom: 20px;
+}
+.inputform h2{
+	font-family: "Maven Pro", sans-serif;
+	font-weight: bold;
+	text-align: center;
+	font-size: 1.75em;	
+}
+#rand{
+	color: red;
+	font-weight: bold;
+}
+#verify{
+	color: green;
+	font-weight: bold;
+}
+#acctbutton {
+	border-style: solid;
+	border-width: 2px;
+	width: 100%;
+	margin: 1px 0;
+	text-align: left;
+}
+#messbutton{
+	width: 100%;
+	margin: 1px 0;
+	border-style: solid;
+	border-width: 2px;
+	text-align: left;
+}
+.messsidebox{
+	border-style: dotted;
+	border-width: 2px;
+	border-color: #ccc;
+	width: 98%;
+	margin: 0 1% 0 1% ;
+	padding: 0 15% 0 1%;
+}
+#loginbutton{
+	width: 100%;
+	margin: 0 0 1px 0;
+	color: white;
+	font-weight: 600;
+	text-align: left;
+	background-color: #bbb;
+}
+#loguser{
+	font-style: italic;
+	color: yellow;
+}
+/*///////////////////////////////
+//           SEARCH            //
+///////////////////////////////*/
+.searchagain{
+	background-color: #ddd;
+	min-width: 100%;
+	min-height: 0px;
+	margin: 0 0 3px 0;
+}
+.searchtleftside{
+	background-color: #eee;
+	padding: 0 100;
+	float: left;
+}
+#searchtable{
+	font-size: 15px;
+	padding: 0 20% 0 20%;
+	border-color: #eee;
+	border-style: double;
+	color: white;
+}
+#searchtable th{
+	background-color: #ccc;
+	text-align: center;
+	padding: 5px 0px;
+	border-color: #eee;
+	border-style: double;
+	color: gray;
+}
+#searchtable td{
+	font-size: 10px;
+	padding: 5px 5px;
+	border-color: #eee;
+	font-style: italic;
+	font-weight: bold;
+	border-style: double;
+	color: #447799;
+}
+.searchagainform input{
+	min-width: 95%;
+	margin: 0 2.5%;
+	text-align: center;
+}
+.searchagainform label{
+	min-width: 95%;
+	margin: 0 2.5%;
+	text-align: center;
+}
+.searchagainform button{
+	min-width: 95%;
+	margin: 0 2.5%;
+	text-align: center;
+}
+#activebutton {
+	border-style: solid;
+	border-width: 2px;
+	width: 100%;
+	margin: 1px 0;
+	text-align: left;
+	background-color: #ddd;	
+	color: black;
+	font-weight: bold;
+}
+.searchleftside{
+	padding: 0 0 20px 0;
+}
+/*///////////////////////////////
+//         MESSAGES            //
+///////////////////////////////*/
+#messagetable{
+	font-size: 10px;
+	padding: 0 5% 0 5%;
+	border-color: #eee;
+	border-style: double;
+}
+#messagetable th{
+	background-color: #eee;
+	text-align: center;
+	padding: 5px 0px;
+	border-color: #eee;
+	border-style: double;
+	color: gray;
+}
+#messagetable td{
+	font-size: 10px;
+	padding: 5px 5px;
+	border-color: #eee;
+	font-style: italic;
+	font-weight: bold;
+	border-style: double;
+	color: #447799;
+}
+.messagespacer {
+	min-height: 73px;
+	max-height: 73px;
+}
+.messagespacer h4{
+	font-family: "Maven Pro", sans-serif;
+	font-weight: bold;
+	text-align: center;
+	font-size: 23px;
+	padding: 20px;
+}
+#messagetable td.newmail{
+	text-align: center;
+	background-color: #FFD7D7;
+	color:white;
+}
+#messagetable td.oldmail{
+	text-align: center;
+}
+.rightside p {
+	text-align: center;
+	width: 100%;
+	margin: -10px auto;
+	color: red;
+	font-size: 12px;
+	font-weight: bold;
+}
+.composeside {
+	margin: 0 5%;
+	padding: 1% 2%;
+	background-color: #eee;
+}
+.composeform select{
+	min-width: 240px;
+	max-width: 240px;
+}
+.composeform input{
+	min-width: 240px;
+	max-width: 240px;
+}
+.composeform textarea{
+	min-width: 100%;
+}
+.composeside h4 {
+	text-align: center;
+	color: red;
+	font-weight: bold;
+}
+#searchtable td.contacticon{
+	padding: 5px 20px;
+}
+.profileform select{
+	min-width: 240px;
+	max-width: 240px;
+	height: 30px;
+}
+.profileform input{
+	min-width: 240px;
+	max-width: 240px;
+	height: 30px;
+}
+.composeside h3 {
+	font-size: 18px;
+	color: red;
+	font-weight: bold;
+}
+.progress{
+	margin-top: 5%;
+}
