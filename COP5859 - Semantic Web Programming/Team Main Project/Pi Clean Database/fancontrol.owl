@@ -1,0 +1,212 @@
+@prefix : <http://www.semanticweb.org/eclipse/ontologies/2015/6/untitled-ontology-60#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.semanticweb.org/eclipse/ontologies/2015/6/untitled-ontology-60> .
+
+<http://www.semanticweb.org/eclipse/ontologies/2015/6/untitled-ontology-60> rdf:type owl:Ontology .
+
+
+#################################################################
+#
+#    Object Properties
+#
+#################################################################
+
+
+###  http://www.semanticweb.org/eclipse/ontologies/2015/6/untitled-ontology-60#RecordsData
+
+:RecordsData rdf:type owl:ObjectProperty ;
+             
+             rdfs:range :DataRecord ;
+             
+             rdfs:domain :FileName ;
+             
+             owl:inverseOf :isRecordedIn .
+
+
+
+###  http://www.semanticweb.org/eclipse/ontologies/2015/6/untitled-ontology-60#containsRecord
+
+:containsRecord rdf:type owl:ObjectProperty ;
+                
+                rdfs:domain :DataRecord ;
+                
+                rdfs:range :TimePeriod .
+
+
+
+###  http://www.semanticweb.org/eclipse/ontologies/2015/6/untitled-ontology-60#controlsFan
+
+:controlsFan rdf:type owl:ObjectProperty ;
+             
+             rdfs:domain :DataRecord ;
+             
+             rdfs:range :FanControl ;
+             
+             owl:inverseOf :isControlledBy .
+
+
+
+###  http://www.semanticweb.org/eclipse/ontologies/2015/6/untitled-ontology-60#isContainedBy
+
+:isContainedBy rdf:type owl:ObjectProperty ;
+               
+               rdfs:range :DataRecord ;
+               
+               rdfs:domain :TimePeriod ;
+               
+               owl:inverseOf :containsRecord .
+
+
+
+###  http://www.semanticweb.org/eclipse/ontologies/2015/6/untitled-ontology-60#isControlledBy
+
+:isControlledBy rdf:type owl:ObjectProperty ;
+                
+                rdfs:range :DataRecord ;
+                
+                rdfs:domain :FanControl .
+
+
+
+###  http://www.semanticweb.org/eclipse/ontologies/2015/6/untitled-ontology-60#isRecordedIn
+
+:isRecordedIn rdf:type owl:ObjectProperty ;
+              
+              rdfs:domain :DataRecord ;
+              
+              rdfs:range :FileName .
+
+
+
+
+
+#################################################################
+#
+#    Data properties
+#
+#################################################################
+
+
+###  http://www.semanticweb.org/eclipse/ontologies/2015/6/untitled-ontology-60#FanControl
+
+:FanControl rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.semanticweb.org/eclipse/ontologies/2015/6/untitled-ontology-60#FileName
+
+:FileName rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.semanticweb.org/eclipse/ontologies/2015/6/untitled-ontology-60#Min15Total
+
+:Min15Total rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.semanticweb.org/eclipse/ontologies/2015/6/untitled-ontology-60#Min60Average
+
+:Min60Average rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.semanticweb.org/eclipse/ontologies/2015/6/untitled-ontology-60#Min60Total
+
+:Min60Total rdf:type owl:DatatypeProperty .
+
+
+
+
+
+#################################################################
+#
+#    Classes
+#
+#################################################################
+
+
+###  http://www.semanticweb.org/eclipse/ontologies/2015/6/untitled-ontology-60#DataRecord
+
+:DataRecord rdf:type owl:Class .
+
+
+
+###  http://www.semanticweb.org/eclipse/ontologies/2015/6/untitled-ontology-60#FanControl
+
+:FanControl rdf:type owl:Class .
+
+
+
+###  http://www.semanticweb.org/eclipse/ontologies/2015/6/untitled-ontology-60#FileName
+
+:FileName rdf:type owl:Class .
+
+
+
+###  http://www.semanticweb.org/eclipse/ontologies/2015/6/untitled-ontology-60#Min15Total
+
+:Min15Total rdf:type owl:Class ;
+            
+            rdfs:subClassOf :TimePeriod .
+
+
+
+###  http://www.semanticweb.org/eclipse/ontologies/2015/6/untitled-ontology-60#Min60Average
+
+:Min60Average rdf:type owl:Class ;
+              
+              rdfs:subClassOf :TimePeriod .
+
+
+
+###  http://www.semanticweb.org/eclipse/ontologies/2015/6/untitled-ontology-60#Min60Total
+
+:Min60Total rdf:type owl:Class ;
+            
+            rdfs:subClassOf :TimePeriod .
+
+
+
+###  http://www.semanticweb.org/eclipse/ontologies/2015/6/untitled-ontology-60#TimePeriod
+
+:TimePeriod rdf:type owl:Class .
+
+
+
+
+
+#################################################################
+#
+#    Annotations
+#
+#################################################################
+
+
+:FanControl rdfs:comment "contains the status of the fan (on or off)" .
+
+
+
+:FileName rdfs:comment "filename that contains all data from pedometer" .
+
+
+
+:Min60Total rdfs:comment "contains data about last 60 min in total" .
+
+
+
+:Min15Total rdfs:comment "contains data about last 15 min in total" .
+
+
+
+:Min60Average rdfs:comment "contains data about last 60 min on average" .
+
+
+
+
+###  Generated by the OWL API (version 3.5.1) http://owlapi.sourceforge.net
+

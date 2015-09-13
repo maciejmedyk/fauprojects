@@ -1,0 +1,31 @@
+<resources>
+
+    <string name="app_name">Service Example</string>
+    <string name="service_desc">- A service is a application component used to perform long running tasks in background. \n\n- A service can run in the background indefinitely, even if component that started the service is destroyed.\n\n- Usually a service always performs a single operation and stops itself once intended task is complete.
+</string>
+
+    <string name="label_service">Pedometer</string>
+    <string name="start_service">Start</string>
+    <string name="print_result">Print</string>
+    <string name="notification_service">Notification</string>
+
+    <string name="erraseDB_service">Errase DB</string>
+
+    <string name="stop_service">Stop</string>
+    <string name="action_settings">Menu</string>
+    <string name="title_activity_launcher">LauncherActivity</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_bluetooth">BluetoothActivity</string>
+
+
+    <string name="file_already_exists">File already exists. Are you sure you want to overwrite it?</string>
+    <string name="error_external_storage_not_available">Error: External storage not available</string>
+    <string name="file_cant_read">Error: %s can not be read</string>
+    <string name="error_file">Error accessing the file: %s</string>
+    <string name="entries_imported">%d entries imported</string>
+    <string name="entries_skipped">%d entries were skipped as there already exists data for these days</string>
+    <string name="entries_ignored">%d entries were ignored as they did not contain valid data</string>
+    <string name="data_saved">Data saved in %s</string>
+
+</resources>

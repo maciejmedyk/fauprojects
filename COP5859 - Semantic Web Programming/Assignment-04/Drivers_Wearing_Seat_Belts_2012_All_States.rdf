@@ -1,0 +1,619 @@
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:socrata="http://www.socrata.com/rdf/terms#" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:ods="http://open-data-standards.github.com/2012/01/open-data-standards#" xmlns:dcterm="http://purl.org/dc/terms/" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:dsbase="http://data.cdc.gov/resource/" xmlns:ds="http://data.cdc.gov/resource/rmzv-dc5f/" xmlns:usps="http://www.w3.org/2000/10/swap/pim/usps#">
+<rdf:Description rdf:about="http://data.cdc.gov/resource/rmzv-dc5f/1">
+    <socrata:rowID>1</socrata:rowID>
+    <rdfs:member rdf:resource="http://data.cdc.gov/resource/rmzv-dc5f"/>
+    <ds:state>Alabama</ds:state>
+    <ds:_2012>90</ds:_2012>
+    <ds:location><geo:SpatialThing>
+        <usps:deliveryAddress></usps:deliveryAddress>
+        <usps:cityName></usps:cityName>
+        <geo:lat>32.84057234800002</geo:lat>
+        <geo:long>-86.63185738799996</geo:long>
+        <usps:stateAbbr>Alabama</usps:stateAbbr>
+        <usps:zipCode></usps:zipCode></geo:SpatialThing></ds:location></rdf:Description>
+<rdf:Description rdf:about="http://data.cdc.gov/resource/rmzv-dc5f/2">
+    <socrata:rowID>2</socrata:rowID>
+    <rdfs:member rdf:resource="http://data.cdc.gov/resource/rmzv-dc5f"/>
+    <ds:state>Alaska</ds:state>
+    <ds:_2012>88</ds:_2012>
+    <ds:location><geo:SpatialThing>
+        <usps:deliveryAddress></usps:deliveryAddress>
+        <usps:cityName></usps:cityName>
+        <geo:lat>64.84507799500005</geo:lat>
+        <geo:long>-147.72205958799998</geo:long>
+        <usps:stateAbbr>Alaska</usps:stateAbbr>
+        <usps:zipCode></usps:zipCode></geo:SpatialThing></ds:location></rdf:Description>
+<rdf:Description rdf:about="http://data.cdc.gov/resource/rmzv-dc5f/3">
+    <socrata:rowID>3</socrata:rowID>
+    <rdfs:member rdf:resource="http://data.cdc.gov/resource/rmzv-dc5f"/>
+    <ds:state>Arizona</ds:state>
+    <ds:_2012>82</ds:_2012>
+    <ds:location><geo:SpatialThing>
+        <usps:deliveryAddress></usps:deliveryAddress>
+        <usps:cityName></usps:cityName>
+        <geo:lat>34.86597351900008</geo:lat>
+        <geo:long>-111.76380664699997</geo:long>
+        <usps:stateAbbr>Arizona</usps:stateAbbr>
+        <usps:zipCode></usps:zipCode></geo:SpatialThing></ds:location></rdf:Description>
+<rdf:Description rdf:about="http://data.cdc.gov/resource/rmzv-dc5f/4">
+    <socrata:rowID>4</socrata:rowID>
+    <rdfs:member rdf:resource="http://data.cdc.gov/resource/rmzv-dc5f"/>
+    <ds:state>Arkansas</ds:state>
+    <ds:_2012>72</ds:_2012>
+    <ds:location><geo:SpatialThing>
+        <usps:deliveryAddress></usps:deliveryAddress>
+        <usps:cityName></usps:cityName>
+        <geo:lat>34.74865032200006</geo:lat>
+        <geo:long>-92.27448966799994</geo:long>
+        <usps:stateAbbr>Arkansas</usps:stateAbbr>
+        <usps:zipCode></usps:zipCode></geo:SpatialThing></ds:location></rdf:Description>
+<rdf:Description rdf:about="http://data.cdc.gov/resource/rmzv-dc5f/5">
+    <socrata:rowID>5</socrata:rowID>
+    <rdfs:member rdf:resource="http://data.cdc.gov/resource/rmzv-dc5f"/>
+    <ds:state>California</ds:state>
+    <ds:_2012>96</ds:_2012>
+    <ds:location><geo:SpatialThing>
+        <usps:deliveryAddress></usps:deliveryAddress>
+        <usps:cityName></usps:cityName>
+        <geo:lat>37.63864210000003</geo:lat>
+        <geo:long>-120.99999644699994</geo:long>
+        <usps:stateAbbr>California</usps:stateAbbr>
+        <usps:zipCode></usps:zipCode></geo:SpatialThing></ds:location></rdf:Description>
+<rdf:Description rdf:about="http://data.cdc.gov/resource/rmzv-dc5f/6">
+    <socrata:rowID>6</socrata:rowID>
+    <rdfs:member rdf:resource="http://data.cdc.gov/resource/rmzv-dc5f"/>
+    <ds:state>Colorado</ds:state>
+    <ds:_2012>81</ds:_2012>
+    <ds:location><geo:SpatialThing>
+        <usps:deliveryAddress></usps:deliveryAddress>
+        <usps:cityName></usps:cityName>
+        <geo:lat>38.84384342200008</geo:lat>
+        <geo:long>-106.13360911499996</geo:long>
+        <usps:stateAbbr>Colorado</usps:stateAbbr>
+        <usps:zipCode></usps:zipCode></geo:SpatialThing></ds:location></rdf:Description>
+<rdf:Description rdf:about="http://data.cdc.gov/resource/rmzv-dc5f/7">
+    <socrata:rowID>7</socrata:rowID>
+    <rdfs:member rdf:resource="http://data.cdc.gov/resource/rmzv-dc5f"/>
+    <ds:state>Connecticut</ds:state>
+    <ds:_2012>87</ds:_2012>
+    <ds:location><geo:SpatialThing>
+        <usps:deliveryAddress></usps:deliveryAddress>
+        <usps:cityName></usps:cityName>
+        <geo:lat>41.56266070000004</geo:lat>
+        <geo:long>-72.64983977999998</geo:long>
+        <usps:stateAbbr>Connecticut</usps:stateAbbr>
+        <usps:zipCode></usps:zipCode></geo:SpatialThing></ds:location></rdf:Description>
+<rdf:Description rdf:about="http://data.cdc.gov/resource/rmzv-dc5f/8">
+    <socrata:rowID>8</socrata:rowID>
+    <rdfs:member rdf:resource="http://data.cdc.gov/resource/rmzv-dc5f"/>
+    <ds:state>Delaware</ds:state>
+    <ds:_2012>88</ds:_2012>
+    <ds:location><geo:SpatialThing>
+        <usps:deliveryAddress></usps:deliveryAddress>
+        <usps:cityName></usps:cityName>
+        <geo:lat>39.00883389200004</geo:lat>
+        <geo:long>-75.57773597599999</geo:long>
+        <usps:stateAbbr>Delaware</usps:stateAbbr>
+        <usps:zipCode></usps:zipCode></geo:SpatialThing></ds:location></rdf:Description>
+<rdf:Description rdf:about="http://data.cdc.gov/resource/rmzv-dc5f/9">
+    <socrata:rowID>9</socrata:rowID>
+    <rdfs:member rdf:resource="http://data.cdc.gov/resource/rmzv-dc5f"/>
+    <ds:state>District of Columbia</ds:state>
+    <ds:_2012>92</ds:_2012>
+    <ds:location><geo:SpatialThing>
+        <usps:deliveryAddress></usps:deliveryAddress>
+        <usps:cityName></usps:cityName>
+        <geo:lat>38.89037258400003</geo:lat>
+        <geo:long>-77.03195678499998</geo:long>
+        <usps:stateAbbr>District of Columbia</usps:stateAbbr>
+        <usps:zipCode></usps:zipCode></geo:SpatialThing></ds:location></rdf:Description>
+<rdf:Description rdf:about="http://data.cdc.gov/resource/rmzv-dc5f/10">
+    <socrata:rowID>10</socrata:rowID>
+    <rdfs:member rdf:resource="http://data.cdc.gov/resource/rmzv-dc5f"/>
+    <ds:state>Florida</ds:state>
+    <ds:_2012>87</ds:_2012>
+    <ds:location><geo:SpatialThing>
+        <usps:deliveryAddress></usps:deliveryAddress>
+        <usps:cityName></usps:cityName>
+        <geo:lat>28.932042722000062</geo:lat>
+        <geo:long>-81.92895768899996</geo:long>
+        <usps:stateAbbr>Florida</usps:stateAbbr>
+        <usps:zipCode></usps:zipCode></geo:SpatialThing></ds:location></rdf:Description>
+<rdf:Description rdf:about="http://data.cdc.gov/resource/rmzv-dc5f/11">
+    <socrata:rowID>11</socrata:rowID>
+    <rdfs:member rdf:resource="http://data.cdc.gov/resource/rmzv-dc5f"/>
+    <ds:state>Georgia</ds:state>
+    <ds:_2012>92</ds:_2012>
+    <ds:location><geo:SpatialThing>
+        <usps:deliveryAddress></usps:deliveryAddress>
+        <usps:cityName></usps:cityName>
+        <geo:lat>32.839683200000024</geo:lat>
+        <geo:long>-83.62757885599996</geo:long>
+        <usps:stateAbbr>Georgia</usps:stateAbbr>
+        <usps:zipCode></usps:zipCode></geo:SpatialThing></ds:location></rdf:Description>
+<rdf:Description rdf:about="http://data.cdc.gov/resource/rmzv-dc5f/12">
+    <socrata:rowID>12</socrata:rowID>
+    <rdfs:member rdf:resource="http://data.cdc.gov/resource/rmzv-dc5f"/>
+    <ds:state>Hawaii</ds:state>
+    <ds:_2012>93</ds:_2012>
+    <ds:location><geo:SpatialThing>
+        <usps:deliveryAddress></usps:deliveryAddress>
+        <usps:cityName></usps:cityName>
+        <geo:lat>21.30485232600006</geo:lat>
+        <geo:long>-157.85774798099996</geo:long>
+        <usps:stateAbbr>Hawaii</usps:stateAbbr>
+        <usps:zipCode></usps:zipCode></geo:SpatialThing></ds:location></rdf:Description>
+<rdf:Description rdf:about="http://data.cdc.gov/resource/rmzv-dc5f/13">
+    <socrata:rowID>13</socrata:rowID>
+    <rdfs:member rdf:resource="http://data.cdc.gov/resource/rmzv-dc5f"/>
+    <ds:state>Idaho</ds:state>
+    <ds:_2012>79</ds:_2012>
+    <ds:location><geo:SpatialThing>
+        <usps:deliveryAddress></usps:deliveryAddress>
+        <usps:cityName></usps:cityName>
+        <geo:lat>43.68263174800006</geo:lat>
+        <geo:long>-114.36372693399994</geo:long>
+        <usps:stateAbbr>Idaho</usps:stateAbbr>
+        <usps:zipCode></usps:zipCode></geo:SpatialThing></ds:location></rdf:Description>
+<rdf:Description rdf:about="http://data.cdc.gov/resource/rmzv-dc5f/14">
+    <socrata:rowID>14</socrata:rowID>
+    <rdfs:member rdf:resource="http://data.cdc.gov/resource/rmzv-dc5f"/>
+    <ds:state>Illinois</ds:state>
+    <ds:_2012>94</ds:_2012>
+    <ds:location><geo:SpatialThing>
+        <usps:deliveryAddress></usps:deliveryAddress>
+        <usps:cityName></usps:cityName>
+        <geo:lat>40.48501223300008</geo:lat>
+        <geo:long>-88.99770922699997</geo:long>
+        <usps:stateAbbr>Illinois</usps:stateAbbr>
+        <usps:zipCode></usps:zipCode></geo:SpatialThing></ds:location></rdf:Description>
+<rdf:Description rdf:about="http://data.cdc.gov/resource/rmzv-dc5f/15">
+    <socrata:rowID>15</socrata:rowID>
+    <rdfs:member rdf:resource="http://data.cdc.gov/resource/rmzv-dc5f"/>
+    <ds:state>Indiana</ds:state>
+    <ds:_2012>94</ds:_2012>
+    <ds:location><geo:SpatialThing>
+        <usps:deliveryAddress></usps:deliveryAddress>
+        <usps:cityName></usps:cityName>
+        <geo:lat>39.766913353000064</geo:lat>
+        <geo:long>-86.14995646699998</geo:long>
+        <usps:stateAbbr>Indiana</usps:stateAbbr>
+        <usps:zipCode></usps:zipCode></geo:SpatialThing></ds:location></rdf:Description>
+<rdf:Description rdf:about="http://data.cdc.gov/resource/rmzv-dc5f/16">
+    <socrata:rowID>16</socrata:rowID>
+    <rdfs:member rdf:resource="http://data.cdc.gov/resource/rmzv-dc5f"/>
+    <ds:state>Iowa</ds:state>
+    <ds:_2012>92</ds:_2012>
+    <ds:location><geo:SpatialThing>
+        <usps:deliveryAddress></usps:deliveryAddress>
+        <usps:cityName></usps:cityName>
+        <geo:lat>42.469401411000035</geo:lat>
+        <geo:long>-93.81648725599996</geo:long>
+        <usps:stateAbbr>Iowa</usps:stateAbbr>
+        <usps:zipCode></usps:zipCode></geo:SpatialThing></ds:location></rdf:Description>
+<rdf:Description rdf:about="http://data.cdc.gov/resource/rmzv-dc5f/17">
+    <socrata:rowID>17</socrata:rowID>
+    <rdfs:member rdf:resource="http://data.cdc.gov/resource/rmzv-dc5f"/>
+    <ds:state>Kansas</ds:state>
+    <ds:_2012>80</ds:_2012>
+    <ds:location><geo:SpatialThing>
+        <usps:deliveryAddress></usps:deliveryAddress>
+        <usps:cityName></usps:cityName>
+        <geo:lat>38.347742794000055</geo:lat>
+        <geo:long>-98.20077822999997</geo:long>
+        <usps:stateAbbr>Kansas</usps:stateAbbr>
+        <usps:zipCode></usps:zipCode></geo:SpatialThing></ds:location></rdf:Description>
+<rdf:Description rdf:about="http://data.cdc.gov/resource/rmzv-dc5f/18">
+    <socrata:rowID>18</socrata:rowID>
+    <rdfs:member rdf:resource="http://data.cdc.gov/resource/rmzv-dc5f"/>
+    <ds:state>Kentucky</ds:state>
+    <ds:_2012>84</ds:_2012>
+    <ds:location><geo:SpatialThing>
+        <usps:deliveryAddress></usps:deliveryAddress>
+        <usps:cityName></usps:cityName>
+        <geo:lat>37.64597313300004</geo:lat>
+        <geo:long>-84.77496771599994</geo:long>
+        <usps:stateAbbr>Kentucky</usps:stateAbbr>
+        <usps:zipCode></usps:zipCode></geo:SpatialThing></ds:location></rdf:Description>
+<rdf:Description rdf:about="http://data.cdc.gov/resource/rmzv-dc5f/19">
+    <socrata:rowID>19</socrata:rowID>
+    <rdfs:member rdf:resource="http://data.cdc.gov/resource/rmzv-dc5f"/>
+    <ds:state>Louisiana</ds:state>
+    <ds:_2012>79</ds:_2012>
+    <ds:location><geo:SpatialThing>
+        <usps:deliveryAddress></usps:deliveryAddress>
+        <usps:cityName></usps:cityName>
+        <geo:lat>31.312663324000027</geo:lat>
+        <geo:long>-92.44567750499994</geo:long>
+        <usps:stateAbbr>Louisiana</usps:stateAbbr>
+        <usps:zipCode></usps:zipCode></geo:SpatialThing></ds:location></rdf:Description>
+<rdf:Description rdf:about="http://data.cdc.gov/resource/rmzv-dc5f/20">
+    <socrata:rowID>20</socrata:rowID>
+    <rdfs:member rdf:resource="http://data.cdc.gov/resource/rmzv-dc5f"/>
+    <ds:state>Maine</ds:state>
+    <ds:_2012>84</ds:_2012>
+    <ds:location><geo:SpatialThing>
+        <usps:deliveryAddress></usps:deliveryAddress>
+        <usps:cityName></usps:cityName>
+        <geo:lat>45.25422910300006</geo:lat>
+        <geo:long>-68.98502586699993</geo:long>
+        <usps:stateAbbr>Maine</usps:stateAbbr>
+        <usps:zipCode></usps:zipCode></geo:SpatialThing></ds:location></rdf:Description>
+<rdf:Description rdf:about="http://data.cdc.gov/resource/rmzv-dc5f/21">
+    <socrata:rowID>21</socrata:rowID>
+    <rdfs:member rdf:resource="http://data.cdc.gov/resource/rmzv-dc5f"/>
+    <ds:state>Maryland</ds:state>
+    <ds:_2012>91</ds:_2012>
+    <ds:location><geo:SpatialThing>
+        <usps:deliveryAddress></usps:deliveryAddress>
+        <usps:cityName></usps:cityName>
+        <geo:lat>39.290582950000044</geo:lat>
+        <geo:long>-76.60925984299996</geo:long>
+        <usps:stateAbbr>Maryland</usps:stateAbbr>
+        <usps:zipCode></usps:zipCode></geo:SpatialThing></ds:location></rdf:Description>
+<rdf:Description rdf:about="http://data.cdc.gov/resource/rmzv-dc5f/22">
+    <socrata:rowID>22</socrata:rowID>
+    <rdfs:member rdf:resource="http://data.cdc.gov/resource/rmzv-dc5f"/>
+    <ds:state>Massachusetts</ds:state>
+    <ds:_2012>73</ds:_2012>
+    <ds:location><geo:SpatialThing>
+        <usps:deliveryAddress></usps:deliveryAddress>
+        <usps:cityName></usps:cityName>
+        <geo:lat>42.27687400000008</geo:lat>
+        <geo:long>-72.08268726299997</geo:long>
+        <usps:stateAbbr>Massachusetts</usps:stateAbbr>
+        <usps:zipCode></usps:zipCode></geo:SpatialThing></ds:location></rdf:Description>
+<rdf:Description rdf:about="http://data.cdc.gov/resource/rmzv-dc5f/23">
+    <socrata:rowID>23</socrata:rowID>
+    <rdfs:member rdf:resource="http://data.cdc.gov/resource/rmzv-dc5f"/>
+    <ds:state>Michigan</ds:state>
+    <ds:_2012>94</ds:_2012>
+    <ds:location><geo:SpatialThing>
+        <usps:deliveryAddress></usps:deliveryAddress>
+        <usps:cityName></usps:cityName>
+        <geo:lat>44.66132238800003</geo:lat>
+        <geo:long>-84.71438555599997</geo:long>
+        <usps:stateAbbr>Michigan</usps:stateAbbr>
+        <usps:zipCode></usps:zipCode></geo:SpatialThing></ds:location></rdf:Description>
+<rdf:Description rdf:about="http://data.cdc.gov/resource/rmzv-dc5f/24">
+    <socrata:rowID>24</socrata:rowID>
+    <rdfs:member rdf:resource="http://data.cdc.gov/resource/rmzv-dc5f"/>
+    <ds:state>Minnesota</ds:state>
+    <ds:_2012>94</ds:_2012>
+    <ds:location><geo:SpatialThing>
+        <usps:deliveryAddress></usps:deliveryAddress>
+        <usps:cityName></usps:cityName>
+        <geo:lat>46.35564896600005</geo:lat>
+        <geo:long>-94.79419983199995</geo:long>
+        <usps:stateAbbr>Minnesota</usps:stateAbbr>
+        <usps:zipCode></usps:zipCode></geo:SpatialThing></ds:location></rdf:Description>
+<rdf:Description rdf:about="http://data.cdc.gov/resource/rmzv-dc5f/25">
+    <socrata:rowID>25</socrata:rowID>
+    <rdfs:member rdf:resource="http://data.cdc.gov/resource/rmzv-dc5f"/>
+    <ds:state>Mississippi</ds:state>
+    <ds:_2012>83</ds:_2012>
+    <ds:location><geo:SpatialThing>
+        <usps:deliveryAddress></usps:deliveryAddress>
+        <usps:cityName></usps:cityName>
+        <geo:lat>32.745513440000025</geo:lat>
+        <geo:long>-89.53802722999995</geo:long>
+        <usps:stateAbbr>Mississippi</usps:stateAbbr>
+        <usps:zipCode></usps:zipCode></geo:SpatialThing></ds:location></rdf:Description>
+<rdf:Description rdf:about="http://data.cdc.gov/resource/rmzv-dc5f/26">
+    <socrata:rowID>26</socrata:rowID>
+    <rdfs:member rdf:resource="http://data.cdc.gov/resource/rmzv-dc5f"/>
+    <ds:state>Missouri</ds:state>
+    <ds:_2012>79</ds:_2012>
+    <ds:location><geo:SpatialThing>
+        <usps:deliveryAddress></usps:deliveryAddress>
+        <usps:cityName></usps:cityName>
+        <geo:lat>38.63579147100006</geo:lat>
+        <geo:long>-92.56629944499997</geo:long>
+        <usps:stateAbbr>Missouri</usps:stateAbbr>
+        <usps:zipCode></usps:zipCode></geo:SpatialThing></ds:location></rdf:Description>
+<rdf:Description rdf:about="http://data.cdc.gov/resource/rmzv-dc5f/27">
+    <socrata:rowID>27</socrata:rowID>
+    <rdfs:member rdf:resource="http://data.cdc.gov/resource/rmzv-dc5f"/>
+    <ds:state>Montana</ds:state>
+    <ds:_2012>76</ds:_2012>
+    <ds:location><geo:SpatialThing>
+        <usps:deliveryAddress></usps:deliveryAddress>
+        <usps:cityName></usps:cityName>
+        <geo:lat>47.06652795700006</geo:lat>
+        <geo:long>-109.42441587999997</geo:long>
+        <usps:stateAbbr>Montana</usps:stateAbbr>
+        <usps:zipCode></usps:zipCode></geo:SpatialThing></ds:location></rdf:Description>
+<rdf:Description rdf:about="http://data.cdc.gov/resource/rmzv-dc5f/28">
+    <socrata:rowID>28</socrata:rowID>
+    <rdfs:member rdf:resource="http://data.cdc.gov/resource/rmzv-dc5f"/>
+    <ds:state>Nebraska</ds:state>
+    <ds:_2012>79</ds:_2012>
+    <ds:location><geo:SpatialThing>
+        <usps:deliveryAddress></usps:deliveryAddress>
+        <usps:cityName></usps:cityName>
+        <geo:lat>41.64104362100005</geo:lat>
+        <geo:long>-99.36571888999998</geo:long>
+        <usps:stateAbbr>Nebraska</usps:stateAbbr>
+        <usps:zipCode></usps:zipCode></geo:SpatialThing></ds:location></rdf:Description>
+<rdf:Description rdf:about="http://data.cdc.gov/resource/rmzv-dc5f/29">
+    <socrata:rowID>29</socrata:rowID>
+    <rdfs:member rdf:resource="http://data.cdc.gov/resource/rmzv-dc5f"/>
+    <ds:state>Nevada</ds:state>
+    <ds:_2012>91</ds:_2012>
+    <ds:location><geo:SpatialThing>
+        <usps:deliveryAddress></usps:deliveryAddress>
+        <usps:cityName></usps:cityName>
+        <geo:lat>39.49324221300003</geo:lat>
+        <geo:long>-117.07183885899997</geo:long>
+        <usps:stateAbbr>Nevada</usps:stateAbbr>
+        <usps:zipCode></usps:zipCode></geo:SpatialThing></ds:location></rdf:Description>
+<rdf:Description rdf:about="http://data.cdc.gov/resource/rmzv-dc5f/30">
+    <socrata:rowID>30</socrata:rowID>
+    <rdfs:member rdf:resource="http://data.cdc.gov/resource/rmzv-dc5f"/>
+    <ds:state>New Hampshire</ds:state>
+    <ds:_2012>69</ds:_2012>
+    <ds:location><geo:SpatialThing>
+        <usps:deliveryAddress></usps:deliveryAddress>
+        <usps:cityName></usps:cityName>
+        <geo:lat>43.65595283500005</geo:lat>
+        <geo:long>-71.50035697299995</geo:long>
+        <usps:stateAbbr>New Hampshire</usps:stateAbbr>
+        <usps:zipCode></usps:zipCode></geo:SpatialThing></ds:location></rdf:Description>
+<rdf:Description rdf:about="http://data.cdc.gov/resource/rmzv-dc5f/31">
+    <socrata:rowID>31</socrata:rowID>
+    <rdfs:member rdf:resource="http://data.cdc.gov/resource/rmzv-dc5f"/>
+    <ds:state>New Jersey</ds:state>
+    <ds:_2012>88</ds:_2012>
+    <ds:location><geo:SpatialThing>
+        <usps:deliveryAddress></usps:deliveryAddress>
+        <usps:cityName></usps:cityName>
+        <geo:lat>40.130570807000026</geo:lat>
+        <geo:long>-74.27368796999997</geo:long>
+        <usps:stateAbbr>New Jersey</usps:stateAbbr>
+        <usps:zipCode></usps:zipCode></geo:SpatialThing></ds:location></rdf:Description>
+<rdf:Description rdf:about="http://data.cdc.gov/resource/rmzv-dc5f/32">
+    <socrata:rowID>32</socrata:rowID>
+    <rdfs:member rdf:resource="http://data.cdc.gov/resource/rmzv-dc5f"/>
+    <ds:state>New Mexico</ds:state>
+    <ds:_2012>91</ds:_2012>
+    <ds:location><geo:SpatialThing>
+        <usps:deliveryAddress></usps:deliveryAddress>
+        <usps:cityName></usps:cityName>
+        <geo:lat>34.52088149400004</geo:lat>
+        <geo:long>-106.24057817299996</geo:long>
+        <usps:stateAbbr>New Mexico</usps:stateAbbr>
+        <usps:zipCode></usps:zipCode></geo:SpatialThing></ds:location></rdf:Description>
+<rdf:Description rdf:about="http://data.cdc.gov/resource/rmzv-dc5f/33">
+    <socrata:rowID>33</socrata:rowID>
+    <rdfs:member rdf:resource="http://data.cdc.gov/resource/rmzv-dc5f"/>
+    <ds:state>New York</ds:state>
+    <ds:_2012>90</ds:_2012>
+    <ds:location><geo:SpatialThing>
+        <usps:deliveryAddress></usps:deliveryAddress>
+        <usps:cityName></usps:cityName>
+        <geo:lat>42.82700376100007</geo:lat>
+        <geo:long>-75.54396609999998</geo:long>
+        <usps:stateAbbr>New York</usps:stateAbbr>
+        <usps:zipCode></usps:zipCode></geo:SpatialThing></ds:location></rdf:Description>
+<rdf:Description rdf:about="http://data.cdc.gov/resource/rmzv-dc5f/34">
+    <socrata:rowID>34</socrata:rowID>
+    <rdfs:member rdf:resource="http://data.cdc.gov/resource/rmzv-dc5f"/>
+    <ds:state>North Carolina</ds:state>
+    <ds:_2012>88</ds:_2012>
+    <ds:location><geo:SpatialThing>
+        <usps:deliveryAddress></usps:deliveryAddress>
+        <usps:cityName></usps:cityName>
+        <geo:lat>35.466220159000045</geo:lat>
+        <geo:long>-79.15924997399998</geo:long>
+        <usps:stateAbbr>North Carolina</usps:stateAbbr>
+        <usps:zipCode></usps:zipCode></geo:SpatialThing></ds:location></rdf:Description>
+<rdf:Description rdf:about="http://data.cdc.gov/resource/rmzv-dc5f/35">
+    <socrata:rowID>35</socrata:rowID>
+    <rdfs:member rdf:resource="http://data.cdc.gov/resource/rmzv-dc5f"/>
+    <ds:state>North Dakota</ds:state>
+    <ds:_2012>81</ds:_2012>
+    <ds:location><geo:SpatialThing>
+        <usps:deliveryAddress></usps:deliveryAddress>
+        <usps:cityName></usps:cityName>
+        <geo:lat>47.475318609000055</geo:lat>
+        <geo:long>-100.11842789099995</geo:long>
+        <usps:stateAbbr>North Dakota</usps:stateAbbr>
+        <usps:zipCode></usps:zipCode></geo:SpatialThing></ds:location></rdf:Description>
+<rdf:Description rdf:about="http://data.cdc.gov/resource/rmzv-dc5f/36">
+    <socrata:rowID>36</socrata:rowID>
+    <rdfs:member rdf:resource="http://data.cdc.gov/resource/rmzv-dc5f"/>
+    <ds:state>Ohio</ds:state>
+    <ds:_2012>82</ds:_2012>
+    <ds:location><geo:SpatialThing>
+        <usps:deliveryAddress></usps:deliveryAddress>
+        <usps:cityName></usps:cityName>
+        <geo:lat>40.060212455000055</geo:lat>
+        <geo:long>-82.40425667899996</geo:long>
+        <usps:stateAbbr>Ohio</usps:stateAbbr>
+        <usps:zipCode></usps:zipCode></geo:SpatialThing></ds:location></rdf:Description>
+<rdf:Description rdf:about="http://data.cdc.gov/resource/rmzv-dc5f/37">
+    <socrata:rowID>37</socrata:rowID>
+    <rdfs:member rdf:resource="http://data.cdc.gov/resource/rmzv-dc5f"/>
+    <ds:state>Oklahoma</ds:state>
+    <ds:_2012>84</ds:_2012>
+    <ds:location><geo:SpatialThing>
+        <usps:deliveryAddress></usps:deliveryAddress>
+        <usps:cityName></usps:cityName>
+        <geo:lat>35.472030747000076</geo:lat>
+        <geo:long>-97.52106835299998</geo:long>
+        <usps:stateAbbr>Oklahoma</usps:stateAbbr>
+        <usps:zipCode></usps:zipCode></geo:SpatialThing></ds:location></rdf:Description>
+<rdf:Description rdf:about="http://data.cdc.gov/resource/rmzv-dc5f/38">
+    <socrata:rowID>38</socrata:rowID>
+    <rdfs:member rdf:resource="http://data.cdc.gov/resource/rmzv-dc5f"/>
+    <ds:state>Oregon</ds:state>
+    <ds:_2012>97</ds:_2012>
+    <ds:location><geo:SpatialThing>
+        <usps:deliveryAddress></usps:deliveryAddress>
+        <usps:cityName></usps:cityName>
+        <geo:lat>44.56745049300008</geo:lat>
+        <geo:long>-120.15502935599994</geo:long>
+        <usps:stateAbbr>Oregon</usps:stateAbbr>
+        <usps:zipCode></usps:zipCode></geo:SpatialThing></ds:location></rdf:Description>
+<rdf:Description rdf:about="http://data.cdc.gov/resource/rmzv-dc5f/39">
+    <socrata:rowID>39</socrata:rowID>
+    <rdfs:member rdf:resource="http://data.cdc.gov/resource/rmzv-dc5f"/>
+    <ds:state>Pennsylvania</ds:state>
+    <ds:_2012>84</ds:_2012>
+    <ds:location><geo:SpatialThing>
+        <usps:deliveryAddress></usps:deliveryAddress>
+        <usps:cityName></usps:cityName>
+        <geo:lat>40.79373362300004</geo:lat>
+        <geo:long>-77.86069690799997</geo:long>
+        <usps:stateAbbr>Pennsylvania</usps:stateAbbr>
+        <usps:zipCode></usps:zipCode></geo:SpatialThing></ds:location></rdf:Description>
+<rdf:Description rdf:about="http://data.cdc.gov/resource/rmzv-dc5f/40">
+    <socrata:rowID>40</socrata:rowID>
+    <rdfs:member rdf:resource="http://data.cdc.gov/resource/rmzv-dc5f"/>
+    <ds:state>Rhode Island</ds:state>
+    <ds:_2012>78</ds:_2012>
+    <ds:location><geo:SpatialThing>
+        <usps:deliveryAddress></usps:deliveryAddress>
+        <usps:cityName></usps:cityName>
+        <geo:lat>41.70828106100004</geo:lat>
+        <geo:long>-71.52246566099996</geo:long>
+        <usps:stateAbbr>Rhode Island</usps:stateAbbr>
+        <usps:zipCode></usps:zipCode></geo:SpatialThing></ds:location></rdf:Description>
+<rdf:Description rdf:about="http://data.cdc.gov/resource/rmzv-dc5f/41">
+    <socrata:rowID>41</socrata:rowID>
+    <rdfs:member rdf:resource="http://data.cdc.gov/resource/rmzv-dc5f"/>
+    <ds:state>South Carolina</ds:state>
+    <ds:_2012>91</ds:_2012>
+    <ds:location><geo:SpatialThing>
+        <usps:deliveryAddress></usps:deliveryAddress>
+        <usps:cityName></usps:cityName>
+        <geo:lat>33.99882216300006</geo:lat>
+        <geo:long>-81.04536596899999</geo:long>
+        <usps:stateAbbr>South Carolina</usps:stateAbbr>
+        <usps:zipCode></usps:zipCode></geo:SpatialThing></ds:location></rdf:Description>
+<rdf:Description rdf:about="http://data.cdc.gov/resource/rmzv-dc5f/42">
+    <socrata:rowID>42</socrata:rowID>
+    <rdfs:member rdf:resource="http://data.cdc.gov/resource/rmzv-dc5f"/>
+    <ds:state>South Dakota </ds:state>
+    <ds:_2012>67</ds:_2012>
+    <ds:location><geo:SpatialThing>
+        <usps:deliveryAddress></usps:deliveryAddress>
+        <usps:cityName></usps:cityName>
+        <geo:lat>44.35313004200003</geo:lat>
+        <geo:long>-100.37352915599996</geo:long>
+        <usps:stateAbbr>South Dakota</usps:stateAbbr>
+        <usps:zipCode></usps:zipCode></geo:SpatialThing></ds:location></rdf:Description>
+<rdf:Description rdf:about="http://data.cdc.gov/resource/rmzv-dc5f/43">
+    <socrata:rowID>43</socrata:rowID>
+    <rdfs:member rdf:resource="http://data.cdc.gov/resource/rmzv-dc5f"/>
+    <ds:state>Tennessee</ds:state>
+    <ds:_2012>84</ds:_2012>
+    <ds:location><geo:SpatialThing>
+        <usps:deliveryAddress></usps:deliveryAddress>
+        <usps:cityName></usps:cityName>
+        <geo:lat>35.68094072700006</geo:lat>
+        <geo:long>-85.77448666899994</geo:long>
+        <usps:stateAbbr>Tennessee</usps:stateAbbr>
+        <usps:zipCode></usps:zipCode></geo:SpatialThing></ds:location></rdf:Description>
+<rdf:Description rdf:about="http://data.cdc.gov/resource/rmzv-dc5f/44">
+    <socrata:rowID>44</socrata:rowID>
+    <rdfs:member rdf:resource="http://data.cdc.gov/resource/rmzv-dc5f"/>
+    <ds:state>Texas</ds:state>
+    <ds:_2012>94</ds:_2012>
+    <ds:location><geo:SpatialThing>
+        <usps:deliveryAddress></usps:deliveryAddress>
+        <usps:cityName></usps:cityName>
+        <geo:lat>31.827240467000024</geo:lat>
+        <geo:long>-99.42676785299994</geo:long>
+        <usps:stateAbbr>Texas</usps:stateAbbr>
+        <usps:zipCode></usps:zipCode></geo:SpatialThing></ds:location></rdf:Description>
+<rdf:Description rdf:about="http://data.cdc.gov/resource/rmzv-dc5f/45">
+    <socrata:rowID>45</socrata:rowID>
+    <rdfs:member rdf:resource="http://data.cdc.gov/resource/rmzv-dc5f"/>
+    <ds:state>Utah</ds:state>
+    <ds:_2012>82</ds:_2012>
+    <ds:location><geo:SpatialThing>
+        <usps:deliveryAddress></usps:deliveryAddress>
+        <usps:cityName></usps:cityName>
+        <geo:lat>39.36070123200005</geo:lat>
+        <geo:long>-111.58712831499997</geo:long>
+        <usps:stateAbbr>Utah</usps:stateAbbr>
+        <usps:zipCode></usps:zipCode></geo:SpatialThing></ds:location></rdf:Description>
+<rdf:Description rdf:about="http://data.cdc.gov/resource/rmzv-dc5f/46">
+    <socrata:rowID>46</socrata:rowID>
+    <rdfs:member rdf:resource="http://data.cdc.gov/resource/rmzv-dc5f"/>
+    <ds:state>Vermont</ds:state>
+    <ds:_2012>84</ds:_2012>
+    <ds:location><geo:SpatialThing>
+        <usps:deliveryAddress></usps:deliveryAddress>
+        <usps:cityName></usps:cityName>
+        <geo:lat>43.62538389600007</geo:lat>
+        <geo:long>-72.51763667599994</geo:long>
+        <usps:stateAbbr>Vermont</usps:stateAbbr>
+        <usps:zipCode></usps:zipCode></geo:SpatialThing></ds:location></rdf:Description>
+<rdf:Description rdf:about="http://data.cdc.gov/resource/rmzv-dc5f/47">
+    <socrata:rowID>47</socrata:rowID>
+    <rdfs:member rdf:resource="http://data.cdc.gov/resource/rmzv-dc5f"/>
+    <ds:state>Virginia</ds:state>
+    <ds:_2012>78</ds:_2012>
+    <ds:location><geo:SpatialThing>
+        <usps:deliveryAddress></usps:deliveryAddress>
+        <usps:cityName></usps:cityName>
+        <geo:lat>37.542680705000066</geo:lat>
+        <geo:long>-78.45788932099998</geo:long>
+        <usps:stateAbbr>Virginia</usps:stateAbbr>
+        <usps:zipCode></usps:zipCode></geo:SpatialThing></ds:location></rdf:Description>
+<rdf:Description rdf:about="http://data.cdc.gov/resource/rmzv-dc5f/48">
+    <socrata:rowID>48</socrata:rowID>
+    <rdfs:member rdf:resource="http://data.cdc.gov/resource/rmzv-dc5f"/>
+    <ds:state>Washington</ds:state>
+    <ds:_2012>97</ds:_2012>
+    <ds:location><geo:SpatialThing>
+        <usps:deliveryAddress></usps:deliveryAddress>
+        <usps:cityName></usps:cityName>
+        <geo:lat>47.52228790000004</geo:lat>
+        <geo:long>-120.47002813699999</geo:long>
+        <usps:stateAbbr>Washington</usps:stateAbbr>
+        <usps:zipCode></usps:zipCode></geo:SpatialThing></ds:location></rdf:Description>
+<rdf:Description rdf:about="http://data.cdc.gov/resource/rmzv-dc5f/49">
+    <socrata:rowID>49</socrata:rowID>
+    <rdfs:member rdf:resource="http://data.cdc.gov/resource/rmzv-dc5f"/>
+    <ds:state>West Virginia</ds:state>
+    <ds:_2012>84</ds:_2012>
+    <ds:location><geo:SpatialThing>
+        <usps:deliveryAddress></usps:deliveryAddress>
+        <usps:cityName></usps:cityName>
+        <geo:lat>38.66551127300005</geo:lat>
+        <geo:long>-80.71263755899997</geo:long>
+        <usps:stateAbbr>West Virginia</usps:stateAbbr>
+        <usps:zipCode></usps:zipCode></geo:SpatialThing></ds:location></rdf:Description>
+<rdf:Description rdf:about="http://data.cdc.gov/resource/rmzv-dc5f/50">
+    <socrata:rowID>50</socrata:rowID>
+    <rdfs:member rdf:resource="http://data.cdc.gov/resource/rmzv-dc5f"/>
+    <ds:state>Wisconsin</ds:state>
+    <ds:_2012>80</ds:_2012>
+    <ds:location><geo:SpatialThing>
+        <usps:deliveryAddress></usps:deliveryAddress>
+        <usps:cityName></usps:cityName>
+        <geo:lat>44.39319064600005</geo:lat>
+        <geo:long>-89.81636640199997</geo:long>
+        <usps:stateAbbr>Wisconsin</usps:stateAbbr>
+        <usps:zipCode></usps:zipCode></geo:SpatialThing></ds:location></rdf:Description>
+<rdf:Description rdf:about="http://data.cdc.gov/resource/rmzv-dc5f/51">
+    <socrata:rowID>51</socrata:rowID>
+    <rdfs:member rdf:resource="http://data.cdc.gov/resource/rmzv-dc5f"/>
+    <ds:state>Wyoming</ds:state>
+    <ds:_2012>77</ds:_2012>
+    <ds:location><geo:SpatialThing>
+        <usps:deliveryAddress></usps:deliveryAddress>
+        <usps:cityName></usps:cityName>
+        <geo:lat>43.23554100600006</geo:lat>
+        <geo:long>-108.10982701399996</geo:long>
+        <usps:stateAbbr>Wyoming</usps:stateAbbr>
+        <usps:zipCode></usps:zipCode></geo:SpatialThing></ds:location></rdf:Description>
+<rdf:Description rdf:about="http://data.cdc.gov/resource/rmzv-dc5f/53">
+    <socrata:rowID>53</socrata:rowID>
+    <rdfs:member rdf:resource="http://data.cdc.gov/resource/rmzv-dc5f"/>
+    <ds:state>United States</ds:state>
+    <ds:_2012>86</ds:_2012>
+    <ds:location><geo:SpatialThing/></ds:location></rdf:Description></rdf:RDF>
