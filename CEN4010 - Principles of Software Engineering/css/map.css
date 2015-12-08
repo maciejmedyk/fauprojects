@@ -1,0 +1,61 @@
+html, body {
+	height: 100%;
+    width: 100%;
+	margin: 0;
+}
+#map {
+	float: left;
+	width: 100%;
+	height: 70%;
+}
+#bottom-panel {
+	font-family: 'Roboto','sans-serif';
+	line-height: 30px;
+}
+#bottom-panel select, #bottom-panel input {
+	font-size: 15px;
+}
+
+#bottom-panel select {
+	min-width: 100%;
+}
+#bottom-panel i {
+	font-size: 12px;
+}
+#bottom-panel {
+	margin-top: 20px;
+	border-width: 2px;
+	width: 100%;
+	text-align: left;
+	padding-top: 20px;
+}
+#directions-panel {
+	margin-top: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	min-width: 100%;
+    align-self: center;
+}
+#text-panel {
+	margin-top: 20px;
+	min-width: 100%;
+    align-self: center;
+}
+a.button {
+	-webkit-appearance: button;
+	-moz-appearance: button;
+	appearance: button;
+	text-decoration: none;
+	color: initial;
+}
+#waypoints-panel {
+	padding: 1em;
+}
+.bbb {
+    margin: -30px auto -100px auto;
+}
+#map {
+    min-width: 95%;
+    min-height: 250px;
+    margin-bottom: 25px;
+}

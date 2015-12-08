@@ -1,0 +1,490 @@
+/*///////////////////////////////
+//          WIREFRAME          //
+///////////////////////////////*/
+#dWireFrame {
+    background-color: #f5f5f5;
+    margin: 50px auto 50px auto;
+    max-width: 450px;
+    min-height: 700px;
+    padding: 20pt;
+    border: double;
+    border-radius: 15pt;
+    text-align: center;
+}
+#dInsideFrame {
+    background-color: #f5f5f5;
+    margin: 25px -28px -28px -28px;
+    max-width: 450px;
+    min-height: 675px;
+    padding: 0;
+    border: double;
+    border-radius: 15pt;
+}
+#dBackDiv {
+    max-width: 100%;
+    min-height: 100%;
+    padding-bottom: 5%;
+    background-color: #dddddd;
+}
+#dHead {
+    max-width: 450px;
+    margin: 0 auto;
+    text-align: right;
+}
+#dHeadLeft {
+    text-align: right;
+    float: left;
+}
+#dHeadRight {
+    text-align: right;
+    float: right;
+}
+#aWireFrame1 {
+    background-color: #dddddd;
+    max-width: 250px;
+    min-width: 250px;
+    min-height: 800px;
+    margin: 0 0 0 10px;
+    padding: 20pt;
+    border: double;
+    border-radius: 15pt;
+    text-align: center;
+    float: left;
+}
+#aWireFrame2 {
+    background-color: #f5f5f5;
+    max-width: auto;
+    min-width: auto;
+    margin: 0 10px 0 265px;
+    min-height: 800px;
+    padding: 20pt;
+    border: double;
+    border-radius: 15pt;
+    text-align: center;
+}
+
+/*///////////////////////////////
+//        ADMIN           //
+///////////////////////////////*/
+
+#sideBar{
+	
+}
+
+/*///////////////////////////////
+//        NAVIGATION           //
+///////////////////////////////*/
+.nav {
+    overflow: hidden;
+}
+.navbar-brand img{
+    margin-top: 0px;
+}
+.navbar-brand {
+    margin-left: 15px;
+}
+.navmenu{
+    font-family: "Quattrocento Sans", sans-serif;
+    margin: 0 40px 0 0;
+    padding-top: 10px;
+}
+.navbar-toggle{
+    font-family: "Quattrocento Sans", sans-serif;
+    margin: 10px 30px 0 0;
+}
+.selected {
+    background-color: white;
+    border-radius: 25% 25% 0 0;
+}
+/*///////////////////////////////
+//          INDEX.PHP          //
+///////////////////////////////*/
+#indexHead {
+    text-align: right;
+}
+#indexActiveButton{
+    background-color: #3696d3;
+    color: white;
+}
+#inputForm {
+     background-color: #f5f5f5;
+     margin: 10% auto;
+     max-width: 550px;
+     padding: 20pt;
+     border: double;
+     border-radius: 15pt;
+     text-align: center;
+ }
+#inputForm label{
+    color: #3696d3;
+}
+#inputForm button{
+    min-width: 50%;
+    background-color: #3696d3;
+    color: white;
+}
+#inputForm span {
+    color: red;
+    font-weight: bold;
+}
+.disable{
+	display:none;
+}
+/*///////////////////////////////
+//          ADMIN.PHP          //
+///////////////////////////////*/
+#adminActiveButton{
+    background-color: #508050;
+    color: white;
+}
+#adminForm {
+    background-color: #f5f5f5;
+    margin: 10% auto;
+    max-width: 550px;
+    padding: 20pt;
+    border: double;
+    border-radius: 15pt;
+    text-align: center;
+}
+#adminForm label{
+    color: #508050;
+}
+#adminForm div{
+    min-width: 50%;
+    background-color: #508050;
+    color: white;
+}
+#adminForm a {
+    color: #508050;
+}
+#adminForm span {
+    color: red;
+    font-weight: bold;
+}
+/*///////////////////////////////
+//           BUTTONS           //
+///////////////////////////////*/
+#logoutButton{
+    background-color: #ff8080;
+    color: white;
+    min-width: 7em;
+    max-width: 7em;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+#emergencyButton{
+    background-color: #00dd00;
+    color: white;
+    min-width: 7em;
+    max-width: 7em;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+#sheetsButtonS{
+    background-color: #5080ff;
+    color: white;
+    min-width: 85px;
+    min-height: 85px;
+    text-align: center;
+    padding-top: 50%;
+    padding-bottom: 50%;
+}
+#sheetsButtonD{
+    background-color: #777777;
+    color: white;
+    min-width: 85px;
+    min-height: 85px;
+    text-align: center;
+    padding-top: 50%;
+    padding-bottom: 50%;
+}
+.button{
+    background-color: #5080ff;
+    color: white;
+    min-width: 40%;
+    max-width: 40%;
+    min-height: 80px;
+    text-align: center;
+    margin: -50px 30% 0 30%;
+}
+#emeButton{
+    background-color: #ff8080;
+    color: white;
+    margin: 25% auto 0 auto;
+    padding: 35px 65px;
+    border-radius: 15px;
+    font-size: 30px;
+}
+#checkoutB{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+/*///////////////////////////////
+//         DSHEETS.PHP         //
+///////////////////////////////*/
+.driverSheets{
+    min-width: 100%;
+    border: none;
+    margin-bottom: 15px;
+}
+.driverSheets td{
+    text-align: left;
+    padding: 10px 15px;
+}
+.driverSheets th{
+    color: #808080;
+    text-align: center;
+    border: none;
+    padding: 10px 10px 5px 10px;
+}
+.driverSheets #dDSClient {
+    background-color: #70bbff;
+    font-weight: bold;
+    font-style: italic;
+}
+.driverSheets #dDSAddress1 {
+    border: none;
+    background-color: #dddddd;
+    padding: 10px 15px 0 15px;
+}
+.driverSheets #dDSAddress2 {
+    border: none;
+    background-color: #dddddd;
+    padding: 0 15px 10px 15px;
+}
+.driverSheets #dDSNotes {
+    font-style: italic;
+}
+.driverSheets #dDSAction {
+    background-color: #70bbff;
+    text-align: center;
+    padding: 0;
+}
+.driverDetailsSheets{
+    min-width: 100%;
+    border: none;
+}
+.driverDetailsSheets th {
+    color: #808080;
+    text-align: left;
+    padding: 10px 10px 5px 10px;
+    border: none;
+    min-height: 50px;
+}
+.driverDetailsSheets td{
+    text-align: left;
+    padding: 10px 10px;
+}
+.driverDetailsSheets #dDSClient {
+    background-color: #70bbff;
+    font-weight: bold;
+    font-style: italic;
+}
+.driverDetailsSheets #dDSAddress1 {
+    border: none;
+    background-color: #dddddd;
+    padding: 10px 10px 0 10px;
+}
+.driverDetailsSheets #dDSAddress2 {
+    border: none;
+    background-color: #dddddd;
+    padding: 0 10px 10px 10px;
+}
+.driverDetailsSheets #dDSAddress2 {
+    border: none;
+    background-color: #dddddd;
+}
+.driverDetailsSheets #dDSAddress {
+    border: solid;
+    border-width: thin;
+}
+.driverNotesSheets{
+    min-width: 10%;
+    margin: 5px 0 15px 0;
+    border: none;
+}
+.driverNotesSheets th {
+    color: #808080;
+    text-align: left;
+    padding: 10px 10px 5px 10px;
+    border: none;
+    min-height: 50px;
+}
+.driverNotesSheets td{
+    text-align: left;
+    padding: 0 10px;
+}
+.driverNotesSheets #dDSNFlag{
+    text-align: center;
+    padding: 0 auto;
+}
+.driverNotesSheets tr:nth-child(even) {
+    background-color: #e3e3e3;
+}
+.driverNotesSheets tr:nth-child(odd) {
+    background-color: #f5f5f5;
+}
+#dSheetsButtons {
+    min-width: 80%;
+    margin: 0 10% 50px 10%;
+}
+#currentLocation{
+    min-width: 240px;
+    text-align: center;
+    font-weight: bold;
+    border: none;
+    margin: 10px auto;
+    background-color: #f5f5f5;
+    color: #ff8080;
+}
+#emergencyConfirmation{
+    color: #ff8080;
+    font-style: italic;
+    font-weight: bold;
+}
+#checkoutText1 {
+    padding: 10px 0;
+    text-align: left;
+    float: left;
+}
+#checkoutText2 {
+    text-align: right;
+    float: right;
+}
+#dDSStatus {
+    background-color: #ddffdd;
+}
+#dDSReschedule {
+    background-color: #ffdddd;
+}
+#buttonComplete {
+    background-color:#70bbff;
+    color: white;
+    margin: 15px 5%;
+    min-width: 90%;
+    width: 90%;
+}
+#noteField {
+    min-width: 85%;
+    margin: 0 5px 0 5px;
+}
+#noteButton{
+    margin: 0 5px;
+}
+#noteLeft{
+    min-width: 90%;
+    text-align: left;
+    padding: 10px;
+    float: left;
+}
+#noteRight{
+    min-width: 25%;
+    padding: 10px;
+    text-align: right;
+    float: right;
+}
+#noteRow{
+    background-color: #e3e3e3;
+}
+
+input[type="radio"] {
+    display:none;
+
+}
+input[type="radio"] + label {
+    color: #292321;
+    font-family:Arial, sans-serif;
+    font-size:14px;
+
+}
+input[type="radio"] + label span {
+    display:inline-block;
+    width:35px;
+    height:35px;
+    margin: 5px 10px 0 10px;
+    vertical-align:middle;
+    cursor:pointer;
+    border-radius:  100%;
+    border: 0.125em solid #fff;
+    box-shadow: 0 0 0 0.15em #000;
+    margin-right: 0.75em;
+    transition: 0.5s ease all;
+}
+input[type="radio"] + label span {
+    background-color:#f5f5f5;
+}
+input[type="radio"]:checked + label span{
+    background-color:#70bbff;
+    box-shadow: 0 0 0 0.25em #000;
+}
+input[type="radio"] + label span,
+input[type="radio"]:checked + label span {
+    transition:background-color 0.4s linear;
+}
+
+/* Tables */
+.row .title{
+	background: #6197B9;
+    font-size: 18px;
+    color: #FFF;
+    height: 40px;
+    width: 100%;
+    line-height: 40px;
+}
+.row .strip{
+	line-height: 25px;
+	height: 25px;
+    width: 100%;
+}
+.row .strip:nth-child(odd){
+	background: #EEEEEE;
+}
+.row .strip:nth-child(even){
+	background: #FFFFFF;
+}
+
+/*Pop Up*/
+
+.mask{
+	display:none;
+	height:100%;
+	width:100%;
+	position:fixed;
+	top:0;
+	left:0;
+	background:rgba(0,0,0,.8);
+    z-index: 1000;	
+}
+.popClose{
+	background: red;
+    color: white;
+    width: 15px;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+    position: absolute;
+    right: 5px;
+    top: 5px;
+	cursor:pointer;
+}
+.popBody{
+	margin:5% auto 0 auto;
+	width:600px;
+	min-height:300px;
+	background:#FFF;
+	position: relative;
+}
+
+.popUp{
+	margin: 10px 30px;
+}
+
+/*Form*/
+.formTitle{
+	margin:15px auto 5px auto;
+	font-size:20px;
+	text-align:center;
+}
+
