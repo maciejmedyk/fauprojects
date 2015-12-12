@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="AbsoluteLayout">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../NetBeans_Java/Agora/dist/lib/AbsoluteLayout.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../NetBeans_Java/Agora/dist/lib/AbsoluteLayout.jar!/org" />
+      <root url="jar://$PROJECT_DIR$/../../NetBeans_Java/Agora/dist/lib/beansbinding-1.2.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../NetBeans_Java/Agora/dist/lib/beansbinding-1.2.1.jar!/org" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

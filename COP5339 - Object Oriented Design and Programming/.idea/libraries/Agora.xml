@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Agora">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/../../NetBeans_Java/Agora" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://$PROJECT_DIR$/../../NetBeans_Java/Agora/src" />
+    </SOURCES>
+  </library>
+</component>
