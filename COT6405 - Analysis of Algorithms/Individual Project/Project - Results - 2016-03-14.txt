@@ -1,0 +1,912 @@
+Calcualtions for 10000 points
+ 
+Run # 1
+   Shortest distance with Brute Force
+   Shortest distance : 322.1699
+   Function run time : 00:00:09.0740000
+   Milisecs run time : 9074
+   Shortest distance with Divide & Conquer
+   Shortest distance : 322.1699
+   Function run time : 00:00:00.0410000
+   Milisecs run time : 41
+Run # 2
+   Shortest distance with Brute Force
+   Shortest distance : 322.1699
+   Function run time : 00:00:09.0510000
+   Milisecs run time : 9051
+   Shortest distance with Divide & Conquer
+   Shortest distance : 322.1699
+   Function run time : 00:00:00.0360000
+   Milisecs run time : 36
+Run # 3
+   Shortest distance with Brute Force
+   Shortest distance : 322.1699
+   Function run time : 00:00:09.0760000
+   Milisecs run time : 9076
+   Shortest distance with Divide & Conquer
+   Shortest distance : 322.1699
+   Function run time : 00:00:00.0330000
+   Milisecs run time : 33
+Run # 4
+   Shortest distance with Brute Force
+   Shortest distance : 322.1699
+   Function run time : 00:00:09.0290000
+   Milisecs run time : 9029
+   Shortest distance with Divide & Conquer
+   Shortest distance : 322.1699
+   Function run time : 00:00:00.0330000
+   Milisecs run time : 33
+Run # 5
+   Shortest distance with Brute Force
+   Shortest distance : 322.1699
+   Function run time : 00:00:09.0160000
+   Milisecs run time : 9016
+   Shortest distance with Divide & Conquer
+   Shortest distance : 322.1699
+   Function run time : 00:00:00.0330000
+   Milisecs run time : 33
+ 
+Calcualtions for 15000 points
+ 
+Run # 1
+   Shortest distance with Brute Force
+   Shortest distance : 359.2356
+   Function run time : 00:00:20.3810000
+   Milisecs run time : 20381
+   Shortest distance with Divide & Conquer
+   Shortest distance : 359.2356
+   Function run time : 00:00:00.0490000
+   Milisecs run time : 49
+Run # 2
+   Shortest distance with Brute Force
+   Shortest distance : 359.2356
+   Function run time : 00:00:20.3560000
+   Milisecs run time : 20356
+   Shortest distance with Divide & Conquer
+   Shortest distance : 359.2356
+   Function run time : 00:00:00.0490000
+   Milisecs run time : 49
+Run # 3
+   Shortest distance with Brute Force
+   Shortest distance : 359.2356
+   Function run time : 00:00:20.3420000
+   Milisecs run time : 20342
+   Shortest distance with Divide & Conquer
+   Shortest distance : 359.2356
+   Function run time : 00:00:00.0470000
+   Milisecs run time : 47
+Run # 4
+   Shortest distance with Brute Force
+   Shortest distance : 359.2356
+   Function run time : 00:00:20.3880000
+   Milisecs run time : 20388
+   Shortest distance with Divide & Conquer
+   Shortest distance : 359.2356
+   Function run time : 00:00:00.0470000
+   Milisecs run time : 47
+Run # 5
+   Shortest distance with Brute Force
+   Shortest distance : 359.2356
+   Function run time : 00:00:20.3030000
+   Milisecs run time : 20303
+   Shortest distance with Divide & Conquer
+   Shortest distance : 359.2356
+   Function run time : 00:00:00.0490000
+   Milisecs run time : 49
+ 
+Calcualtions for 20000 points
+ 
+Run # 1
+   Shortest distance with Brute Force
+   Shortest distance : 335.429
+   Function run time : 00:00:36.2520000
+   Milisecs run time : 36252
+   Shortest distance with Divide & Conquer
+   Shortest distance : 335.429
+   Function run time : 00:00:00.0760000
+   Milisecs run time : 76
+Run # 2
+   Shortest distance with Brute Force
+   Shortest distance : 335.429
+   Function run time : 00:00:36.3300000
+   Milisecs run time : 36330
+   Shortest distance with Divide & Conquer
+   Shortest distance : 335.429
+   Function run time : 00:00:00.0730000
+   Milisecs run time : 73
+Run # 3
+   Shortest distance with Brute Force
+   Shortest distance : 335.429
+   Function run time : 00:00:36.2930000
+   Milisecs run time : 36293
+   Shortest distance with Divide & Conquer
+   Shortest distance : 335.429
+   Function run time : 00:00:00.0700000
+   Milisecs run time : 70
+Run # 4
+   Shortest distance with Brute Force
+   Shortest distance : 335.429
+   Function run time : 00:00:36.1940000
+   Milisecs run time : 36194
+   Shortest distance with Divide & Conquer
+   Shortest distance : 335.429
+   Function run time : 00:00:00.0710000
+   Milisecs run time : 71
+Run # 5
+   Shortest distance with Brute Force
+   Shortest distance : 335.429
+   Function run time : 00:00:36.2700000
+   Milisecs run time : 36270
+   Shortest distance with Divide & Conquer
+   Shortest distance : 335.429
+   Function run time : 00:00:00.0700000
+   Milisecs run time : 70
+ 
+Calcualtions for 25000 points
+ 
+Run # 1
+   Shortest distance with Brute Force
+   Shortest distance : 280.6194
+   Function run time : 00:00:56.6670000
+   Milisecs run time : 56667
+   Shortest distance with Divide & Conquer
+   Shortest distance : 280.6194
+   Function run time : 00:00:00.0910000
+   Milisecs run time : 91
+Run # 2
+   Shortest distance with Brute Force
+   Shortest distance : 280.6194
+   Function run time : 00:00:56.6480000
+   Milisecs run time : 56648
+   Shortest distance with Divide & Conquer
+   Shortest distance : 280.6194
+   Function run time : 00:00:00.0860000
+   Milisecs run time : 86
+Run # 3
+   Shortest distance with Brute Force
+   Shortest distance : 280.6194
+   Function run time : 00:00:56.5160000
+   Milisecs run time : 56516
+   Shortest distance with Divide & Conquer
+   Shortest distance : 280.6194
+   Function run time : 00:00:00.0850000
+   Milisecs run time : 85
+Run # 4
+   Shortest distance with Brute Force
+   Shortest distance : 280.6194
+   Function run time : 00:00:56.5190000
+   Milisecs run time : 56519
+   Shortest distance with Divide & Conquer
+   Shortest distance : 280.6194
+   Function run time : 00:00:00.0850000
+   Milisecs run time : 85
+Run # 5
+   Shortest distance with Brute Force
+   Shortest distance : 280.6194
+   Function run time : 00:00:56.7650000
+   Milisecs run time : 56765
+   Shortest distance with Divide & Conquer
+   Shortest distance : 280.6194
+   Function run time : 00:00:00.0850000
+   Milisecs run time : 85
+ 
+Calcualtions for 30000 points
+ 
+Run # 1
+   Shortest distance with Brute Force
+   Shortest distance : 290.2854
+   Function run time : 00:01:22.2250000
+   Milisecs run time : 82225
+   Shortest distance with Divide & Conquer
+   Shortest distance : 290.2854
+   Function run time : 00:00:00.1060000
+   Milisecs run time : 106
+Run # 2
+   Shortest distance with Brute Force
+   Shortest distance : 290.2854
+   Function run time : 00:01:21.8760000
+   Milisecs run time : 81876
+   Shortest distance with Divide & Conquer
+   Shortest distance : 290.2854
+   Function run time : 00:00:00.0980000
+   Milisecs run time : 98
+Run # 3
+   Shortest distance with Brute Force
+   Shortest distance : 290.2854
+   Function run time : 00:01:21.8300000
+   Milisecs run time : 81830
+   Shortest distance with Divide & Conquer
+   Shortest distance : 290.2854
+   Function run time : 00:00:00.0980000
+   Milisecs run time : 98
+Run # 4
+   Shortest distance with Brute Force
+   Shortest distance : 290.2854
+   Function run time : 00:01:22
+   Milisecs run time : 82000
+   Shortest distance with Divide & Conquer
+   Shortest distance : 290.2854
+   Function run time : 00:00:00.0950000
+   Milisecs run time : 95
+Run # 5
+   Shortest distance with Brute Force
+   Shortest distance : 290.2854
+   Function run time : 00:01:21.7820000
+   Milisecs run time : 81782
+   Shortest distance with Divide & Conquer
+   Shortest distance : 290.2854
+   Function run time : 00:00:00.1050000
+   Milisecs run time : 105
+ 
+Calcualtions for 35000 points
+ 
+Run # 1
+   Shortest distance with Brute Force
+   Shortest distance : 110.4133
+   Function run time : 00:01:50.6300000
+   Milisecs run time : 110630
+   Shortest distance with Divide & Conquer
+   Shortest distance : 110.4133
+   Function run time : 00:00:00.1300000
+   Milisecs run time : 130
+Run # 2
+   Shortest distance with Brute Force
+   Shortest distance : 110.4133
+   Function run time : 00:01:51.0340000
+   Milisecs run time : 111034
+   Shortest distance with Divide & Conquer
+   Shortest distance : 110.4133
+   Function run time : 00:00:00.1220000
+   Milisecs run time : 122
+Run # 3
+   Shortest distance with Brute Force
+   Shortest distance : 110.4133
+   Function run time : 00:01:51.1720000
+   Milisecs run time : 111172
+   Shortest distance with Divide & Conquer
+   Shortest distance : 110.4133
+   Function run time : 00:00:00.1210000
+   Milisecs run time : 121
+Run # 4
+   Shortest distance with Brute Force
+   Shortest distance : 110.4133
+   Function run time : 00:01:50.8840000
+   Milisecs run time : 110884
+   Shortest distance with Divide & Conquer
+   Shortest distance : 110.4133
+   Function run time : 00:00:00.1250000
+   Milisecs run time : 125
+Run # 5
+   Shortest distance with Brute Force
+   Shortest distance : 110.4133
+   Function run time : 00:01:50.6070000
+   Milisecs run time : 110607
+   Shortest distance with Divide & Conquer
+   Shortest distance : 110.4133
+   Function run time : 00:00:00.1200000
+   Milisecs run time : 120
+ 
+Calcualtions for 40000 points
+ 
+Run # 1
+   Shortest distance with Brute Force
+   Shortest distance : 341.3802
+   Function run time : 00:02:23.9990000
+   Milisecs run time : 143999
+   Shortest distance with Divide & Conquer
+   Shortest distance : 341.3802
+   Function run time : 00:00:00.1550000
+   Milisecs run time : 155
+Run # 2
+   Shortest distance with Brute Force
+   Shortest distance : 341.3802
+   Function run time : 00:02:23.9740000
+   Milisecs run time : 143974
+   Shortest distance with Divide & Conquer
+   Shortest distance : 341.3802
+   Function run time : 00:00:00.1500000
+   Milisecs run time : 150
+Run # 3
+   Shortest distance with Brute Force
+   Shortest distance : 341.3802
+   Function run time : 00:02:23.9180000
+   Milisecs run time : 143918
+   Shortest distance with Divide & Conquer
+   Shortest distance : 341.3802
+   Function run time : 00:00:00.1480000
+   Milisecs run time : 148
+Run # 4
+   Shortest distance with Brute Force
+   Shortest distance : 341.3802
+   Function run time : 00:02:23.9390000
+   Milisecs run time : 143939
+   Shortest distance with Divide & Conquer
+   Shortest distance : 341.3802
+   Function run time : 00:00:00.1500000
+   Milisecs run time : 150
+Run # 5
+   Shortest distance with Brute Force
+   Shortest distance : 341.3802
+   Function run time : 00:02:23.9400000
+   Milisecs run time : 143940
+   Shortest distance with Divide & Conquer
+   Shortest distance : 341.3802
+   Function run time : 00:00:00.1470000
+   Milisecs run time : 147
+ 
+Calcualtions for 45000 points
+ 
+Run # 1
+   Shortest distance with Brute Force
+   Shortest distance : 46.89661
+   Function run time : 00:03:02.5790000
+   Milisecs run time : 182579
+   Shortest distance with Divide & Conquer
+   Shortest distance : 46.89661
+   Function run time : 00:00:00.1760000
+   Milisecs run time : 176
+Run # 2
+   Shortest distance with Brute Force
+   Shortest distance : 46.89661
+   Function run time : 00:03:02.5040000
+   Milisecs run time : 182504
+   Shortest distance with Divide & Conquer
+   Shortest distance : 46.89661
+   Function run time : 00:00:00.1680000
+   Milisecs run time : 168
+Run # 3
+   Shortest distance with Brute Force
+   Shortest distance : 46.89661
+   Function run time : 00:03:02.6470000
+   Milisecs run time : 182647
+   Shortest distance with Divide & Conquer
+   Shortest distance : 46.89661
+   Function run time : 00:00:00.1640000
+   Milisecs run time : 164
+Run # 4
+   Shortest distance with Brute Force
+   Shortest distance : 46.89661
+   Function run time : 00:03:02.6500000
+   Milisecs run time : 182650
+   Shortest distance with Divide & Conquer
+   Shortest distance : 46.89661
+   Function run time : 00:00:00.1750000
+   Milisecs run time : 175
+Run # 5
+   Shortest distance with Brute Force
+   Shortest distance : 46.89661
+   Function run time : 00:03:02.5880000
+   Milisecs run time : 182588
+   Shortest distance with Divide & Conquer
+   Shortest distance : 46.89661
+   Function run time : 00:00:00.1750000
+   Milisecs run time : 175
+ 
+Calcualtions for 50000 points
+ 
+Run # 1
+   Shortest distance with Brute Force
+   Shortest distance : 78.34741
+   Function run time : 00:03:45.8480000
+   Milisecs run time : 225848
+   Shortest distance with Divide & Conquer
+   Shortest distance : 78.34741
+   Function run time : 00:00:00.1980000
+   Milisecs run time : 198
+Run # 2
+   Shortest distance with Brute Force
+   Shortest distance : 78.34741
+   Function run time : 00:03:45.3870000
+   Milisecs run time : 225387
+   Shortest distance with Divide & Conquer
+   Shortest distance : 78.34741
+   Function run time : 00:00:00.1780000
+   Milisecs run time : 178
+Run # 3
+   Shortest distance with Brute Force
+   Shortest distance : 78.34741
+   Function run time : 00:03:45.2050000
+   Milisecs run time : 225205
+   Shortest distance with Divide & Conquer
+   Shortest distance : 78.34741
+   Function run time : 00:00:00.1780000
+   Milisecs run time : 178
+Run # 4
+   Shortest distance with Brute Force
+   Shortest distance : 78.34741
+   Function run time : 00:03:44.9670000
+   Milisecs run time : 224967
+   Shortest distance with Divide & Conquer
+   Shortest distance : 78.34741
+   Function run time : 00:00:00.1890000
+   Milisecs run time : 189
+Run # 5
+   Shortest distance with Brute Force
+   Shortest distance : 78.34741
+   Function run time : 00:03:44.9330000
+   Milisecs run time : 224933
+   Shortest distance with Divide & Conquer
+   Shortest distance : 78.34741
+   Function run time : 00:00:00.1900000
+   Milisecs run time : 190
+ 
+Calcualtions for 55000 points
+ 
+Run # 1
+   Shortest distance with Brute Force
+   Shortest distance : 109.9756
+   Function run time : 00:04:31.4200000
+   Milisecs run time : 271420
+   Shortest distance with Divide & Conquer
+   Shortest distance : 109.9756
+   Function run time : 00:00:00.2180000
+   Milisecs run time : 218
+Run # 2
+   Shortest distance with Brute Force
+   Shortest distance : 109.9756
+   Function run time : 00:04:31.4180000
+   Milisecs run time : 271418
+   Shortest distance with Divide & Conquer
+   Shortest distance : 109.9756
+   Function run time : 00:00:00.2010000
+   Milisecs run time : 201
+Run # 3
+   Shortest distance with Brute Force
+   Shortest distance : 109.9756
+   Function run time : 00:04:31.7800000
+   Milisecs run time : 271780
+   Shortest distance with Divide & Conquer
+   Shortest distance : 109.9756
+   Function run time : 00:00:00.1980000
+   Milisecs run time : 198
+Run # 4
+   Shortest distance with Brute Force
+   Shortest distance : 109.9756
+   Function run time : 00:04:31.7780000
+   Milisecs run time : 271778
+   Shortest distance with Divide & Conquer
+   Shortest distance : 109.9756
+   Function run time : 00:00:00.2090000
+   Milisecs run time : 209
+Run # 5
+   Shortest distance with Brute Force
+   Shortest distance : 109.9756
+   Function run time : 00:04:31.6920000
+   Milisecs run time : 271692
+   Shortest distance with Divide & Conquer
+   Shortest distance : 109.9756
+   Function run time : 00:00:00.1950000
+   Milisecs run time : 195
+ 
+Calcualtions for 60000 points
+ 
+Run # 1
+   Shortest distance with Brute Force
+   Shortest distance : 74.03804
+   Function run time : 00:05:23.1820000
+   Milisecs run time : 323182
+   Shortest distance with Divide & Conquer
+   Shortest distance : 74.03804
+   Function run time : 00:00:00.2260000
+   Milisecs run time : 226
+Run # 2
+   Shortest distance with Brute Force
+   Shortest distance : 74.03804
+   Function run time : 00:05:23.1780000
+   Milisecs run time : 323178
+   Shortest distance with Divide & Conquer
+   Shortest distance : 74.03804
+   Function run time : 00:00:00.2160000
+   Milisecs run time : 216
+Run # 3
+   Shortest distance with Brute Force
+   Shortest distance : 74.03804
+   Function run time : 00:05:23.0600000
+   Milisecs run time : 323060
+   Shortest distance with Divide & Conquer
+   Shortest distance : 74.03804
+   Function run time : 00:00:00.2120000
+   Milisecs run time : 212
+Run # 4
+   Shortest distance with Brute Force
+   Shortest distance : 74.03804
+   Function run time : 00:05:23.2120000
+   Milisecs run time : 323212
+   Shortest distance with Divide & Conquer
+   Shortest distance : 74.03804
+   Function run time : 00:00:00.2200000
+   Milisecs run time : 220
+Run # 5
+   Shortest distance with Brute Force
+   Shortest distance : 74.03804
+   Function run time : 00:05:23.6590000
+   Milisecs run time : 323659
+   Shortest distance with Divide & Conquer
+   Shortest distance : 74.03804
+   Function run time : 00:00:00.2170000
+   Milisecs run time : 217
+ 
+Calcualtions for 65000 points
+ 
+Run # 1
+   Shortest distance with Brute Force
+   Shortest distance : 111.1195
+   Function run time : 00:06:19.4820000
+   Milisecs run time : 379482
+   Shortest distance with Divide & Conquer
+   Shortest distance : 111.1195
+   Function run time : 00:00:00.2410000
+   Milisecs run time : 241
+Run # 2
+   Shortest distance with Brute Force
+   Shortest distance : 111.1195
+   Function run time : 00:06:19.7940000
+   Milisecs run time : 379794
+   Shortest distance with Divide & Conquer
+   Shortest distance : 111.1195
+   Function run time : 00:00:00.2300000
+   Milisecs run time : 230
+Run # 3
+   Shortest distance with Brute Force
+   Shortest distance : 111.1195
+   Function run time : 00:06:20.7880000
+   Milisecs run time : 380788
+   Shortest distance with Divide & Conquer
+   Shortest distance : 111.1195
+   Function run time : 00:00:00.2240000
+   Milisecs run time : 224
+Run # 4
+   Shortest distance with Brute Force
+   Shortest distance : 111.1195
+   Function run time : 00:06:20.7520000
+   Milisecs run time : 380752
+   Shortest distance with Divide & Conquer
+   Shortest distance : 111.1195
+   Function run time : 00:00:00.2290000
+   Milisecs run time : 229
+Run # 5
+   Shortest distance with Brute Force
+   Shortest distance : 111.1195
+   Function run time : 00:06:20.9080000
+   Milisecs run time : 380908
+   Shortest distance with Divide & Conquer
+   Shortest distance : 111.1195
+   Function run time : 00:00:00.2230000
+   Milisecs run time : 223
+ 
+Calcualtions for 70000 points
+ 
+Run # 1
+   Shortest distance with Brute Force
+   Shortest distance : 192.2958
+   Function run time : 00:07:21.3840000
+   Milisecs run time : 441384
+   Shortest distance with Divide & Conquer
+   Shortest distance : 192.2958
+   Function run time : 00:00:00.2910000
+   Milisecs run time : 291
+Run # 2
+   Shortest distance with Brute Force
+   Shortest distance : 192.2958
+   Function run time : 00:07:20.8080000
+   Milisecs run time : 440808
+   Shortest distance with Divide & Conquer
+   Shortest distance : 192.2958
+   Function run time : 00:00:00.2670000
+   Milisecs run time : 267
+Run # 3
+   Shortest distance with Brute Force
+   Shortest distance : 192.2958
+   Function run time : 00:07:20.9740000
+   Milisecs run time : 440974
+   Shortest distance with Divide & Conquer
+   Shortest distance : 192.2958
+   Function run time : 00:00:00.2650000
+   Milisecs run time : 265
+Run # 4
+   Shortest distance with Brute Force
+   Shortest distance : 192.2958
+   Function run time : 00:07:20.7690000
+   Milisecs run time : 440769
+   Shortest distance with Divide & Conquer
+   Shortest distance : 192.2958
+   Function run time : 00:00:00.2620000
+   Milisecs run time : 262
+Run # 5
+   Shortest distance with Brute Force
+   Shortest distance : 192.2958
+   Function run time : 00:07:21.7050000
+   Milisecs run time : 441705
+   Shortest distance with Divide & Conquer
+   Shortest distance : 192.2958
+   Function run time : 00:00:00.2660000
+   Milisecs run time : 266
+ 
+Calcualtions for 75000 points
+ 
+Run # 1
+   Shortest distance with Brute Force
+   Shortest distance : 132.993
+   Function run time : 00:08:25.0140000
+   Milisecs run time : 505014
+   Shortest distance with Divide & Conquer
+   Shortest distance : 132.993
+   Function run time : 00:00:00.3150000
+   Milisecs run time : 315
+Run # 2
+   Shortest distance with Brute Force
+   Shortest distance : 132.993
+   Function run time : 00:08:25.2300000
+   Milisecs run time : 505230
+   Shortest distance with Divide & Conquer
+   Shortest distance : 132.993
+   Function run time : 00:00:00.2930000
+   Milisecs run time : 293
+Run # 3
+   Shortest distance with Brute Force
+   Shortest distance : 132.993
+   Function run time : 00:08:24.9760000
+   Milisecs run time : 504976
+   Shortest distance with Divide & Conquer
+   Shortest distance : 132.993
+   Function run time : 00:00:00.2930000
+   Milisecs run time : 293
+Run # 4
+   Shortest distance with Brute Force
+   Shortest distance : 132.993
+   Function run time : 00:08:24.9700000
+   Milisecs run time : 504970
+   Shortest distance with Divide & Conquer
+   Shortest distance : 132.993
+   Function run time : 00:00:00.2890000
+   Milisecs run time : 289
+Run # 5
+   Shortest distance with Brute Force
+   Shortest distance : 132.993
+   Function run time : 00:08:25.5710000
+   Milisecs run time : 505571
+   Shortest distance with Divide & Conquer
+   Shortest distance : 132.993
+   Function run time : 00:00:00.2940000
+   Milisecs run time : 294
+ 
+Calcualtions for 80000 points
+ 
+Run # 1
+   Shortest distance with Brute Force
+   Shortest distance : 24.42979
+   Function run time : 00:09:35.5690000
+   Milisecs run time : 575569
+   Shortest distance with Divide & Conquer
+   Shortest distance : 24.42979
+   Function run time : 00:00:00.3490000
+   Milisecs run time : 349
+Run # 2
+   Shortest distance with Brute Force
+   Shortest distance : 24.42979
+   Function run time : 00:09:35.6350000
+   Milisecs run time : 575635
+   Shortest distance with Divide & Conquer
+   Shortest distance : 24.42979
+   Function run time : 00:00:00.3200000
+   Milisecs run time : 320
+Run # 3
+   Shortest distance with Brute Force
+   Shortest distance : 24.42979
+   Function run time : 00:09:34.5510000
+   Milisecs run time : 574551
+   Shortest distance with Divide & Conquer
+   Shortest distance : 24.42979
+   Function run time : 00:00:00.3220000
+   Milisecs run time : 322
+Run # 4
+   Shortest distance with Brute Force
+   Shortest distance : 24.42979
+   Function run time : 00:09:34.5190000
+   Milisecs run time : 574519
+   Shortest distance with Divide & Conquer
+   Shortest distance : 24.42979
+   Function run time : 00:00:00.3190000
+   Milisecs run time : 319
+Run # 5
+   Shortest distance with Brute Force
+   Shortest distance : 24.42979
+   Function run time : 00:09:34.2870000
+   Milisecs run time : 574287
+   Shortest distance with Divide & Conquer
+   Shortest distance : 24.42979
+   Function run time : 00:00:00.3180000
+   Milisecs run time : 318
+ 
+Calcualtions for 85000 points
+ 
+Run # 1
+   Shortest distance with Brute Force
+   Shortest distance : 39.93435
+   Function run time : 00:10:49.6110000
+   Milisecs run time : 649611
+   Shortest distance with Divide & Conquer
+   Shortest distance : 39.93435
+   Function run time : 00:00:00.3760000
+   Milisecs run time : 376
+Run # 2
+   Shortest distance with Brute Force
+   Shortest distance : 39.93435
+   Function run time : 00:10:50.8980000
+   Milisecs run time : 650898
+   Shortest distance with Divide & Conquer
+   Shortest distance : 39.93435
+   Function run time : 00:00:00.3370000
+   Milisecs run time : 337
+Run # 3
+   Shortest distance with Brute Force
+   Shortest distance : 39.93435
+   Function run time : 00:10:51.1940000
+   Milisecs run time : 651194
+   Shortest distance with Divide & Conquer
+   Shortest distance : 39.93435
+   Function run time : 00:00:00.3400000
+   Milisecs run time : 340
+Run # 4
+   Shortest distance with Brute Force
+   Shortest distance : 39.93435
+   Function run time : 00:10:49.9440000
+   Milisecs run time : 649944
+   Shortest distance with Divide & Conquer
+   Shortest distance : 39.93435
+   Function run time : 00:00:00.3340000
+   Milisecs run time : 334
+Run # 5
+   Shortest distance with Brute Force
+   Shortest distance : 39.93435
+   Function run time : 00:10:50.2400000
+   Milisecs run time : 650240
+   Shortest distance with Divide & Conquer
+   Shortest distance : 39.93435
+   Function run time : 00:00:00.3410000
+   Milisecs run time : 341
+ 
+Calcualtions for 90000 points
+ 
+Run # 1
+   Shortest distance with Brute Force
+   Shortest distance : 83.07877
+   Function run time : 00:12:08.8490000
+   Milisecs run time : 728849
+   Shortest distance with Divide & Conquer
+   Shortest distance : 83.07877
+   Function run time : 00:00:00.3870000
+   Milisecs run time : 387
+Run # 2
+   Shortest distance with Brute Force
+   Shortest distance : 83.07877
+   Function run time : 00:12:08.2130000
+   Milisecs run time : 728213
+   Shortest distance with Divide & Conquer
+   Shortest distance : 83.07877
+   Function run time : 00:00:00.3540000
+   Milisecs run time : 354
+Run # 3
+   Shortest distance with Brute Force
+   Shortest distance : 83.07877
+   Function run time : 00:12:09.5700000
+   Milisecs run time : 729570
+   Shortest distance with Divide & Conquer
+   Shortest distance : 83.07877
+   Function run time : 00:00:00.3520000
+   Milisecs run time : 352
+Run # 4
+   Shortest distance with Brute Force
+   Shortest distance : 83.07877
+   Function run time : 00:12:08.4870000
+   Milisecs run time : 728487
+   Shortest distance with Divide & Conquer
+   Shortest distance : 83.07877
+   Function run time : 00:00:00.3500000
+   Milisecs run time : 350
+Run # 5
+   Shortest distance with Brute Force
+   Shortest distance : 83.07877
+   Function run time : 00:12:06.8000000
+   Milisecs run time : 726800
+   Shortest distance with Divide & Conquer
+   Shortest distance : 83.07877
+   Function run time : 00:00:00.3540000
+   Milisecs run time : 354
+ 
+Calcualtions for 95000 points
+ 
+Run # 1
+   Shortest distance with Brute Force
+   Shortest distance : 56.21426
+   Function run time : 00:13:31.7280000
+   Milisecs run time : 811728
+   Shortest distance with Divide & Conquer
+   Shortest distance : 56.21426
+   Function run time : 00:00:00.4120000
+   Milisecs run time : 412
+Run # 2
+   Shortest distance with Brute Force
+   Shortest distance : 56.21426
+   Function run time : 00:13:32.4510000
+   Milisecs run time : 812451
+   Shortest distance with Divide & Conquer
+   Shortest distance : 56.21426
+   Function run time : 00:00:00.3780000
+   Milisecs run time : 378
+Run # 3
+   Shortest distance with Brute Force
+   Shortest distance : 56.21426
+   Function run time : 00:13:32.5720000
+   Milisecs run time : 812572
+   Shortest distance with Divide & Conquer
+   Shortest distance : 56.21426
+   Function run time : 00:00:00.3730000
+   Milisecs run time : 373
+Run # 4
+   Shortest distance with Brute Force
+   Shortest distance : 56.21426
+   Function run time : 00:13:31.8780000
+   Milisecs run time : 811878
+   Shortest distance with Divide & Conquer
+   Shortest distance : 56.21426
+   Function run time : 00:00:00.3680000
+   Milisecs run time : 368
+Run # 5
+   Shortest distance with Brute Force
+   Shortest distance : 56.21426
+   Function run time : 00:13:32.0620000
+   Milisecs run time : 812062
+   Shortest distance with Divide & Conquer
+   Shortest distance : 56.21426
+   Function run time : 00:00:00.3750000
+   Milisecs run time : 375
+ 
+Calcualtions for 100000 points
+ 
+Run # 1
+   Shortest distance with Brute Force
+   Shortest distance : 44.52962
+   Function run time : 00:15:00.4440000
+   Milisecs run time : 900444
+   Shortest distance with Divide & Conquer
+   Shortest distance : 44.52962
+   Function run time : 00:00:00.4360000
+   Milisecs run time : 436
+Run # 2
+   Shortest distance with Brute Force
+   Shortest distance : 44.52962
+   Function run time : 00:15:05.6110000
+   Milisecs run time : 905611
+   Shortest distance with Divide & Conquer
+   Shortest distance : 44.52962
+   Function run time : 00:00:00.3940000
+   Milisecs run time : 394
+Run # 3
+   Shortest distance with Brute Force
+   Shortest distance : 44.52962
+   Function run time : 00:14:55.7910000
+   Milisecs run time : 895791
+   Shortest distance with Divide & Conquer
+   Shortest distance : 44.52962
+   Function run time : 00:00:00.3950000
+   Milisecs run time : 395
+Run # 4
+   Shortest distance with Brute Force
+   Shortest distance : 44.52962
+   Function run time : 00:14:56.0700000
+   Milisecs run time : 896070
+   Shortest distance with Divide & Conquer
+   Shortest distance : 44.52962
+   Function run time : 00:00:00.3920000
+   Milisecs run time : 392
+Run # 5
+   Shortest distance with Brute Force
+   Shortest distance : 44.52962
+   Function run time : 00:14:56.3130000
+   Milisecs run time : 896313
+   Shortest distance with Divide & Conquer
+   Shortest distance : 44.52962
+   Function run time : 00:00:00.3920000
+   Milisecs run time : 392
+ 
