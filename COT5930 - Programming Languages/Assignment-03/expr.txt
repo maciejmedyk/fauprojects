@@ -1,0 +1,65 @@
+
+Perl Exercise
+
+Please start with expr.pl and implement a Perl script
+that produces a postfix notation for the expressions that
+appear in expr1.in. Note the operands and operators are
+separated by one or more blanks:
+
+	0
+	1 + 2
+	( 1 + 2 ) * 3
+	( 4 ) / ( 6 - 5 )
+	( ( 4 ) / ( 6 - 5 ) ) * 7
+	( ( ( ( 4 ) / ( 6 - 5 ) ) * 7 ) )
+	123 - 45 * 678 / 9
+	a + bc * def
+	( a + bc ) * def
+	4 / ( 6 / 5 + 4 * 3 ) * 2
+	4 * ( 6 * 5 + 4 / 3 ) / 2 - 1
+
+You will need to create two stacks: one for the operands and
+one for the operators. You will need to determine the precedence
+for the operators: * and / have higher precedence than + and -.
+
+The results should look something like:
+
+	input line:	0
+	0 
+	
+	input line:	1 + 2
+	1 2 + 
+	
+	input line:	( 1 + 2 ) * 3
+	1 2 + 3 * 
+	
+	input line:	( 4 ) / ( 6 - 5 )
+	4 6 5 - / 
+	
+	input line:	( ( 4 ) / ( 6 - 5 ) ) * 7
+	4 6 5 - / 7 * 
+	
+	input line:	( ( ( ( 4 ) / ( 6 - 5 ) ) * 7 ) )
+	4 6 5 - / 7 * 
+	
+	input line:	123 - 45 * 678 / 9
+	123 45 678 * 9 / - 
+	
+	input line:	a + bc * def
+	a bc def * + 
+	
+	input line:	( a + bc ) * def
+	a bc + def * 
+	
+	input line:	4 / ( 6 / 5 + 4 * 3 ) * 2
+	4 6 5 / 4 3 * + / 2 * 
+	
+	input line:	4 * ( 6 * 5 + 4 / 3 ) / 2 - 1
+	4 6 5 * 4 3 / + * 2 / 1 - 
+
+EXTRA CREDIT: modify your solution so it also works with expr2.in.
+Note that in this file there are not necessarily spaces between
+all the operands and operators. You program should work with both
+expr1.in and expr2.in file.
+
+end of the exercise.

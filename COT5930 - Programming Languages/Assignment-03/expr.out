@@ -1,0 +1,33 @@
+input line:	0
+0 
+
+input line:	1 + 2
+1 2 + 
+
+input line:	( 1 + 2 ) * 3
+1 2 + 3 * 
+
+input line:	( 4 ) / ( 6 - 5 )
+4 6 5 - / 
+
+input line:	( ( 4 ) / ( 6 - 5 ) ) * 7
+4 6 5 - / 7 * 
+
+input line:	( ( ( ( 4 ) / ( 6 - 5 ) ) * 7 ) )
+4 6 5 - / 7 * 
+
+input line:	123 - 45 * 678 / 9
+123 45 678 * 9 / - 
+
+input line:	a + bc * def
+a bc def * + 
+
+input line:	( a + bc ) * def
+a bc + def * 
+
+input line:	4 / ( 6 / 5 + 4 * 3 ) * 2
+4 6 5 / 4 3 * + / 2 * 
+
+input line:	4 * ( 6 * 5 + 4 / 3 ) / 2 - 1
+4 6 5 * 4 3 / + * 2 / 1 - 
+
