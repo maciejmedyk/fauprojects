@@ -1,0 +1,5 @@
+D:\Dropbox\Workspace\VisualStudio\CAP6777-HW02\CAP6777-HW02\bin\Release\CAP6777-HW02.exe.config
+D:\Dropbox\Workspace\VisualStudio\CAP6777-HW02\CAP6777-HW02\bin\Release\CAP6777-HW02.exe
+D:\Dropbox\Workspace\VisualStudio\CAP6777-HW02\CAP6777-HW02\bin\Release\CAP6777-HW02.pdb
+D:\Dropbox\Workspace\VisualStudio\CAP6777-HW02\CAP6777-HW02\obj\Release\CAP6777-HW02.exe
+D:\Dropbox\Workspace\VisualStudio\CAP6777-HW02\CAP6777-HW02\obj\Release\CAP6777-HW02.pdb

@@ -1,0 +1,937 @@
+2016-05-27 01:53:10,974 WARN  crawl.Crawl - solrUrl is not set, indexing will be skipped...
+2016-05-27 01:53:11,052 INFO  crawl.Crawl - crawl started in: crawl
+2016-05-27 01:53:11,052 INFO  crawl.Crawl - rootUrlDir = urls
+2016-05-27 01:53:11,052 INFO  crawl.Crawl - threads = 10
+2016-05-27 01:53:11,052 INFO  crawl.Crawl - depth = 3
+2016-05-27 01:53:11,052 INFO  crawl.Crawl - solrUrl=null
+2016-05-27 01:53:11,052 INFO  crawl.Crawl - topN = 5
+2016-05-27 01:53:11,067 INFO  crawl.Injector - Injector: starting at 2016-05-27 01:53:11
+2016-05-27 01:53:11,067 INFO  crawl.Injector - Injector: crawlDb: crawl/crawldb
+2016-05-27 01:53:11,067 INFO  crawl.Injector - Injector: urlDir: urls
+2016-05-27 01:53:11,083 INFO  crawl.Injector - Injector: Converting injected urls to crawl db entries.
+2016-05-27 01:53:11,769 INFO  regex.RegexURLNormalizer - can't find rules for scope 'inject', using default
+2016-05-27 01:53:12,534 INFO  crawl.Injector - Injector: total number of urls rejected by filters: 0
+2016-05-27 01:53:12,534 INFO  crawl.Injector - Injector: total number of urls injected after normalization and filtering: 1
+2016-05-27 01:53:12,534 INFO  crawl.Injector - Injector: Merging injected urls into crawl db.
+2016-05-27 01:53:12,939 WARN  util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2016-05-27 01:53:13,766 INFO  crawl.Injector - Injector: finished at 2016-05-27 01:53:13, elapsed: 00:00:02
+2016-05-27 01:53:13,797 INFO  crawl.Generator - Generator: starting at 2016-05-27 01:53:13
+2016-05-27 01:53:13,797 INFO  crawl.Generator - Generator: Selecting best-scoring urls due for fetch.
+2016-05-27 01:53:13,797 INFO  crawl.Generator - Generator: filtering: true
+2016-05-27 01:53:13,797 INFO  crawl.Generator - Generator: normalizing: true
+2016-05-27 01:53:13,797 INFO  crawl.Generator - Generator: topN: 5
+2016-05-27 01:53:13,797 INFO  crawl.Generator - Generator: jobtracker is 'local', generating exactly one partition.
+2016-05-27 01:53:14,078 INFO  crawl.FetchScheduleFactory - Using FetchSchedule impl: org.apache.nutch.crawl.DefaultFetchSchedule
+2016-05-27 01:53:14,078 INFO  crawl.AbstractFetchSchedule - defaultInterval=2592000
+2016-05-27 01:53:14,078 INFO  crawl.AbstractFetchSchedule - maxInterval=7776000
+2016-05-27 01:53:14,078 INFO  regex.RegexURLNormalizer - can't find rules for scope 'partition', using default
+2016-05-27 01:53:14,094 INFO  crawl.FetchScheduleFactory - Using FetchSchedule impl: org.apache.nutch.crawl.DefaultFetchSchedule
+2016-05-27 01:53:14,094 INFO  crawl.AbstractFetchSchedule - defaultInterval=2592000
+2016-05-27 01:53:14,094 INFO  crawl.AbstractFetchSchedule - maxInterval=7776000
+2016-05-27 01:53:14,094 INFO  regex.RegexURLNormalizer - can't find rules for scope 'generate_host_count', using default
+2016-05-27 01:53:15,030 INFO  crawl.Generator - Generator: Partitioning selected urls for politeness.
+2016-05-27 01:53:16,044 INFO  crawl.Generator - Generator: segment: crawl/segments/20160527015316
+2016-05-27 01:53:16,340 INFO  regex.RegexURLNormalizer - can't find rules for scope 'partition', using default
+2016-05-27 01:53:17,276 INFO  crawl.Generator - Generator: finished at 2016-05-27 01:53:17, elapsed: 00:00:03
+2016-05-27 01:53:17,276 WARN  fetcher.Fetcher - Fetcher: Your 'http.agent.name' value should be listed first in 'http.robots.agents' property.
+2016-05-27 01:53:17,276 INFO  fetcher.Fetcher - Fetcher: starting at 2016-05-27 01:53:17
+2016-05-27 01:53:17,276 INFO  fetcher.Fetcher - Fetcher: segment: crawl/segments/20160527015316
+2016-05-27 01:53:17,573 INFO  fetcher.Fetcher - Using queue mode : byHost
+2016-05-27 01:53:17,573 INFO  fetcher.Fetcher - Fetcher: threads: 10
+2016-05-27 01:53:17,573 INFO  fetcher.Fetcher - Fetcher: time-out divisor: 2
+2016-05-27 01:53:17,573 INFO  fetcher.Fetcher - QueueFeeder finished: total 5 records + hit by time limit :0
+2016-05-27 01:53:17,588 INFO  fetcher.Fetcher - Using queue mode : byHost
+2016-05-27 01:53:17,588 INFO  fetcher.Fetcher - Using queue mode : byHost
+2016-05-27 01:53:17,588 INFO  fetcher.Fetcher - fetching http://nutch.apache.org/apidocs/apidocs-1.1/index.html (queue crawl delay=5000ms)
+2016-05-27 01:53:17,588 INFO  fetcher.Fetcher - Using queue mode : byHost
+2016-05-27 01:53:17,588 INFO  fetcher.Fetcher - Using queue mode : byHost
+2016-05-27 01:53:17,588 INFO  fetcher.Fetcher - Using queue mode : byHost
+2016-05-27 01:53:17,588 INFO  fetcher.Fetcher - Using queue mode : byHost
+2016-05-27 01:53:17,588 INFO  fetcher.Fetcher - Using queue mode : byHost
+2016-05-27 01:53:17,588 INFO  fetcher.Fetcher - Using queue mode : byHost
+2016-05-27 01:53:17,588 INFO  fetcher.Fetcher - Using queue mode : byHost
+2016-05-27 01:53:17,588 INFO  fetcher.Fetcher - Using queue mode : byHost
+2016-05-27 01:53:17,588 INFO  fetcher.Fetcher - Fetcher: throughput threshold: -1
+2016-05-27 01:53:17,588 INFO  fetcher.Fetcher - Fetcher: throughput threshold retries: 5
+2016-05-27 01:53:17,604 ERROR protocol.RobotRulesParser - Agent we advertise (Maciej Medyk Nutch Spider) not listed first in 'http.robots.agents' property!
+2016-05-27 01:53:17,604 INFO  http.Http - http.proxy.host = null
+2016-05-27 01:53:17,604 INFO  http.Http - http.proxy.port = 8080
+2016-05-27 01:53:17,604 INFO  http.Http - http.timeout = 10000
+2016-05-27 01:53:17,604 INFO  http.Http - http.content.limit = 65536
+2016-05-27 01:53:17,604 INFO  http.Http - http.agent = Maciej Medyk Nutch Spider/Nutch-1.7
+2016-05-27 01:53:17,604 INFO  http.Http - http.accept.language = en-us,en-gb,en;q=0.7,*;q=0.3
+2016-05-27 01:53:17,604 INFO  http.Http - http.accept = text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+2016-05-27 01:53:18,602 INFO  fetcher.Fetcher - -activeThreads=10, spinWaiting=10, fetchQueues.totalSize=4
+2016-05-27 01:53:18,602 INFO  fetcher.Fetcher - * queue: http://nutch.apache.org
+2016-05-27 01:53:18,602 INFO  fetcher.Fetcher -   maxThreads    = 1
+2016-05-27 01:53:18,602 INFO  fetcher.Fetcher -   inProgress    = 0
+2016-05-27 01:53:18,602 INFO  fetcher.Fetcher -   crawlDelay    = 5000
+2016-05-27 01:53:18,602 INFO  fetcher.Fetcher -   minCrawlDelay = 0
+2016-05-27 01:53:18,602 INFO  fetcher.Fetcher -   nextFetchTime = 1464328403072
+2016-05-27 01:53:18,602 INFO  fetcher.Fetcher -   now           = 1464328398602
+2016-05-27 01:53:18,602 INFO  fetcher.Fetcher -   0. http://nutch.apache.org/apidocs/apidocs-1.11/index.html
+2016-05-27 01:53:18,602 INFO  fetcher.Fetcher -   1. http://nutch.apache.org/apidocs/apidocs-1.3/index.html
+2016-05-27 01:53:18,602 INFO  fetcher.Fetcher -   2. http://nutch.apache.org/apidocs/apidocs-1.10/index.html
+2016-05-27 01:53:18,602 INFO  fetcher.Fetcher -   3. http://nutch.apache.org/apidocs/apidocs-1.2/index.html
+2016-05-27 01:53:19,616 INFO  fetcher.Fetcher - -activeThreads=10, spinWaiting=10, fetchQueues.totalSize=4
+2016-05-27 01:53:19,616 INFO  fetcher.Fetcher - * queue: http://nutch.apache.org
+2016-05-27 01:53:19,616 INFO  fetcher.Fetcher -   maxThreads    = 1
+2016-05-27 01:53:19,616 INFO  fetcher.Fetcher -   inProgress    = 0
+2016-05-27 01:53:19,616 INFO  fetcher.Fetcher -   crawlDelay    = 5000
+2016-05-27 01:53:19,616 INFO  fetcher.Fetcher -   minCrawlDelay = 0
+2016-05-27 01:53:19,616 INFO  fetcher.Fetcher -   nextFetchTime = 1464328403072
+2016-05-27 01:53:19,616 INFO  fetcher.Fetcher -   now           = 1464328399616
+2016-05-27 01:53:19,616 INFO  fetcher.Fetcher -   0. http://nutch.apache.org/apidocs/apidocs-1.11/index.html
+2016-05-27 01:53:19,616 INFO  fetcher.Fetcher -   1. http://nutch.apache.org/apidocs/apidocs-1.3/index.html
+2016-05-27 01:53:19,616 INFO  fetcher.Fetcher -   2. http://nutch.apache.org/apidocs/apidocs-1.10/index.html
+2016-05-27 01:53:19,616 INFO  fetcher.Fetcher -   3. http://nutch.apache.org/apidocs/apidocs-1.2/index.html
+2016-05-27 01:53:20,630 INFO  fetcher.Fetcher - -activeThreads=10, spinWaiting=10, fetchQueues.totalSize=4
+2016-05-27 01:53:20,630 INFO  fetcher.Fetcher - * queue: http://nutch.apache.org
+2016-05-27 01:53:20,630 INFO  fetcher.Fetcher -   maxThreads    = 1
+2016-05-27 01:53:20,630 INFO  fetcher.Fetcher -   inProgress    = 0
+2016-05-27 01:53:20,630 INFO  fetcher.Fetcher -   crawlDelay    = 5000
+2016-05-27 01:53:20,630 INFO  fetcher.Fetcher -   minCrawlDelay = 0
+2016-05-27 01:53:20,630 INFO  fetcher.Fetcher -   nextFetchTime = 1464328403072
+2016-05-27 01:53:20,630 INFO  fetcher.Fetcher -   now           = 1464328400630
+2016-05-27 01:53:20,630 INFO  fetcher.Fetcher -   0. http://nutch.apache.org/apidocs/apidocs-1.11/index.html
+2016-05-27 01:53:20,630 INFO  fetcher.Fetcher -   1. http://nutch.apache.org/apidocs/apidocs-1.3/index.html
+2016-05-27 01:53:20,630 INFO  fetcher.Fetcher -   2. http://nutch.apache.org/apidocs/apidocs-1.10/index.html
+2016-05-27 01:53:20,630 INFO  fetcher.Fetcher -   3. http://nutch.apache.org/apidocs/apidocs-1.2/index.html
+2016-05-27 01:53:21,644 INFO  fetcher.Fetcher - -activeThreads=10, spinWaiting=10, fetchQueues.totalSize=4
+2016-05-27 01:53:21,644 INFO  fetcher.Fetcher - * queue: http://nutch.apache.org
+2016-05-27 01:53:21,644 INFO  fetcher.Fetcher -   maxThreads    = 1
+2016-05-27 01:53:21,644 INFO  fetcher.Fetcher -   inProgress    = 0
+2016-05-27 01:53:21,644 INFO  fetcher.Fetcher -   crawlDelay    = 5000
+2016-05-27 01:53:21,644 INFO  fetcher.Fetcher -   minCrawlDelay = 0
+2016-05-27 01:53:21,644 INFO  fetcher.Fetcher -   nextFetchTime = 1464328403072
+2016-05-27 01:53:21,644 INFO  fetcher.Fetcher -   now           = 1464328401644
+2016-05-27 01:53:21,644 INFO  fetcher.Fetcher -   0. http://nutch.apache.org/apidocs/apidocs-1.11/index.html
+2016-05-27 01:53:21,644 INFO  fetcher.Fetcher -   1. http://nutch.apache.org/apidocs/apidocs-1.3/index.html
+2016-05-27 01:53:21,644 INFO  fetcher.Fetcher -   2. http://nutch.apache.org/apidocs/apidocs-1.10/index.html
+2016-05-27 01:53:21,644 INFO  fetcher.Fetcher -   3. http://nutch.apache.org/apidocs/apidocs-1.2/index.html
+2016-05-27 01:53:22,658 INFO  fetcher.Fetcher - -activeThreads=10, spinWaiting=10, fetchQueues.totalSize=4
+2016-05-27 01:53:22,658 INFO  fetcher.Fetcher - * queue: http://nutch.apache.org
+2016-05-27 01:53:22,658 INFO  fetcher.Fetcher -   maxThreads    = 1
+2016-05-27 01:53:22,658 INFO  fetcher.Fetcher -   inProgress    = 0
+2016-05-27 01:53:22,658 INFO  fetcher.Fetcher -   crawlDelay    = 5000
+2016-05-27 01:53:22,658 INFO  fetcher.Fetcher -   minCrawlDelay = 0
+2016-05-27 01:53:22,658 INFO  fetcher.Fetcher -   nextFetchTime = 1464328403072
+2016-05-27 01:53:22,658 INFO  fetcher.Fetcher -   now           = 1464328402658
+2016-05-27 01:53:22,658 INFO  fetcher.Fetcher -   0. http://nutch.apache.org/apidocs/apidocs-1.11/index.html
+2016-05-27 01:53:22,658 INFO  fetcher.Fetcher -   1. http://nutch.apache.org/apidocs/apidocs-1.3/index.html
+2016-05-27 01:53:22,658 INFO  fetcher.Fetcher -   2. http://nutch.apache.org/apidocs/apidocs-1.10/index.html
+2016-05-27 01:53:22,658 INFO  fetcher.Fetcher -   3. http://nutch.apache.org/apidocs/apidocs-1.2/index.html
+2016-05-27 01:53:23,220 INFO  fetcher.Fetcher - fetching http://nutch.apache.org/apidocs/apidocs-1.11/index.html (queue crawl delay=5000ms)
+2016-05-27 01:53:23,672 INFO  fetcher.Fetcher - -activeThreads=10, spinWaiting=10, fetchQueues.totalSize=3
+2016-05-27 01:53:23,672 INFO  fetcher.Fetcher - * queue: http://nutch.apache.org
+2016-05-27 01:53:23,672 INFO  fetcher.Fetcher -   maxThreads    = 1
+2016-05-27 01:53:23,672 INFO  fetcher.Fetcher -   inProgress    = 0
+2016-05-27 01:53:23,672 INFO  fetcher.Fetcher -   crawlDelay    = 5000
+2016-05-27 01:53:23,672 INFO  fetcher.Fetcher -   minCrawlDelay = 0
+2016-05-27 01:53:23,672 INFO  fetcher.Fetcher -   nextFetchTime = 1464328408407
+2016-05-27 01:53:23,672 INFO  fetcher.Fetcher -   now           = 1464328403672
+2016-05-27 01:53:23,672 INFO  fetcher.Fetcher -   0. http://nutch.apache.org/apidocs/apidocs-1.3/index.html
+2016-05-27 01:53:23,672 INFO  fetcher.Fetcher -   1. http://nutch.apache.org/apidocs/apidocs-1.10/index.html
+2016-05-27 01:53:23,672 INFO  fetcher.Fetcher -   2. http://nutch.apache.org/apidocs/apidocs-1.2/index.html
+2016-05-27 01:53:24,686 INFO  fetcher.Fetcher - -activeThreads=10, spinWaiting=10, fetchQueues.totalSize=3
+2016-05-27 01:53:24,686 INFO  fetcher.Fetcher - * queue: http://nutch.apache.org
+2016-05-27 01:53:24,686 INFO  fetcher.Fetcher -   maxThreads    = 1
+2016-05-27 01:53:24,686 INFO  fetcher.Fetcher -   inProgress    = 0
+2016-05-27 01:53:24,686 INFO  fetcher.Fetcher -   crawlDelay    = 5000
+2016-05-27 01:53:24,686 INFO  fetcher.Fetcher -   minCrawlDelay = 0
+2016-05-27 01:53:24,686 INFO  fetcher.Fetcher -   nextFetchTime = 1464328408407
+2016-05-27 01:53:24,686 INFO  fetcher.Fetcher -   now           = 1464328404686
+2016-05-27 01:53:24,686 INFO  fetcher.Fetcher -   0. http://nutch.apache.org/apidocs/apidocs-1.3/index.html
+2016-05-27 01:53:24,686 INFO  fetcher.Fetcher -   1. http://nutch.apache.org/apidocs/apidocs-1.10/index.html
+2016-05-27 01:53:24,686 INFO  fetcher.Fetcher -   2. http://nutch.apache.org/apidocs/apidocs-1.2/index.html
+2016-05-27 01:53:25,700 INFO  fetcher.Fetcher - -activeThreads=10, spinWaiting=10, fetchQueues.totalSize=3
+2016-05-27 01:53:25,700 INFO  fetcher.Fetcher - * queue: http://nutch.apache.org
+2016-05-27 01:53:25,700 INFO  fetcher.Fetcher -   maxThreads    = 1
+2016-05-27 01:53:25,700 INFO  fetcher.Fetcher -   inProgress    = 0
+2016-05-27 01:53:25,700 INFO  fetcher.Fetcher -   crawlDelay    = 5000
+2016-05-27 01:53:25,700 INFO  fetcher.Fetcher -   minCrawlDelay = 0
+2016-05-27 01:53:25,700 INFO  fetcher.Fetcher -   nextFetchTime = 1464328408407
+2016-05-27 01:53:25,700 INFO  fetcher.Fetcher -   now           = 1464328405700
+2016-05-27 01:53:25,700 INFO  fetcher.Fetcher -   0. http://nutch.apache.org/apidocs/apidocs-1.3/index.html
+2016-05-27 01:53:25,700 INFO  fetcher.Fetcher -   1. http://nutch.apache.org/apidocs/apidocs-1.10/index.html
+2016-05-27 01:53:25,700 INFO  fetcher.Fetcher -   2. http://nutch.apache.org/apidocs/apidocs-1.2/index.html
+2016-05-27 01:53:26,714 INFO  fetcher.Fetcher - -activeThreads=10, spinWaiting=10, fetchQueues.totalSize=3
+2016-05-27 01:53:26,714 INFO  fetcher.Fetcher - * queue: http://nutch.apache.org
+2016-05-27 01:53:26,714 INFO  fetcher.Fetcher -   maxThreads    = 1
+2016-05-27 01:53:26,714 INFO  fetcher.Fetcher -   inProgress    = 0
+2016-05-27 01:53:26,714 INFO  fetcher.Fetcher -   crawlDelay    = 5000
+2016-05-27 01:53:26,714 INFO  fetcher.Fetcher -   minCrawlDelay = 0
+2016-05-27 01:53:26,714 INFO  fetcher.Fetcher -   nextFetchTime = 1464328408407
+2016-05-27 01:53:26,714 INFO  fetcher.Fetcher -   now           = 1464328406714
+2016-05-27 01:53:26,714 INFO  fetcher.Fetcher -   0. http://nutch.apache.org/apidocs/apidocs-1.3/index.html
+2016-05-27 01:53:26,714 INFO  fetcher.Fetcher -   1. http://nutch.apache.org/apidocs/apidocs-1.10/index.html
+2016-05-27 01:53:26,714 INFO  fetcher.Fetcher -   2. http://nutch.apache.org/apidocs/apidocs-1.2/index.html
+2016-05-27 01:53:27,728 INFO  fetcher.Fetcher - -activeThreads=10, spinWaiting=10, fetchQueues.totalSize=3
+2016-05-27 01:53:27,728 INFO  fetcher.Fetcher - * queue: http://nutch.apache.org
+2016-05-27 01:53:27,728 INFO  fetcher.Fetcher -   maxThreads    = 1
+2016-05-27 01:53:27,728 INFO  fetcher.Fetcher -   inProgress    = 0
+2016-05-27 01:53:27,728 INFO  fetcher.Fetcher -   crawlDelay    = 5000
+2016-05-27 01:53:27,728 INFO  fetcher.Fetcher -   minCrawlDelay = 0
+2016-05-27 01:53:27,728 INFO  fetcher.Fetcher -   nextFetchTime = 1464328408407
+2016-05-27 01:53:27,728 INFO  fetcher.Fetcher -   now           = 1464328407728
+2016-05-27 01:53:27,728 INFO  fetcher.Fetcher -   0. http://nutch.apache.org/apidocs/apidocs-1.3/index.html
+2016-05-27 01:53:27,728 INFO  fetcher.Fetcher -   1. http://nutch.apache.org/apidocs/apidocs-1.10/index.html
+2016-05-27 01:53:27,728 INFO  fetcher.Fetcher -   2. http://nutch.apache.org/apidocs/apidocs-1.2/index.html
+2016-05-27 01:53:28,555 INFO  fetcher.Fetcher - fetching http://nutch.apache.org/apidocs/apidocs-1.3/index.html (queue crawl delay=5000ms)
+2016-05-27 01:53:28,742 INFO  fetcher.Fetcher - -activeThreads=10, spinWaiting=10, fetchQueues.totalSize=2
+2016-05-27 01:53:28,742 INFO  fetcher.Fetcher - * queue: http://nutch.apache.org
+2016-05-27 01:53:28,742 INFO  fetcher.Fetcher -   maxThreads    = 1
+2016-05-27 01:53:28,742 INFO  fetcher.Fetcher -   inProgress    = 0
+2016-05-27 01:53:28,742 INFO  fetcher.Fetcher -   crawlDelay    = 5000
+2016-05-27 01:53:28,742 INFO  fetcher.Fetcher -   minCrawlDelay = 0
+2016-05-27 01:53:28,742 INFO  fetcher.Fetcher -   nextFetchTime = 1464328413727
+2016-05-27 01:53:28,742 INFO  fetcher.Fetcher -   now           = 1464328408742
+2016-05-27 01:53:28,742 INFO  fetcher.Fetcher -   0. http://nutch.apache.org/apidocs/apidocs-1.10/index.html
+2016-05-27 01:53:28,742 INFO  fetcher.Fetcher -   1. http://nutch.apache.org/apidocs/apidocs-1.2/index.html
+2016-05-27 01:53:29,756 INFO  fetcher.Fetcher - -activeThreads=10, spinWaiting=10, fetchQueues.totalSize=2
+2016-05-27 01:53:29,756 INFO  fetcher.Fetcher - * queue: http://nutch.apache.org
+2016-05-27 01:53:29,756 INFO  fetcher.Fetcher -   maxThreads    = 1
+2016-05-27 01:53:29,756 INFO  fetcher.Fetcher -   inProgress    = 0
+2016-05-27 01:53:29,756 INFO  fetcher.Fetcher -   crawlDelay    = 5000
+2016-05-27 01:53:29,756 INFO  fetcher.Fetcher -   minCrawlDelay = 0
+2016-05-27 01:53:29,756 INFO  fetcher.Fetcher -   nextFetchTime = 1464328413727
+2016-05-27 01:53:29,756 INFO  fetcher.Fetcher -   now           = 1464328409756
+2016-05-27 01:53:29,756 INFO  fetcher.Fetcher -   0. http://nutch.apache.org/apidocs/apidocs-1.10/index.html
+2016-05-27 01:53:29,756 INFO  fetcher.Fetcher -   1. http://nutch.apache.org/apidocs/apidocs-1.2/index.html
+2016-05-27 01:53:30,770 INFO  fetcher.Fetcher - -activeThreads=10, spinWaiting=10, fetchQueues.totalSize=2
+2016-05-27 01:53:30,770 INFO  fetcher.Fetcher - * queue: http://nutch.apache.org
+2016-05-27 01:53:30,770 INFO  fetcher.Fetcher -   maxThreads    = 1
+2016-05-27 01:53:30,770 INFO  fetcher.Fetcher -   inProgress    = 0
+2016-05-27 01:53:30,770 INFO  fetcher.Fetcher -   crawlDelay    = 5000
+2016-05-27 01:53:30,770 INFO  fetcher.Fetcher -   minCrawlDelay = 0
+2016-05-27 01:53:30,770 INFO  fetcher.Fetcher -   nextFetchTime = 1464328413727
+2016-05-27 01:53:30,770 INFO  fetcher.Fetcher -   now           = 1464328410770
+2016-05-27 01:53:30,770 INFO  fetcher.Fetcher -   0. http://nutch.apache.org/apidocs/apidocs-1.10/index.html
+2016-05-27 01:53:30,770 INFO  fetcher.Fetcher -   1. http://nutch.apache.org/apidocs/apidocs-1.2/index.html
+2016-05-27 01:53:31,784 INFO  fetcher.Fetcher - -activeThreads=10, spinWaiting=10, fetchQueues.totalSize=2
+2016-05-27 01:53:31,784 INFO  fetcher.Fetcher - * queue: http://nutch.apache.org
+2016-05-27 01:53:31,784 INFO  fetcher.Fetcher -   maxThreads    = 1
+2016-05-27 01:53:31,784 INFO  fetcher.Fetcher -   inProgress    = 0
+2016-05-27 01:53:31,784 INFO  fetcher.Fetcher -   crawlDelay    = 5000
+2016-05-27 01:53:31,784 INFO  fetcher.Fetcher -   minCrawlDelay = 0
+2016-05-27 01:53:31,784 INFO  fetcher.Fetcher -   nextFetchTime = 1464328413727
+2016-05-27 01:53:31,784 INFO  fetcher.Fetcher -   now           = 1464328411784
+2016-05-27 01:53:31,784 INFO  fetcher.Fetcher -   0. http://nutch.apache.org/apidocs/apidocs-1.10/index.html
+2016-05-27 01:53:31,784 INFO  fetcher.Fetcher -   1. http://nutch.apache.org/apidocs/apidocs-1.2/index.html
+2016-05-27 01:53:32,798 INFO  fetcher.Fetcher - -activeThreads=10, spinWaiting=10, fetchQueues.totalSize=2
+2016-05-27 01:53:32,798 INFO  fetcher.Fetcher - * queue: http://nutch.apache.org
+2016-05-27 01:53:32,798 INFO  fetcher.Fetcher -   maxThreads    = 1
+2016-05-27 01:53:32,798 INFO  fetcher.Fetcher -   inProgress    = 0
+2016-05-27 01:53:32,798 INFO  fetcher.Fetcher -   crawlDelay    = 5000
+2016-05-27 01:53:32,798 INFO  fetcher.Fetcher -   minCrawlDelay = 0
+2016-05-27 01:53:32,798 INFO  fetcher.Fetcher -   nextFetchTime = 1464328413727
+2016-05-27 01:53:32,798 INFO  fetcher.Fetcher -   now           = 1464328412798
+2016-05-27 01:53:32,798 INFO  fetcher.Fetcher -   0. http://nutch.apache.org/apidocs/apidocs-1.10/index.html
+2016-05-27 01:53:32,798 INFO  fetcher.Fetcher -   1. http://nutch.apache.org/apidocs/apidocs-1.2/index.html
+2016-05-27 01:53:33,812 INFO  fetcher.Fetcher - -activeThreads=10, spinWaiting=10, fetchQueues.totalSize=2
+2016-05-27 01:53:33,812 INFO  fetcher.Fetcher - * queue: http://nutch.apache.org
+2016-05-27 01:53:33,812 INFO  fetcher.Fetcher -   maxThreads    = 1
+2016-05-27 01:53:33,812 INFO  fetcher.Fetcher -   inProgress    = 0
+2016-05-27 01:53:33,812 INFO  fetcher.Fetcher -   crawlDelay    = 5000
+2016-05-27 01:53:33,812 INFO  fetcher.Fetcher -   minCrawlDelay = 0
+2016-05-27 01:53:33,812 INFO  fetcher.Fetcher -   nextFetchTime = 1464328413727
+2016-05-27 01:53:33,812 INFO  fetcher.Fetcher -   now           = 1464328413812
+2016-05-27 01:53:33,812 INFO  fetcher.Fetcher -   0. http://nutch.apache.org/apidocs/apidocs-1.10/index.html
+2016-05-27 01:53:33,812 INFO  fetcher.Fetcher -   1. http://nutch.apache.org/apidocs/apidocs-1.2/index.html
+2016-05-27 01:53:33,890 INFO  fetcher.Fetcher - fetching http://nutch.apache.org/apidocs/apidocs-1.10/index.html (queue crawl delay=5000ms)
+2016-05-27 01:53:34,826 INFO  fetcher.Fetcher - -activeThreads=10, spinWaiting=10, fetchQueues.totalSize=1
+2016-05-27 01:53:34,826 INFO  fetcher.Fetcher - * queue: http://nutch.apache.org
+2016-05-27 01:53:34,826 INFO  fetcher.Fetcher -   maxThreads    = 1
+2016-05-27 01:53:34,826 INFO  fetcher.Fetcher -   inProgress    = 0
+2016-05-27 01:53:34,826 INFO  fetcher.Fetcher -   crawlDelay    = 5000
+2016-05-27 01:53:34,826 INFO  fetcher.Fetcher -   minCrawlDelay = 0
+2016-05-27 01:53:34,826 INFO  fetcher.Fetcher -   nextFetchTime = 1464328419062
+2016-05-27 01:53:34,826 INFO  fetcher.Fetcher -   now           = 1464328414826
+2016-05-27 01:53:34,826 INFO  fetcher.Fetcher -   0. http://nutch.apache.org/apidocs/apidocs-1.2/index.html
+2016-05-27 01:53:35,840 INFO  fetcher.Fetcher - -activeThreads=10, spinWaiting=10, fetchQueues.totalSize=1
+2016-05-27 01:53:35,840 INFO  fetcher.Fetcher - * queue: http://nutch.apache.org
+2016-05-27 01:53:35,840 INFO  fetcher.Fetcher -   maxThreads    = 1
+2016-05-27 01:53:35,840 INFO  fetcher.Fetcher -   inProgress    = 0
+2016-05-27 01:53:35,840 INFO  fetcher.Fetcher -   crawlDelay    = 5000
+2016-05-27 01:53:35,840 INFO  fetcher.Fetcher -   minCrawlDelay = 0
+2016-05-27 01:53:35,840 INFO  fetcher.Fetcher -   nextFetchTime = 1464328419062
+2016-05-27 01:53:35,840 INFO  fetcher.Fetcher -   now           = 1464328415840
+2016-05-27 01:53:35,840 INFO  fetcher.Fetcher -   0. http://nutch.apache.org/apidocs/apidocs-1.2/index.html
+2016-05-27 01:53:36,854 INFO  fetcher.Fetcher - -activeThreads=10, spinWaiting=10, fetchQueues.totalSize=1
+2016-05-27 01:53:36,854 INFO  fetcher.Fetcher - * queue: http://nutch.apache.org
+2016-05-27 01:53:36,854 INFO  fetcher.Fetcher -   maxThreads    = 1
+2016-05-27 01:53:36,854 INFO  fetcher.Fetcher -   inProgress    = 0
+2016-05-27 01:53:36,854 INFO  fetcher.Fetcher -   crawlDelay    = 5000
+2016-05-27 01:53:36,854 INFO  fetcher.Fetcher -   minCrawlDelay = 0
+2016-05-27 01:53:36,854 INFO  fetcher.Fetcher -   nextFetchTime = 1464328419062
+2016-05-27 01:53:36,854 INFO  fetcher.Fetcher -   now           = 1464328416854
+2016-05-27 01:53:36,854 INFO  fetcher.Fetcher -   0. http://nutch.apache.org/apidocs/apidocs-1.2/index.html
+2016-05-27 01:53:37,868 INFO  fetcher.Fetcher - -activeThreads=10, spinWaiting=10, fetchQueues.totalSize=1
+2016-05-27 01:53:37,868 INFO  fetcher.Fetcher - * queue: http://nutch.apache.org
+2016-05-27 01:53:37,868 INFO  fetcher.Fetcher -   maxThreads    = 1
+2016-05-27 01:53:37,868 INFO  fetcher.Fetcher -   inProgress    = 0
+2016-05-27 01:53:37,868 INFO  fetcher.Fetcher -   crawlDelay    = 5000
+2016-05-27 01:53:37,868 INFO  fetcher.Fetcher -   minCrawlDelay = 0
+2016-05-27 01:53:37,868 INFO  fetcher.Fetcher -   nextFetchTime = 1464328419062
+2016-05-27 01:53:37,868 INFO  fetcher.Fetcher -   now           = 1464328417868
+2016-05-27 01:53:37,868 INFO  fetcher.Fetcher -   0. http://nutch.apache.org/apidocs/apidocs-1.2/index.html
+2016-05-27 01:53:38,882 INFO  fetcher.Fetcher - -activeThreads=10, spinWaiting=10, fetchQueues.totalSize=1
+2016-05-27 01:53:38,882 INFO  fetcher.Fetcher - * queue: http://nutch.apache.org
+2016-05-27 01:53:38,882 INFO  fetcher.Fetcher -   maxThreads    = 1
+2016-05-27 01:53:38,882 INFO  fetcher.Fetcher -   inProgress    = 0
+2016-05-27 01:53:38,882 INFO  fetcher.Fetcher -   crawlDelay    = 5000
+2016-05-27 01:53:38,882 INFO  fetcher.Fetcher -   minCrawlDelay = 0
+2016-05-27 01:53:38,882 INFO  fetcher.Fetcher -   nextFetchTime = 1464328419062
+2016-05-27 01:53:38,882 INFO  fetcher.Fetcher -   now           = 1464328418882
+2016-05-27 01:53:38,882 INFO  fetcher.Fetcher -   0. http://nutch.apache.org/apidocs/apidocs-1.2/index.html
+2016-05-27 01:53:39,210 INFO  fetcher.Fetcher - fetching http://nutch.apache.org/apidocs/apidocs-1.2/index.html (queue crawl delay=5000ms)
+2016-05-27 01:53:39,210 INFO  fetcher.Fetcher - -finishing thread FetcherThread, activeThreads=9
+2016-05-27 01:53:39,210 INFO  fetcher.Fetcher - -finishing thread FetcherThread, activeThreads=8
+2016-05-27 01:53:39,210 INFO  fetcher.Fetcher - -finishing thread FetcherThread, activeThreads=7
+2016-05-27 01:53:39,210 INFO  fetcher.Fetcher - -finishing thread FetcherThread, activeThreads=2
+2016-05-27 01:53:39,210 INFO  fetcher.Fetcher - -finishing thread FetcherThread, activeThreads=3
+2016-05-27 01:53:39,210 INFO  fetcher.Fetcher - -finishing thread FetcherThread, activeThreads=4
+2016-05-27 01:53:39,210 INFO  fetcher.Fetcher - -finishing thread FetcherThread, activeThreads=5
+2016-05-27 01:53:39,210 INFO  fetcher.Fetcher - -finishing thread FetcherThread, activeThreads=6
+2016-05-27 01:53:39,225 INFO  fetcher.Fetcher - -finishing thread FetcherThread, activeThreads=1
+2016-05-27 01:53:39,397 INFO  fetcher.Fetcher - -finishing thread FetcherThread, activeThreads=0
+2016-05-27 01:53:39,896 INFO  fetcher.Fetcher - -activeThreads=0, spinWaiting=0, fetchQueues.totalSize=0
+2016-05-27 01:53:39,896 INFO  fetcher.Fetcher - -activeThreads=0
+2016-05-27 01:53:40,817 INFO  fetcher.Fetcher - Fetcher: finished at 2016-05-27 01:53:40, elapsed: 00:00:23
+2016-05-27 01:53:40,817 INFO  parse.ParseSegment - ParseSegment: starting at 2016-05-27 01:53:40
+2016-05-27 01:53:40,817 INFO  parse.ParseSegment - ParseSegment: segment: crawl/segments/20160527015316
+2016-05-27 01:53:41,331 INFO  crawl.SignatureFactory - Using Signature impl: org.apache.nutch.crawl.MD5Signature
+2016-05-27 01:53:41,331 INFO  parse.ParseSegment - Parsed (0ms):http://nutch.apache.org/apidocs/apidocs-1.1/index.html
+2016-05-27 01:53:41,331 INFO  parse.ParseSegment - Parsed (0ms):http://nutch.apache.org/apidocs/apidocs-1.10/index.html
+2016-05-27 01:53:41,347 INFO  parse.ParseSegment - Parsed (0ms):http://nutch.apache.org/apidocs/apidocs-1.11/index.html
+2016-05-27 01:53:41,347 INFO  parse.ParseSegment - Parsed (0ms):http://nutch.apache.org/apidocs/apidocs-1.2/index.html
+2016-05-27 01:53:41,347 INFO  parse.ParseSegment - Parsed (0ms):http://nutch.apache.org/apidocs/apidocs-1.3/index.html
+2016-05-27 01:53:41,534 INFO  regex.RegexURLNormalizer - can't find rules for scope 'outlink', using default
+2016-05-27 01:53:42,111 INFO  parse.ParseSegment - ParseSegment: finished at 2016-05-27 01:53:42, elapsed: 00:00:01
+2016-05-27 01:53:42,143 INFO  crawl.CrawlDb - CrawlDb update: starting at 2016-05-27 01:53:42
+2016-05-27 01:53:42,143 INFO  crawl.CrawlDb - CrawlDb update: db: crawl/crawldb
+2016-05-27 01:53:42,143 INFO  crawl.CrawlDb - CrawlDb update: segments: [crawl/segments/20160527015316]
+2016-05-27 01:53:42,143 INFO  crawl.CrawlDb - CrawlDb update: additions allowed: true
+2016-05-27 01:53:42,143 INFO  crawl.CrawlDb - CrawlDb update: URL normalizing: true
+2016-05-27 01:53:42,143 INFO  crawl.CrawlDb - CrawlDb update: URL filtering: true
+2016-05-27 01:53:42,143 INFO  crawl.CrawlDb - CrawlDb update: 404 purging: false
+2016-05-27 01:53:42,143 INFO  crawl.CrawlDb - CrawlDb update: Merging segment data into db.
+2016-05-27 01:53:42,486 INFO  regex.RegexURLNormalizer - can't find rules for scope 'crawldb', using default
+2016-05-27 01:53:42,626 INFO  regex.RegexURLNormalizer - can't find rules for scope 'crawldb', using default
+2016-05-27 01:53:42,720 INFO  regex.RegexURLNormalizer - can't find rules for scope 'crawldb', using default
+2016-05-27 01:53:42,735 INFO  crawl.FetchScheduleFactory - Using FetchSchedule impl: org.apache.nutch.crawl.DefaultFetchSchedule
+2016-05-27 01:53:42,735 INFO  crawl.AbstractFetchSchedule - defaultInterval=2592000
+2016-05-27 01:53:42,735 INFO  crawl.AbstractFetchSchedule - maxInterval=7776000
+2016-05-27 01:53:43,406 INFO  crawl.CrawlDb - CrawlDb update: finished at 2016-05-27 01:53:43, elapsed: 00:00:01
+2016-05-27 01:53:43,437 INFO  crawl.Generator - Generator: starting at 2016-05-27 01:53:43
+2016-05-27 01:53:43,437 INFO  crawl.Generator - Generator: Selecting best-scoring urls due for fetch.
+2016-05-27 01:53:43,437 INFO  crawl.Generator - Generator: filtering: true
+2016-05-27 01:53:43,437 INFO  crawl.Generator - Generator: normalizing: true
+2016-05-27 01:53:43,437 INFO  crawl.Generator - Generator: topN: 5
+2016-05-27 01:53:43,437 INFO  crawl.Generator - Generator: jobtracker is 'local', generating exactly one partition.
+2016-05-27 01:53:43,765 INFO  crawl.FetchScheduleFactory - Using FetchSchedule impl: org.apache.nutch.crawl.DefaultFetchSchedule
+2016-05-27 01:53:43,765 INFO  crawl.AbstractFetchSchedule - defaultInterval=2592000
+2016-05-27 01:53:43,765 INFO  crawl.AbstractFetchSchedule - maxInterval=7776000
+2016-05-27 01:53:43,765 INFO  regex.RegexURLNormalizer - can't find rules for scope 'partition', using default
+2016-05-27 01:53:43,796 INFO  crawl.FetchScheduleFactory - Using FetchSchedule impl: org.apache.nutch.crawl.DefaultFetchSchedule
+2016-05-27 01:53:43,796 INFO  crawl.AbstractFetchSchedule - defaultInterval=2592000
+2016-05-27 01:53:43,796 INFO  crawl.AbstractFetchSchedule - maxInterval=7776000
+2016-05-27 01:53:43,796 INFO  regex.RegexURLNormalizer - can't find rules for scope 'generate_host_count', using default
+2016-05-27 01:53:44,685 INFO  crawl.Generator - Generator: Partitioning selected urls for politeness.
+2016-05-27 01:53:45,699 INFO  crawl.Generator - Generator: segment: crawl/segments/20160527015345
+2016-05-27 01:53:46,011 INFO  regex.RegexURLNormalizer - can't find rules for scope 'partition', using default
+2016-05-27 01:53:46,932 INFO  crawl.Generator - Generator: finished at 2016-05-27 01:53:46, elapsed: 00:00:03
+2016-05-27 01:53:46,932 WARN  fetcher.Fetcher - Fetcher: Your 'http.agent.name' value should be listed first in 'http.robots.agents' property.
+2016-05-27 01:53:46,932 INFO  fetcher.Fetcher - Fetcher: starting at 2016-05-27 01:53:46
+2016-05-27 01:53:46,932 INFO  fetcher.Fetcher - Fetcher: segment: crawl/segments/20160527015345
+2016-05-27 01:53:47,244 INFO  fetcher.Fetcher - Using queue mode : byHost
+2016-05-27 01:53:47,244 INFO  fetcher.Fetcher - Fetcher: threads: 10
+2016-05-27 01:53:47,244 INFO  fetcher.Fetcher - Fetcher: time-out divisor: 2
+2016-05-27 01:53:47,244 INFO  fetcher.Fetcher - QueueFeeder finished: total 5 records + hit by time limit :0
+2016-05-27 01:53:47,259 INFO  fetcher.Fetcher - Using queue mode : byHost
+2016-05-27 01:53:47,259 INFO  fetcher.Fetcher - Using queue mode : byHost
+2016-05-27 01:53:47,259 INFO  fetcher.Fetcher - fetching http://nutch.apache.org/miredot/1.11/index.html (queue crawl delay=5000ms)
+2016-05-27 01:53:47,259 ERROR protocol.RobotRulesParser - Agent we advertise (Maciej Medyk Nutch Spider) not listed first in 'http.robots.agents' property!
+2016-05-27 01:53:47,259 INFO  http.Http - http.proxy.host = null
+2016-05-27 01:53:47,259 INFO  http.Http - http.proxy.port = 8080
+2016-05-27 01:53:47,259 INFO  http.Http - http.timeout = 10000
+2016-05-27 01:53:47,259 INFO  http.Http - http.content.limit = 65536
+2016-05-27 01:53:47,259 INFO  fetcher.Fetcher - Using queue mode : byHost
+2016-05-27 01:53:47,259 INFO  http.Http - http.agent = Maciej Medyk Nutch Spider/Nutch-1.7
+2016-05-27 01:53:47,259 INFO  http.Http - http.accept.language = en-us,en-gb,en;q=0.7,*;q=0.3
+2016-05-27 01:53:47,259 INFO  http.Http - http.accept = text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+2016-05-27 01:53:47,259 INFO  fetcher.Fetcher - Using queue mode : byHost
+2016-05-27 01:53:47,259 INFO  fetcher.Fetcher - Using queue mode : byHost
+2016-05-27 01:53:47,259 INFO  fetcher.Fetcher - Using queue mode : byHost
+2016-05-27 01:53:47,259 INFO  fetcher.Fetcher - Using queue mode : byHost
+2016-05-27 01:53:47,259 INFO  fetcher.Fetcher - Using queue mode : byHost
+2016-05-27 01:53:47,259 INFO  fetcher.Fetcher - Using queue mode : byHost
+2016-05-27 01:53:47,259 INFO  fetcher.Fetcher - Using queue mode : byHost
+2016-05-27 01:53:47,259 INFO  fetcher.Fetcher - Fetcher: throughput threshold: -1
+2016-05-27 01:53:47,259 INFO  fetcher.Fetcher - Fetcher: throughput threshold retries: 5
+2016-05-27 01:53:48,273 INFO  fetcher.Fetcher - -activeThreads=10, spinWaiting=10, fetchQueues.totalSize=4
+2016-05-27 01:53:48,273 INFO  fetcher.Fetcher - * queue: http://nutch.apache.org
+2016-05-27 01:53:48,273 INFO  fetcher.Fetcher -   maxThreads    = 1
+2016-05-27 01:53:48,273 INFO  fetcher.Fetcher -   inProgress    = 0
+2016-05-27 01:53:48,273 INFO  fetcher.Fetcher -   crawlDelay    = 5000
+2016-05-27 01:53:48,273 INFO  fetcher.Fetcher -   minCrawlDelay = 0
+2016-05-27 01:53:48,273 INFO  fetcher.Fetcher -   nextFetchTime = 1464328432447
+2016-05-27 01:53:48,273 INFO  fetcher.Fetcher -   now           = 1464328428273
+2016-05-27 01:53:48,273 INFO  fetcher.Fetcher -   0. http://nutch.apache.org/apidocs/apidocs-1.5/index.html
+2016-05-27 01:53:48,273 INFO  fetcher.Fetcher -   1. http://nutch.apache.org/apidocs/apidocs-1.4/index.html
+2016-05-27 01:53:48,273 INFO  fetcher.Fetcher -   2. http://nutch.apache.org/apidocs/apidocs-1.7/index.html
+2016-05-27 01:53:48,273 INFO  fetcher.Fetcher -   3. http://nutch.apache.org/apidocs/apidocs-1.6/index.html
+2016-05-27 01:53:49,287 INFO  fetcher.Fetcher - -activeThreads=10, spinWaiting=10, fetchQueues.totalSize=4
+2016-05-27 01:53:49,287 INFO  fetcher.Fetcher - * queue: http://nutch.apache.org
+2016-05-27 01:53:49,287 INFO  fetcher.Fetcher -   maxThreads    = 1
+2016-05-27 01:53:49,287 INFO  fetcher.Fetcher -   inProgress    = 0
+2016-05-27 01:53:49,287 INFO  fetcher.Fetcher -   crawlDelay    = 5000
+2016-05-27 01:53:49,287 INFO  fetcher.Fetcher -   minCrawlDelay = 0
+2016-05-27 01:53:49,287 INFO  fetcher.Fetcher -   nextFetchTime = 1464328432447
+2016-05-27 01:53:49,287 INFO  fetcher.Fetcher -   now           = 1464328429287
+2016-05-27 01:53:49,287 INFO  fetcher.Fetcher -   0. http://nutch.apache.org/apidocs/apidocs-1.5/index.html
+2016-05-27 01:53:49,287 INFO  fetcher.Fetcher -   1. http://nutch.apache.org/apidocs/apidocs-1.4/index.html
+2016-05-27 01:53:49,287 INFO  fetcher.Fetcher -   2. http://nutch.apache.org/apidocs/apidocs-1.7/index.html
+2016-05-27 01:53:49,287 INFO  fetcher.Fetcher -   3. http://nutch.apache.org/apidocs/apidocs-1.6/index.html
+2016-05-27 01:53:50,301 INFO  fetcher.Fetcher - -activeThreads=10, spinWaiting=10, fetchQueues.totalSize=4
+2016-05-27 01:53:50,301 INFO  fetcher.Fetcher - * queue: http://nutch.apache.org
+2016-05-27 01:53:50,301 INFO  fetcher.Fetcher -   maxThreads    = 1
+2016-05-27 01:53:50,301 INFO  fetcher.Fetcher -   inProgress    = 0
+2016-05-27 01:53:50,301 INFO  fetcher.Fetcher -   crawlDelay    = 5000
+2016-05-27 01:53:50,301 INFO  fetcher.Fetcher -   minCrawlDelay = 0
+2016-05-27 01:53:50,301 INFO  fetcher.Fetcher -   nextFetchTime = 1464328432447
+2016-05-27 01:53:50,301 INFO  fetcher.Fetcher -   now           = 1464328430301
+2016-05-27 01:53:50,301 INFO  fetcher.Fetcher -   0. http://nutch.apache.org/apidocs/apidocs-1.5/index.html
+2016-05-27 01:53:50,301 INFO  fetcher.Fetcher -   1. http://nutch.apache.org/apidocs/apidocs-1.4/index.html
+2016-05-27 01:53:50,301 INFO  fetcher.Fetcher -   2. http://nutch.apache.org/apidocs/apidocs-1.7/index.html
+2016-05-27 01:53:50,301 INFO  fetcher.Fetcher -   3. http://nutch.apache.org/apidocs/apidocs-1.6/index.html
+2016-05-27 01:53:51,315 INFO  fetcher.Fetcher - -activeThreads=10, spinWaiting=10, fetchQueues.totalSize=4
+2016-05-27 01:53:51,315 INFO  fetcher.Fetcher - * queue: http://nutch.apache.org
+2016-05-27 01:53:51,315 INFO  fetcher.Fetcher -   maxThreads    = 1
+2016-05-27 01:53:51,315 INFO  fetcher.Fetcher -   inProgress    = 0
+2016-05-27 01:53:51,315 INFO  fetcher.Fetcher -   crawlDelay    = 5000
+2016-05-27 01:53:51,315 INFO  fetcher.Fetcher -   minCrawlDelay = 0
+2016-05-27 01:53:51,315 INFO  fetcher.Fetcher -   nextFetchTime = 1464328432447
+2016-05-27 01:53:51,315 INFO  fetcher.Fetcher -   now           = 1464328431315
+2016-05-27 01:53:51,315 INFO  fetcher.Fetcher -   0. http://nutch.apache.org/apidocs/apidocs-1.5/index.html
+2016-05-27 01:53:51,315 INFO  fetcher.Fetcher -   1. http://nutch.apache.org/apidocs/apidocs-1.4/index.html
+2016-05-27 01:53:51,315 INFO  fetcher.Fetcher -   2. http://nutch.apache.org/apidocs/apidocs-1.7/index.html
+2016-05-27 01:53:51,315 INFO  fetcher.Fetcher -   3. http://nutch.apache.org/apidocs/apidocs-1.6/index.html
+2016-05-27 01:53:52,329 INFO  fetcher.Fetcher - -activeThreads=10, spinWaiting=10, fetchQueues.totalSize=4
+2016-05-27 01:53:52,329 INFO  fetcher.Fetcher - * queue: http://nutch.apache.org
+2016-05-27 01:53:52,329 INFO  fetcher.Fetcher -   maxThreads    = 1
+2016-05-27 01:53:52,329 INFO  fetcher.Fetcher -   inProgress    = 0
+2016-05-27 01:53:52,329 INFO  fetcher.Fetcher -   crawlDelay    = 5000
+2016-05-27 01:53:52,329 INFO  fetcher.Fetcher -   minCrawlDelay = 0
+2016-05-27 01:53:52,329 INFO  fetcher.Fetcher -   nextFetchTime = 1464328432447
+2016-05-27 01:53:52,329 INFO  fetcher.Fetcher -   now           = 1464328432329
+2016-05-27 01:53:52,329 INFO  fetcher.Fetcher -   0. http://nutch.apache.org/apidocs/apidocs-1.5/index.html
+2016-05-27 01:53:52,329 INFO  fetcher.Fetcher -   1. http://nutch.apache.org/apidocs/apidocs-1.4/index.html
+2016-05-27 01:53:52,329 INFO  fetcher.Fetcher -   2. http://nutch.apache.org/apidocs/apidocs-1.7/index.html
+2016-05-27 01:53:52,329 INFO  fetcher.Fetcher -   3. http://nutch.apache.org/apidocs/apidocs-1.6/index.html
+2016-05-27 01:53:52,595 INFO  fetcher.Fetcher - fetching http://nutch.apache.org/apidocs/apidocs-1.5/index.html (queue crawl delay=5000ms)
+2016-05-27 01:53:53,343 INFO  fetcher.Fetcher - -activeThreads=10, spinWaiting=10, fetchQueues.totalSize=3
+2016-05-27 01:53:53,343 INFO  fetcher.Fetcher - * queue: http://nutch.apache.org
+2016-05-27 01:53:53,343 INFO  fetcher.Fetcher -   maxThreads    = 1
+2016-05-27 01:53:53,343 INFO  fetcher.Fetcher -   inProgress    = 0
+2016-05-27 01:53:53,343 INFO  fetcher.Fetcher -   crawlDelay    = 5000
+2016-05-27 01:53:53,343 INFO  fetcher.Fetcher -   minCrawlDelay = 0
+2016-05-27 01:53:53,343 INFO  fetcher.Fetcher -   nextFetchTime = 1464328437766
+2016-05-27 01:53:53,343 INFO  fetcher.Fetcher -   now           = 1464328433343
+2016-05-27 01:53:53,343 INFO  fetcher.Fetcher -   0. http://nutch.apache.org/apidocs/apidocs-1.4/index.html
+2016-05-27 01:53:53,343 INFO  fetcher.Fetcher -   1. http://nutch.apache.org/apidocs/apidocs-1.7/index.html
+2016-05-27 01:53:53,343 INFO  fetcher.Fetcher -   2. http://nutch.apache.org/apidocs/apidocs-1.6/index.html
+2016-05-27 01:53:54,357 INFO  fetcher.Fetcher - -activeThreads=10, spinWaiting=10, fetchQueues.totalSize=3
+2016-05-27 01:53:54,357 INFO  fetcher.Fetcher - * queue: http://nutch.apache.org
+2016-05-27 01:53:54,357 INFO  fetcher.Fetcher -   maxThreads    = 1
+2016-05-27 01:53:54,357 INFO  fetcher.Fetcher -   inProgress    = 0
+2016-05-27 01:53:54,357 INFO  fetcher.Fetcher -   crawlDelay    = 5000
+2016-05-27 01:53:54,357 INFO  fetcher.Fetcher -   minCrawlDelay = 0
+2016-05-27 01:53:54,357 INFO  fetcher.Fetcher -   nextFetchTime = 1464328437766
+2016-05-27 01:53:54,357 INFO  fetcher.Fetcher -   now           = 1464328434357
+2016-05-27 01:53:54,357 INFO  fetcher.Fetcher -   0. http://nutch.apache.org/apidocs/apidocs-1.4/index.html
+2016-05-27 01:53:54,357 INFO  fetcher.Fetcher -   1. http://nutch.apache.org/apidocs/apidocs-1.7/index.html
+2016-05-27 01:53:54,357 INFO  fetcher.Fetcher -   2. http://nutch.apache.org/apidocs/apidocs-1.6/index.html
+2016-05-27 01:53:55,371 INFO  fetcher.Fetcher - -activeThreads=10, spinWaiting=10, fetchQueues.totalSize=3
+2016-05-27 01:53:55,371 INFO  fetcher.Fetcher - * queue: http://nutch.apache.org
+2016-05-27 01:53:55,371 INFO  fetcher.Fetcher -   maxThreads    = 1
+2016-05-27 01:53:55,371 INFO  fetcher.Fetcher -   inProgress    = 0
+2016-05-27 01:53:55,371 INFO  fetcher.Fetcher -   crawlDelay    = 5000
+2016-05-27 01:53:55,371 INFO  fetcher.Fetcher -   minCrawlDelay = 0
+2016-05-27 01:53:55,371 INFO  fetcher.Fetcher -   nextFetchTime = 1464328437766
+2016-05-27 01:53:55,371 INFO  fetcher.Fetcher -   now           = 1464328435371
+2016-05-27 01:53:55,371 INFO  fetcher.Fetcher -   0. http://nutch.apache.org/apidocs/apidocs-1.4/index.html
+2016-05-27 01:53:55,371 INFO  fetcher.Fetcher -   1. http://nutch.apache.org/apidocs/apidocs-1.7/index.html
+2016-05-27 01:53:55,371 INFO  fetcher.Fetcher -   2. http://nutch.apache.org/apidocs/apidocs-1.6/index.html
+2016-05-27 01:53:56,385 INFO  fetcher.Fetcher - -activeThreads=10, spinWaiting=10, fetchQueues.totalSize=3
+2016-05-27 01:53:56,385 INFO  fetcher.Fetcher - * queue: http://nutch.apache.org
+2016-05-27 01:53:56,385 INFO  fetcher.Fetcher -   maxThreads    = 1
+2016-05-27 01:53:56,385 INFO  fetcher.Fetcher -   inProgress    = 0
+2016-05-27 01:53:56,385 INFO  fetcher.Fetcher -   crawlDelay    = 5000
+2016-05-27 01:53:56,385 INFO  fetcher.Fetcher -   minCrawlDelay = 0
+2016-05-27 01:53:56,385 INFO  fetcher.Fetcher -   nextFetchTime = 1464328437766
+2016-05-27 01:53:56,385 INFO  fetcher.Fetcher -   now           = 1464328436385
+2016-05-27 01:53:56,385 INFO  fetcher.Fetcher -   0. http://nutch.apache.org/apidocs/apidocs-1.4/index.html
+2016-05-27 01:53:56,385 INFO  fetcher.Fetcher -   1. http://nutch.apache.org/apidocs/apidocs-1.7/index.html
+2016-05-27 01:53:56,385 INFO  fetcher.Fetcher -   2. http://nutch.apache.org/apidocs/apidocs-1.6/index.html
+2016-05-27 01:53:57,399 INFO  fetcher.Fetcher - -activeThreads=10, spinWaiting=10, fetchQueues.totalSize=3
+2016-05-27 01:53:57,399 INFO  fetcher.Fetcher - * queue: http://nutch.apache.org
+2016-05-27 01:53:57,399 INFO  fetcher.Fetcher -   maxThreads    = 1
+2016-05-27 01:53:57,399 INFO  fetcher.Fetcher -   inProgress    = 0
+2016-05-27 01:53:57,399 INFO  fetcher.Fetcher -   crawlDelay    = 5000
+2016-05-27 01:53:57,399 INFO  fetcher.Fetcher -   minCrawlDelay = 0
+2016-05-27 01:53:57,399 INFO  fetcher.Fetcher -   nextFetchTime = 1464328437766
+2016-05-27 01:53:57,399 INFO  fetcher.Fetcher -   now           = 1464328437399
+2016-05-27 01:53:57,399 INFO  fetcher.Fetcher -   0. http://nutch.apache.org/apidocs/apidocs-1.4/index.html
+2016-05-27 01:53:57,399 INFO  fetcher.Fetcher -   1. http://nutch.apache.org/apidocs/apidocs-1.7/index.html
+2016-05-27 01:53:57,399 INFO  fetcher.Fetcher -   2. http://nutch.apache.org/apidocs/apidocs-1.6/index.html
+2016-05-27 01:53:57,914 INFO  fetcher.Fetcher - fetching http://nutch.apache.org/apidocs/apidocs-1.4/index.html (queue crawl delay=5000ms)
+2016-05-27 01:53:58,413 INFO  fetcher.Fetcher - -activeThreads=10, spinWaiting=10, fetchQueues.totalSize=2
+2016-05-27 01:53:58,413 INFO  fetcher.Fetcher - * queue: http://nutch.apache.org
+2016-05-27 01:53:58,413 INFO  fetcher.Fetcher -   maxThreads    = 1
+2016-05-27 01:53:58,413 INFO  fetcher.Fetcher -   inProgress    = 0
+2016-05-27 01:53:58,413 INFO  fetcher.Fetcher -   crawlDelay    = 5000
+2016-05-27 01:53:58,413 INFO  fetcher.Fetcher -   minCrawlDelay = 0
+2016-05-27 01:53:58,413 INFO  fetcher.Fetcher -   nextFetchTime = 1464328443086
+2016-05-27 01:53:58,413 INFO  fetcher.Fetcher -   now           = 1464328438413
+2016-05-27 01:53:58,413 INFO  fetcher.Fetcher -   0. http://nutch.apache.org/apidocs/apidocs-1.7/index.html
+2016-05-27 01:53:58,413 INFO  fetcher.Fetcher -   1. http://nutch.apache.org/apidocs/apidocs-1.6/index.html
+2016-05-27 01:53:59,427 INFO  fetcher.Fetcher - -activeThreads=10, spinWaiting=10, fetchQueues.totalSize=2
+2016-05-27 01:53:59,427 INFO  fetcher.Fetcher - * queue: http://nutch.apache.org
+2016-05-27 01:53:59,427 INFO  fetcher.Fetcher -   maxThreads    = 1
+2016-05-27 01:53:59,427 INFO  fetcher.Fetcher -   inProgress    = 0
+2016-05-27 01:53:59,427 INFO  fetcher.Fetcher -   crawlDelay    = 5000
+2016-05-27 01:53:59,427 INFO  fetcher.Fetcher -   minCrawlDelay = 0
+2016-05-27 01:53:59,427 INFO  fetcher.Fetcher -   nextFetchTime = 1464328443086
+2016-05-27 01:53:59,427 INFO  fetcher.Fetcher -   now           = 1464328439427
+2016-05-27 01:53:59,427 INFO  fetcher.Fetcher -   0. http://nutch.apache.org/apidocs/apidocs-1.7/index.html
+2016-05-27 01:53:59,427 INFO  fetcher.Fetcher -   1. http://nutch.apache.org/apidocs/apidocs-1.6/index.html
+2016-05-27 01:54:00,441 INFO  fetcher.Fetcher - -activeThreads=10, spinWaiting=10, fetchQueues.totalSize=2
+2016-05-27 01:54:00,441 INFO  fetcher.Fetcher - * queue: http://nutch.apache.org
+2016-05-27 01:54:00,441 INFO  fetcher.Fetcher -   maxThreads    = 1
+2016-05-27 01:54:00,441 INFO  fetcher.Fetcher -   inProgress    = 0
+2016-05-27 01:54:00,441 INFO  fetcher.Fetcher -   crawlDelay    = 5000
+2016-05-27 01:54:00,441 INFO  fetcher.Fetcher -   minCrawlDelay = 0
+2016-05-27 01:54:00,441 INFO  fetcher.Fetcher -   nextFetchTime = 1464328443086
+2016-05-27 01:54:00,441 INFO  fetcher.Fetcher -   now           = 1464328440441
+2016-05-27 01:54:00,441 INFO  fetcher.Fetcher -   0. http://nutch.apache.org/apidocs/apidocs-1.7/index.html
+2016-05-27 01:54:00,441 INFO  fetcher.Fetcher -   1. http://nutch.apache.org/apidocs/apidocs-1.6/index.html
+2016-05-27 01:54:01,455 INFO  fetcher.Fetcher - -activeThreads=10, spinWaiting=10, fetchQueues.totalSize=2
+2016-05-27 01:54:01,455 INFO  fetcher.Fetcher - * queue: http://nutch.apache.org
+2016-05-27 01:54:01,455 INFO  fetcher.Fetcher -   maxThreads    = 1
+2016-05-27 01:54:01,455 INFO  fetcher.Fetcher -   inProgress    = 0
+2016-05-27 01:54:01,455 INFO  fetcher.Fetcher -   crawlDelay    = 5000
+2016-05-27 01:54:01,455 INFO  fetcher.Fetcher -   minCrawlDelay = 0
+2016-05-27 01:54:01,455 INFO  fetcher.Fetcher -   nextFetchTime = 1464328443086
+2016-05-27 01:54:01,455 INFO  fetcher.Fetcher -   now           = 1464328441455
+2016-05-27 01:54:01,455 INFO  fetcher.Fetcher -   0. http://nutch.apache.org/apidocs/apidocs-1.7/index.html
+2016-05-27 01:54:01,455 INFO  fetcher.Fetcher -   1. http://nutch.apache.org/apidocs/apidocs-1.6/index.html
+2016-05-27 01:54:02,469 INFO  fetcher.Fetcher - -activeThreads=10, spinWaiting=10, fetchQueues.totalSize=2
+2016-05-27 01:54:02,469 INFO  fetcher.Fetcher - * queue: http://nutch.apache.org
+2016-05-27 01:54:02,469 INFO  fetcher.Fetcher -   maxThreads    = 1
+2016-05-27 01:54:02,469 INFO  fetcher.Fetcher -   inProgress    = 0
+2016-05-27 01:54:02,469 INFO  fetcher.Fetcher -   crawlDelay    = 5000
+2016-05-27 01:54:02,469 INFO  fetcher.Fetcher -   minCrawlDelay = 0
+2016-05-27 01:54:02,469 INFO  fetcher.Fetcher -   nextFetchTime = 1464328443086
+2016-05-27 01:54:02,469 INFO  fetcher.Fetcher -   now           = 1464328442469
+2016-05-27 01:54:02,469 INFO  fetcher.Fetcher -   0. http://nutch.apache.org/apidocs/apidocs-1.7/index.html
+2016-05-27 01:54:02,469 INFO  fetcher.Fetcher -   1. http://nutch.apache.org/apidocs/apidocs-1.6/index.html
+2016-05-27 01:54:03,218 INFO  fetcher.Fetcher - fetching http://nutch.apache.org/apidocs/apidocs-1.7/index.html (queue crawl delay=5000ms)
+2016-05-27 01:54:03,483 INFO  fetcher.Fetcher - -activeThreads=10, spinWaiting=10, fetchQueues.totalSize=1
+2016-05-27 01:54:03,483 INFO  fetcher.Fetcher - * queue: http://nutch.apache.org
+2016-05-27 01:54:03,483 INFO  fetcher.Fetcher -   maxThreads    = 1
+2016-05-27 01:54:03,483 INFO  fetcher.Fetcher -   inProgress    = 0
+2016-05-27 01:54:03,483 INFO  fetcher.Fetcher -   crawlDelay    = 5000
+2016-05-27 01:54:03,483 INFO  fetcher.Fetcher -   minCrawlDelay = 0
+2016-05-27 01:54:03,483 INFO  fetcher.Fetcher -   nextFetchTime = 1464328448405
+2016-05-27 01:54:03,483 INFO  fetcher.Fetcher -   now           = 1464328443483
+2016-05-27 01:54:03,483 INFO  fetcher.Fetcher -   0. http://nutch.apache.org/apidocs/apidocs-1.6/index.html
+2016-05-27 01:54:04,497 INFO  fetcher.Fetcher - -activeThreads=10, spinWaiting=10, fetchQueues.totalSize=1
+2016-05-27 01:54:04,497 INFO  fetcher.Fetcher - * queue: http://nutch.apache.org
+2016-05-27 01:54:04,497 INFO  fetcher.Fetcher -   maxThreads    = 1
+2016-05-27 01:54:04,497 INFO  fetcher.Fetcher -   inProgress    = 0
+2016-05-27 01:54:04,497 INFO  fetcher.Fetcher -   crawlDelay    = 5000
+2016-05-27 01:54:04,497 INFO  fetcher.Fetcher -   minCrawlDelay = 0
+2016-05-27 01:54:04,497 INFO  fetcher.Fetcher -   nextFetchTime = 1464328448405
+2016-05-27 01:54:04,497 INFO  fetcher.Fetcher -   now           = 1464328444497
+2016-05-27 01:54:04,497 INFO  fetcher.Fetcher -   0. http://nutch.apache.org/apidocs/apidocs-1.6/index.html
+2016-05-27 01:54:05,511 INFO  fetcher.Fetcher - -activeThreads=10, spinWaiting=10, fetchQueues.totalSize=1
+2016-05-27 01:54:05,511 INFO  fetcher.Fetcher - * queue: http://nutch.apache.org
+2016-05-27 01:54:05,511 INFO  fetcher.Fetcher -   maxThreads    = 1
+2016-05-27 01:54:05,511 INFO  fetcher.Fetcher -   inProgress    = 0
+2016-05-27 01:54:05,511 INFO  fetcher.Fetcher -   crawlDelay    = 5000
+2016-05-27 01:54:05,511 INFO  fetcher.Fetcher -   minCrawlDelay = 0
+2016-05-27 01:54:05,511 INFO  fetcher.Fetcher -   nextFetchTime = 1464328448405
+2016-05-27 01:54:05,511 INFO  fetcher.Fetcher -   now           = 1464328445511
+2016-05-27 01:54:05,511 INFO  fetcher.Fetcher -   0. http://nutch.apache.org/apidocs/apidocs-1.6/index.html
+2016-05-27 01:54:06,525 INFO  fetcher.Fetcher - -activeThreads=10, spinWaiting=10, fetchQueues.totalSize=1
+2016-05-27 01:54:06,525 INFO  fetcher.Fetcher - * queue: http://nutch.apache.org
+2016-05-27 01:54:06,525 INFO  fetcher.Fetcher -   maxThreads    = 1
+2016-05-27 01:54:06,525 INFO  fetcher.Fetcher -   inProgress    = 0
+2016-05-27 01:54:06,525 INFO  fetcher.Fetcher -   crawlDelay    = 5000
+2016-05-27 01:54:06,525 INFO  fetcher.Fetcher -   minCrawlDelay = 0
+2016-05-27 01:54:06,525 INFO  fetcher.Fetcher -   nextFetchTime = 1464328448405
+2016-05-27 01:54:06,525 INFO  fetcher.Fetcher -   now           = 1464328446525
+2016-05-27 01:54:06,525 INFO  fetcher.Fetcher -   0. http://nutch.apache.org/apidocs/apidocs-1.6/index.html
+2016-05-27 01:54:07,539 INFO  fetcher.Fetcher - -activeThreads=10, spinWaiting=10, fetchQueues.totalSize=1
+2016-05-27 01:54:07,539 INFO  fetcher.Fetcher - * queue: http://nutch.apache.org
+2016-05-27 01:54:07,539 INFO  fetcher.Fetcher -   maxThreads    = 1
+2016-05-27 01:54:07,539 INFO  fetcher.Fetcher -   inProgress    = 0
+2016-05-27 01:54:07,539 INFO  fetcher.Fetcher -   crawlDelay    = 5000
+2016-05-27 01:54:07,539 INFO  fetcher.Fetcher -   minCrawlDelay = 0
+2016-05-27 01:54:07,539 INFO  fetcher.Fetcher -   nextFetchTime = 1464328448405
+2016-05-27 01:54:07,539 INFO  fetcher.Fetcher -   now           = 1464328447539
+2016-05-27 01:54:07,539 INFO  fetcher.Fetcher -   0. http://nutch.apache.org/apidocs/apidocs-1.6/index.html
+2016-05-27 01:54:08,553 INFO  fetcher.Fetcher - fetching http://nutch.apache.org/apidocs/apidocs-1.6/index.html (queue crawl delay=5000ms)
+2016-05-27 01:54:08,553 INFO  fetcher.Fetcher - -activeThreads=10, spinWaiting=9, fetchQueues.totalSize=0
+2016-05-27 01:54:08,725 INFO  fetcher.Fetcher - -finishing thread FetcherThread, activeThreads=9
+2016-05-27 01:54:08,881 INFO  fetcher.Fetcher - -finishing thread FetcherThread, activeThreads=7
+2016-05-27 01:54:08,881 INFO  fetcher.Fetcher - -finishing thread FetcherThread, activeThreads=7
+2016-05-27 01:54:08,881 INFO  fetcher.Fetcher - -finishing thread FetcherThread, activeThreads=6
+2016-05-27 01:54:08,881 INFO  fetcher.Fetcher - -finishing thread FetcherThread, activeThreads=5
+2016-05-27 01:54:08,881 INFO  fetcher.Fetcher - -finishing thread FetcherThread, activeThreads=4
+2016-05-27 01:54:08,881 INFO  fetcher.Fetcher - -finishing thread FetcherThread, activeThreads=3
+2016-05-27 01:54:08,881 INFO  fetcher.Fetcher - -finishing thread FetcherThread, activeThreads=1
+2016-05-27 01:54:08,881 INFO  fetcher.Fetcher - -finishing thread FetcherThread, activeThreads=2
+2016-05-27 01:54:08,897 INFO  fetcher.Fetcher - -finishing thread FetcherThread, activeThreads=0
+2016-05-27 01:54:09,567 INFO  fetcher.Fetcher - -activeThreads=0, spinWaiting=0, fetchQueues.totalSize=0
+2016-05-27 01:54:09,567 INFO  fetcher.Fetcher - -activeThreads=0
+2016-05-27 01:54:10,488 INFO  fetcher.Fetcher - Fetcher: finished at 2016-05-27 01:54:10, elapsed: 00:00:23
+2016-05-27 01:54:10,488 INFO  parse.ParseSegment - ParseSegment: starting at 2016-05-27 01:54:10
+2016-05-27 01:54:10,488 INFO  parse.ParseSegment - ParseSegment: segment: crawl/segments/20160527015345
+2016-05-27 01:54:10,784 INFO  crawl.SignatureFactory - Using Signature impl: org.apache.nutch.crawl.MD5Signature
+2016-05-27 01:54:10,784 INFO  parse.ParseSegment - Parsed (0ms):http://nutch.apache.org/apidocs/apidocs-1.4/index.html
+2016-05-27 01:54:10,784 INFO  parse.ParseSegment - Parsed (0ms):http://nutch.apache.org/apidocs/apidocs-1.5/index.html
+2016-05-27 01:54:10,784 INFO  parse.ParseSegment - Parsed (0ms):http://nutch.apache.org/apidocs/apidocs-1.6/index.html
+2016-05-27 01:54:10,784 INFO  parse.ParseSegment - Parsed (0ms):http://nutch.apache.org/apidocs/apidocs-1.7/index.html
+2016-05-27 01:54:10,815 INFO  parse.ParseSegment - Parsed (0ms):http://nutch.apache.org/miredot/1.11/index.html
+2016-05-27 01:54:10,956 INFO  regex.RegexURLNormalizer - can't find rules for scope 'outlink', using default
+2016-05-27 01:54:11,720 INFO  parse.ParseSegment - ParseSegment: finished at 2016-05-27 01:54:11, elapsed: 00:00:01
+2016-05-27 01:54:11,736 INFO  crawl.CrawlDb - CrawlDb update: starting at 2016-05-27 01:54:11
+2016-05-27 01:54:11,736 INFO  crawl.CrawlDb - CrawlDb update: db: crawl/crawldb
+2016-05-27 01:54:11,736 INFO  crawl.CrawlDb - CrawlDb update: segments: [crawl/segments/20160527015345]
+2016-05-27 01:54:11,736 INFO  crawl.CrawlDb - CrawlDb update: additions allowed: true
+2016-05-27 01:54:11,736 INFO  crawl.CrawlDb - CrawlDb update: URL normalizing: true
+2016-05-27 01:54:11,736 INFO  crawl.CrawlDb - CrawlDb update: URL filtering: true
+2016-05-27 01:54:11,736 INFO  crawl.CrawlDb - CrawlDb update: 404 purging: false
+2016-05-27 01:54:11,736 INFO  crawl.CrawlDb - CrawlDb update: Merging segment data into db.
+2016-05-27 01:54:12,048 INFO  regex.RegexURLNormalizer - can't find rules for scope 'crawldb', using default
+2016-05-27 01:54:12,141 INFO  regex.RegexURLNormalizer - can't find rules for scope 'crawldb', using default
+2016-05-27 01:54:12,219 INFO  regex.RegexURLNormalizer - can't find rules for scope 'crawldb', using default
+2016-05-27 01:54:12,251 INFO  crawl.FetchScheduleFactory - Using FetchSchedule impl: org.apache.nutch.crawl.DefaultFetchSchedule
+2016-05-27 01:54:12,251 INFO  crawl.AbstractFetchSchedule - defaultInterval=2592000
+2016-05-27 01:54:12,251 INFO  crawl.AbstractFetchSchedule - maxInterval=7776000
+2016-05-27 01:54:12,984 INFO  crawl.CrawlDb - CrawlDb update: finished at 2016-05-27 01:54:12, elapsed: 00:00:01
+2016-05-27 01:54:13,015 INFO  crawl.Generator - Generator: starting at 2016-05-27 01:54:13
+2016-05-27 01:54:13,015 INFO  crawl.Generator - Generator: Selecting best-scoring urls due for fetch.
+2016-05-27 01:54:13,015 INFO  crawl.Generator - Generator: filtering: true
+2016-05-27 01:54:13,015 INFO  crawl.Generator - Generator: normalizing: true
+2016-05-27 01:54:13,015 INFO  crawl.Generator - Generator: topN: 5
+2016-05-27 01:54:13,015 INFO  crawl.Generator - Generator: jobtracker is 'local', generating exactly one partition.
+2016-05-27 01:54:13,327 INFO  crawl.FetchScheduleFactory - Using FetchSchedule impl: org.apache.nutch.crawl.DefaultFetchSchedule
+2016-05-27 01:54:13,327 INFO  crawl.AbstractFetchSchedule - defaultInterval=2592000
+2016-05-27 01:54:13,327 INFO  crawl.AbstractFetchSchedule - maxInterval=7776000
+2016-05-27 01:54:13,327 INFO  regex.RegexURLNormalizer - can't find rules for scope 'partition', using default
+2016-05-27 01:54:13,390 INFO  crawl.FetchScheduleFactory - Using FetchSchedule impl: org.apache.nutch.crawl.DefaultFetchSchedule
+2016-05-27 01:54:13,390 INFO  crawl.AbstractFetchSchedule - defaultInterval=2592000
+2016-05-27 01:54:13,390 INFO  crawl.AbstractFetchSchedule - maxInterval=7776000
+2016-05-27 01:54:13,390 INFO  regex.RegexURLNormalizer - can't find rules for scope 'generate_host_count', using default
+2016-05-27 01:54:14,263 INFO  crawl.Generator - Generator: Partitioning selected urls for politeness.
+2016-05-27 01:54:15,277 INFO  crawl.Generator - Generator: segment: crawl/segments/20160527015415
+2016-05-27 01:54:15,574 INFO  regex.RegexURLNormalizer - can't find rules for scope 'partition', using default
+2016-05-27 01:54:16,510 INFO  crawl.Generator - Generator: finished at 2016-05-27 01:54:16, elapsed: 00:00:03
+2016-05-27 01:54:16,510 WARN  fetcher.Fetcher - Fetcher: Your 'http.agent.name' value should be listed first in 'http.robots.agents' property.
+2016-05-27 01:54:16,510 INFO  fetcher.Fetcher - Fetcher: starting at 2016-05-27 01:54:16
+2016-05-27 01:54:16,510 INFO  fetcher.Fetcher - Fetcher: segment: crawl/segments/20160527015415
+2016-05-27 01:54:16,837 INFO  fetcher.Fetcher - Using queue mode : byHost
+2016-05-27 01:54:16,837 INFO  fetcher.Fetcher - Fetcher: threads: 10
+2016-05-27 01:54:16,837 INFO  fetcher.Fetcher - Fetcher: time-out divisor: 2
+2016-05-27 01:54:16,837 INFO  fetcher.Fetcher - QueueFeeder finished: total 5 records + hit by time limit :0
+2016-05-27 01:54:16,837 INFO  fetcher.Fetcher - Using queue mode : byHost
+2016-05-27 01:54:16,837 INFO  fetcher.Fetcher - Using queue mode : byHost
+2016-05-27 01:54:16,837 INFO  fetcher.Fetcher - fetching http://nutch.apache.org/apidocs/apidocs-1.9/index.html (queue crawl delay=5000ms)
+2016-05-27 01:54:16,837 ERROR protocol.RobotRulesParser - Agent we advertise (Maciej Medyk Nutch Spider) not listed first in 'http.robots.agents' property!
+2016-05-27 01:54:16,837 INFO  http.Http - http.proxy.host = null
+2016-05-27 01:54:16,837 INFO  fetcher.Fetcher - Using queue mode : byHost
+2016-05-27 01:54:16,837 INFO  http.Http - http.proxy.port = 8080
+2016-05-27 01:54:16,837 INFO  http.Http - http.timeout = 10000
+2016-05-27 01:54:16,837 INFO  http.Http - http.content.limit = 65536
+2016-05-27 01:54:16,837 INFO  http.Http - http.agent = Maciej Medyk Nutch Spider/Nutch-1.7
+2016-05-27 01:54:16,837 INFO  http.Http - http.accept.language = en-us,en-gb,en;q=0.7,*;q=0.3
+2016-05-27 01:54:16,837 INFO  http.Http - http.accept = text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+2016-05-27 01:54:16,837 INFO  fetcher.Fetcher - Using queue mode : byHost
+2016-05-27 01:54:16,837 INFO  fetcher.Fetcher - Using queue mode : byHost
+2016-05-27 01:54:16,837 INFO  fetcher.Fetcher - Using queue mode : byHost
+2016-05-27 01:54:16,837 INFO  fetcher.Fetcher - Using queue mode : byHost
+2016-05-27 01:54:16,837 INFO  fetcher.Fetcher - Using queue mode : byHost
+2016-05-27 01:54:16,837 INFO  fetcher.Fetcher - Using queue mode : byHost
+2016-05-27 01:54:16,837 INFO  fetcher.Fetcher - Using queue mode : byHost
+2016-05-27 01:54:16,837 INFO  fetcher.Fetcher - Fetcher: throughput threshold: -1
+2016-05-27 01:54:16,837 INFO  fetcher.Fetcher - Fetcher: throughput threshold retries: 5
+2016-05-27 01:54:17,851 INFO  fetcher.Fetcher - -activeThreads=10, spinWaiting=10, fetchQueues.totalSize=4
+2016-05-27 01:54:17,851 INFO  fetcher.Fetcher - * queue: http://nutch.apache.org
+2016-05-27 01:54:17,851 INFO  fetcher.Fetcher -   maxThreads    = 1
+2016-05-27 01:54:17,851 INFO  fetcher.Fetcher -   inProgress    = 0
+2016-05-27 01:54:17,851 INFO  fetcher.Fetcher -   crawlDelay    = 5000
+2016-05-27 01:54:17,851 INFO  fetcher.Fetcher -   minCrawlDelay = 0
+2016-05-27 01:54:17,851 INFO  fetcher.Fetcher -   nextFetchTime = 1464328462024
+2016-05-27 01:54:17,851 INFO  fetcher.Fetcher -   now           = 1464328457851
+2016-05-27 01:54:17,851 INFO  fetcher.Fetcher -   0. http://nutch.apache.org/apidocs/apidocs-1.8/index.html
+2016-05-27 01:54:17,851 INFO  fetcher.Fetcher -   1. http://nutch.apache.org/apidocs/apidocs-2.2.1/index.html
+2016-05-27 01:54:17,851 INFO  fetcher.Fetcher -   2. http://nutch.apache.org/apidocs/apidocs-2.3/index.html
+2016-05-27 01:54:17,851 INFO  fetcher.Fetcher -   3. http://nutch.apache.org/apidocs/apidocs-2.2/index.html
+2016-05-27 01:54:18,865 INFO  fetcher.Fetcher - -activeThreads=10, spinWaiting=10, fetchQueues.totalSize=4
+2016-05-27 01:54:18,865 INFO  fetcher.Fetcher - * queue: http://nutch.apache.org
+2016-05-27 01:54:18,865 INFO  fetcher.Fetcher -   maxThreads    = 1
+2016-05-27 01:54:18,865 INFO  fetcher.Fetcher -   inProgress    = 0
+2016-05-27 01:54:18,865 INFO  fetcher.Fetcher -   crawlDelay    = 5000
+2016-05-27 01:54:18,865 INFO  fetcher.Fetcher -   minCrawlDelay = 0
+2016-05-27 01:54:18,865 INFO  fetcher.Fetcher -   nextFetchTime = 1464328462024
+2016-05-27 01:54:18,865 INFO  fetcher.Fetcher -   now           = 1464328458865
+2016-05-27 01:54:18,865 INFO  fetcher.Fetcher -   0. http://nutch.apache.org/apidocs/apidocs-1.8/index.html
+2016-05-27 01:54:18,865 INFO  fetcher.Fetcher -   1. http://nutch.apache.org/apidocs/apidocs-2.2.1/index.html
+2016-05-27 01:54:18,865 INFO  fetcher.Fetcher -   2. http://nutch.apache.org/apidocs/apidocs-2.3/index.html
+2016-05-27 01:54:18,865 INFO  fetcher.Fetcher -   3. http://nutch.apache.org/apidocs/apidocs-2.2/index.html
+2016-05-27 01:54:19,879 INFO  fetcher.Fetcher - -activeThreads=10, spinWaiting=10, fetchQueues.totalSize=4
+2016-05-27 01:54:19,879 INFO  fetcher.Fetcher - * queue: http://nutch.apache.org
+2016-05-27 01:54:19,879 INFO  fetcher.Fetcher -   maxThreads    = 1
+2016-05-27 01:54:19,879 INFO  fetcher.Fetcher -   inProgress    = 0
+2016-05-27 01:54:19,879 INFO  fetcher.Fetcher -   crawlDelay    = 5000
+2016-05-27 01:54:19,879 INFO  fetcher.Fetcher -   minCrawlDelay = 0
+2016-05-27 01:54:19,879 INFO  fetcher.Fetcher -   nextFetchTime = 1464328462024
+2016-05-27 01:54:19,879 INFO  fetcher.Fetcher -   now           = 1464328459879
+2016-05-27 01:54:19,879 INFO  fetcher.Fetcher -   0. http://nutch.apache.org/apidocs/apidocs-1.8/index.html
+2016-05-27 01:54:19,879 INFO  fetcher.Fetcher -   1. http://nutch.apache.org/apidocs/apidocs-2.2.1/index.html
+2016-05-27 01:54:19,879 INFO  fetcher.Fetcher -   2. http://nutch.apache.org/apidocs/apidocs-2.3/index.html
+2016-05-27 01:54:19,879 INFO  fetcher.Fetcher -   3. http://nutch.apache.org/apidocs/apidocs-2.2/index.html
+2016-05-27 01:54:20,893 INFO  fetcher.Fetcher - -activeThreads=10, spinWaiting=10, fetchQueues.totalSize=4
+2016-05-27 01:54:20,893 INFO  fetcher.Fetcher - * queue: http://nutch.apache.org
+2016-05-27 01:54:20,893 INFO  fetcher.Fetcher -   maxThreads    = 1
+2016-05-27 01:54:20,893 INFO  fetcher.Fetcher -   inProgress    = 0
+2016-05-27 01:54:20,893 INFO  fetcher.Fetcher -   crawlDelay    = 5000
+2016-05-27 01:54:20,893 INFO  fetcher.Fetcher -   minCrawlDelay = 0
+2016-05-27 01:54:20,893 INFO  fetcher.Fetcher -   nextFetchTime = 1464328462024
+2016-05-27 01:54:20,893 INFO  fetcher.Fetcher -   now           = 1464328460893
+2016-05-27 01:54:20,893 INFO  fetcher.Fetcher -   0. http://nutch.apache.org/apidocs/apidocs-1.8/index.html
+2016-05-27 01:54:20,893 INFO  fetcher.Fetcher -   1. http://nutch.apache.org/apidocs/apidocs-2.2.1/index.html
+2016-05-27 01:54:20,893 INFO  fetcher.Fetcher -   2. http://nutch.apache.org/apidocs/apidocs-2.3/index.html
+2016-05-27 01:54:20,893 INFO  fetcher.Fetcher -   3. http://nutch.apache.org/apidocs/apidocs-2.2/index.html
+2016-05-27 01:54:21,907 INFO  fetcher.Fetcher - -activeThreads=10, spinWaiting=10, fetchQueues.totalSize=4
+2016-05-27 01:54:21,907 INFO  fetcher.Fetcher - * queue: http://nutch.apache.org
+2016-05-27 01:54:21,907 INFO  fetcher.Fetcher -   maxThreads    = 1
+2016-05-27 01:54:21,907 INFO  fetcher.Fetcher -   inProgress    = 0
+2016-05-27 01:54:21,907 INFO  fetcher.Fetcher -   crawlDelay    = 5000
+2016-05-27 01:54:21,907 INFO  fetcher.Fetcher -   minCrawlDelay = 0
+2016-05-27 01:54:21,907 INFO  fetcher.Fetcher -   nextFetchTime = 1464328462024
+2016-05-27 01:54:21,907 INFO  fetcher.Fetcher -   now           = 1464328461907
+2016-05-27 01:54:21,907 INFO  fetcher.Fetcher -   0. http://nutch.apache.org/apidocs/apidocs-1.8/index.html
+2016-05-27 01:54:21,907 INFO  fetcher.Fetcher -   1. http://nutch.apache.org/apidocs/apidocs-2.2.1/index.html
+2016-05-27 01:54:21,907 INFO  fetcher.Fetcher -   2. http://nutch.apache.org/apidocs/apidocs-2.3/index.html
+2016-05-27 01:54:21,907 INFO  fetcher.Fetcher -   3. http://nutch.apache.org/apidocs/apidocs-2.2/index.html
+2016-05-27 01:54:22,172 INFO  fetcher.Fetcher - fetching http://nutch.apache.org/apidocs/apidocs-1.8/index.html (queue crawl delay=5000ms)
+2016-05-27 01:54:22,921 INFO  fetcher.Fetcher - -activeThreads=10, spinWaiting=10, fetchQueues.totalSize=3
+2016-05-27 01:54:22,921 INFO  fetcher.Fetcher - * queue: http://nutch.apache.org
+2016-05-27 01:54:22,921 INFO  fetcher.Fetcher -   maxThreads    = 1
+2016-05-27 01:54:22,921 INFO  fetcher.Fetcher -   inProgress    = 0
+2016-05-27 01:54:22,921 INFO  fetcher.Fetcher -   crawlDelay    = 5000
+2016-05-27 01:54:22,921 INFO  fetcher.Fetcher -   minCrawlDelay = 0
+2016-05-27 01:54:22,921 INFO  fetcher.Fetcher -   nextFetchTime = 1464328467344
+2016-05-27 01:54:22,921 INFO  fetcher.Fetcher -   now           = 1464328462921
+2016-05-27 01:54:22,921 INFO  fetcher.Fetcher -   0. http://nutch.apache.org/apidocs/apidocs-2.2.1/index.html
+2016-05-27 01:54:22,921 INFO  fetcher.Fetcher -   1. http://nutch.apache.org/apidocs/apidocs-2.3/index.html
+2016-05-27 01:54:22,921 INFO  fetcher.Fetcher -   2. http://nutch.apache.org/apidocs/apidocs-2.2/index.html
+2016-05-27 01:54:23,935 INFO  fetcher.Fetcher - -activeThreads=10, spinWaiting=10, fetchQueues.totalSize=3
+2016-05-27 01:54:23,935 INFO  fetcher.Fetcher - * queue: http://nutch.apache.org
+2016-05-27 01:54:23,935 INFO  fetcher.Fetcher -   maxThreads    = 1
+2016-05-27 01:54:23,935 INFO  fetcher.Fetcher -   inProgress    = 0
+2016-05-27 01:54:23,935 INFO  fetcher.Fetcher -   crawlDelay    = 5000
+2016-05-27 01:54:23,935 INFO  fetcher.Fetcher -   minCrawlDelay = 0
+2016-05-27 01:54:23,935 INFO  fetcher.Fetcher -   nextFetchTime = 1464328467344
+2016-05-27 01:54:23,935 INFO  fetcher.Fetcher -   now           = 1464328463935
+2016-05-27 01:54:23,935 INFO  fetcher.Fetcher -   0. http://nutch.apache.org/apidocs/apidocs-2.2.1/index.html
+2016-05-27 01:54:23,935 INFO  fetcher.Fetcher -   1. http://nutch.apache.org/apidocs/apidocs-2.3/index.html
+2016-05-27 01:54:23,935 INFO  fetcher.Fetcher -   2. http://nutch.apache.org/apidocs/apidocs-2.2/index.html
+2016-05-27 01:54:24,949 INFO  fetcher.Fetcher - -activeThreads=10, spinWaiting=10, fetchQueues.totalSize=3
+2016-05-27 01:54:24,949 INFO  fetcher.Fetcher - * queue: http://nutch.apache.org
+2016-05-27 01:54:24,949 INFO  fetcher.Fetcher -   maxThreads    = 1
+2016-05-27 01:54:24,949 INFO  fetcher.Fetcher -   inProgress    = 0
+2016-05-27 01:54:24,949 INFO  fetcher.Fetcher -   crawlDelay    = 5000
+2016-05-27 01:54:24,949 INFO  fetcher.Fetcher -   minCrawlDelay = 0
+2016-05-27 01:54:24,949 INFO  fetcher.Fetcher -   nextFetchTime = 1464328467344
+2016-05-27 01:54:24,949 INFO  fetcher.Fetcher -   now           = 1464328464949
+2016-05-27 01:54:24,949 INFO  fetcher.Fetcher -   0. http://nutch.apache.org/apidocs/apidocs-2.2.1/index.html
+2016-05-27 01:54:24,949 INFO  fetcher.Fetcher -   1. http://nutch.apache.org/apidocs/apidocs-2.3/index.html
+2016-05-27 01:54:24,949 INFO  fetcher.Fetcher -   2. http://nutch.apache.org/apidocs/apidocs-2.2/index.html
+2016-05-27 01:54:25,963 INFO  fetcher.Fetcher - -activeThreads=10, spinWaiting=10, fetchQueues.totalSize=3
+2016-05-27 01:54:25,963 INFO  fetcher.Fetcher - * queue: http://nutch.apache.org
+2016-05-27 01:54:25,963 INFO  fetcher.Fetcher -   maxThreads    = 1
+2016-05-27 01:54:25,963 INFO  fetcher.Fetcher -   inProgress    = 0
+2016-05-27 01:54:25,963 INFO  fetcher.Fetcher -   crawlDelay    = 5000
+2016-05-27 01:54:25,963 INFO  fetcher.Fetcher -   minCrawlDelay = 0
+2016-05-27 01:54:25,963 INFO  fetcher.Fetcher -   nextFetchTime = 1464328467344
+2016-05-27 01:54:25,963 INFO  fetcher.Fetcher -   now           = 1464328465963
+2016-05-27 01:54:25,963 INFO  fetcher.Fetcher -   0. http://nutch.apache.org/apidocs/apidocs-2.2.1/index.html
+2016-05-27 01:54:25,963 INFO  fetcher.Fetcher -   1. http://nutch.apache.org/apidocs/apidocs-2.3/index.html
+2016-05-27 01:54:25,963 INFO  fetcher.Fetcher -   2. http://nutch.apache.org/apidocs/apidocs-2.2/index.html
+2016-05-27 01:54:26,977 INFO  fetcher.Fetcher - -activeThreads=10, spinWaiting=10, fetchQueues.totalSize=3
+2016-05-27 01:54:26,977 INFO  fetcher.Fetcher - * queue: http://nutch.apache.org
+2016-05-27 01:54:26,977 INFO  fetcher.Fetcher -   maxThreads    = 1
+2016-05-27 01:54:26,977 INFO  fetcher.Fetcher -   inProgress    = 0
+2016-05-27 01:54:26,977 INFO  fetcher.Fetcher -   crawlDelay    = 5000
+2016-05-27 01:54:26,977 INFO  fetcher.Fetcher -   minCrawlDelay = 0
+2016-05-27 01:54:26,977 INFO  fetcher.Fetcher -   nextFetchTime = 1464328467344
+2016-05-27 01:54:26,977 INFO  fetcher.Fetcher -   now           = 1464328466977
+2016-05-27 01:54:26,977 INFO  fetcher.Fetcher -   0. http://nutch.apache.org/apidocs/apidocs-2.2.1/index.html
+2016-05-27 01:54:26,977 INFO  fetcher.Fetcher -   1. http://nutch.apache.org/apidocs/apidocs-2.3/index.html
+2016-05-27 01:54:26,977 INFO  fetcher.Fetcher -   2. http://nutch.apache.org/apidocs/apidocs-2.2/index.html
+2016-05-27 01:54:27,492 INFO  fetcher.Fetcher - fetching http://nutch.apache.org/apidocs/apidocs-2.2.1/index.html (queue crawl delay=5000ms)
+2016-05-27 01:54:27,991 INFO  fetcher.Fetcher - -activeThreads=10, spinWaiting=10, fetchQueues.totalSize=2
+2016-05-27 01:54:27,991 INFO  fetcher.Fetcher - * queue: http://nutch.apache.org
+2016-05-27 01:54:27,991 INFO  fetcher.Fetcher -   maxThreads    = 1
+2016-05-27 01:54:27,991 INFO  fetcher.Fetcher -   inProgress    = 0
+2016-05-27 01:54:27,991 INFO  fetcher.Fetcher -   crawlDelay    = 5000
+2016-05-27 01:54:27,991 INFO  fetcher.Fetcher -   minCrawlDelay = 0
+2016-05-27 01:54:27,991 INFO  fetcher.Fetcher -   nextFetchTime = 1464328472664
+2016-05-27 01:54:27,991 INFO  fetcher.Fetcher -   now           = 1464328467991
+2016-05-27 01:54:27,991 INFO  fetcher.Fetcher -   0. http://nutch.apache.org/apidocs/apidocs-2.3/index.html
+2016-05-27 01:54:27,991 INFO  fetcher.Fetcher -   1. http://nutch.apache.org/apidocs/apidocs-2.2/index.html
+2016-05-27 01:54:29,005 INFO  fetcher.Fetcher - -activeThreads=10, spinWaiting=10, fetchQueues.totalSize=2
+2016-05-27 01:54:29,005 INFO  fetcher.Fetcher - * queue: http://nutch.apache.org
+2016-05-27 01:54:29,005 INFO  fetcher.Fetcher -   maxThreads    = 1
+2016-05-27 01:54:29,005 INFO  fetcher.Fetcher -   inProgress    = 0
+2016-05-27 01:54:29,005 INFO  fetcher.Fetcher -   crawlDelay    = 5000
+2016-05-27 01:54:29,005 INFO  fetcher.Fetcher -   minCrawlDelay = 0
+2016-05-27 01:54:29,005 INFO  fetcher.Fetcher -   nextFetchTime = 1464328472664
+2016-05-27 01:54:29,005 INFO  fetcher.Fetcher -   now           = 1464328469005
+2016-05-27 01:54:29,005 INFO  fetcher.Fetcher -   0. http://nutch.apache.org/apidocs/apidocs-2.3/index.html
+2016-05-27 01:54:29,005 INFO  fetcher.Fetcher -   1. http://nutch.apache.org/apidocs/apidocs-2.2/index.html
+2016-05-27 01:54:30,019 INFO  fetcher.Fetcher - -activeThreads=10, spinWaiting=10, fetchQueues.totalSize=2
+2016-05-27 01:54:30,019 INFO  fetcher.Fetcher - * queue: http://nutch.apache.org
+2016-05-27 01:54:30,019 INFO  fetcher.Fetcher -   maxThreads    = 1
+2016-05-27 01:54:30,019 INFO  fetcher.Fetcher -   inProgress    = 0
+2016-05-27 01:54:30,019 INFO  fetcher.Fetcher -   crawlDelay    = 5000
+2016-05-27 01:54:30,019 INFO  fetcher.Fetcher -   minCrawlDelay = 0
+2016-05-27 01:54:30,019 INFO  fetcher.Fetcher -   nextFetchTime = 1464328472664
+2016-05-27 01:54:30,019 INFO  fetcher.Fetcher -   now           = 1464328470019
+2016-05-27 01:54:30,019 INFO  fetcher.Fetcher -   0. http://nutch.apache.org/apidocs/apidocs-2.3/index.html
+2016-05-27 01:54:30,019 INFO  fetcher.Fetcher -   1. http://nutch.apache.org/apidocs/apidocs-2.2/index.html
+2016-05-27 01:54:31,033 INFO  fetcher.Fetcher - -activeThreads=10, spinWaiting=10, fetchQueues.totalSize=2
+2016-05-27 01:54:31,033 INFO  fetcher.Fetcher - * queue: http://nutch.apache.org
+2016-05-27 01:54:31,033 INFO  fetcher.Fetcher -   maxThreads    = 1
+2016-05-27 01:54:31,033 INFO  fetcher.Fetcher -   inProgress    = 0
+2016-05-27 01:54:31,033 INFO  fetcher.Fetcher -   crawlDelay    = 5000
+2016-05-27 01:54:31,033 INFO  fetcher.Fetcher -   minCrawlDelay = 0
+2016-05-27 01:54:31,033 INFO  fetcher.Fetcher -   nextFetchTime = 1464328472664
+2016-05-27 01:54:31,033 INFO  fetcher.Fetcher -   now           = 1464328471033
+2016-05-27 01:54:31,033 INFO  fetcher.Fetcher -   0. http://nutch.apache.org/apidocs/apidocs-2.3/index.html
+2016-05-27 01:54:31,033 INFO  fetcher.Fetcher -   1. http://nutch.apache.org/apidocs/apidocs-2.2/index.html
+2016-05-27 01:54:32,047 INFO  fetcher.Fetcher - -activeThreads=10, spinWaiting=10, fetchQueues.totalSize=2
+2016-05-27 01:54:32,047 INFO  fetcher.Fetcher - * queue: http://nutch.apache.org
+2016-05-27 01:54:32,047 INFO  fetcher.Fetcher -   maxThreads    = 1
+2016-05-27 01:54:32,047 INFO  fetcher.Fetcher -   inProgress    = 0
+2016-05-27 01:54:32,047 INFO  fetcher.Fetcher -   crawlDelay    = 5000
+2016-05-27 01:54:32,047 INFO  fetcher.Fetcher -   minCrawlDelay = 0
+2016-05-27 01:54:32,047 INFO  fetcher.Fetcher -   nextFetchTime = 1464328472664
+2016-05-27 01:54:32,047 INFO  fetcher.Fetcher -   now           = 1464328472047
+2016-05-27 01:54:32,047 INFO  fetcher.Fetcher -   0. http://nutch.apache.org/apidocs/apidocs-2.3/index.html
+2016-05-27 01:54:32,047 INFO  fetcher.Fetcher -   1. http://nutch.apache.org/apidocs/apidocs-2.2/index.html
+2016-05-27 01:54:32,796 INFO  fetcher.Fetcher - fetching http://nutch.apache.org/apidocs/apidocs-2.3/index.html (queue crawl delay=5000ms)
+2016-05-27 01:54:33,061 INFO  fetcher.Fetcher - -activeThreads=10, spinWaiting=10, fetchQueues.totalSize=1
+2016-05-27 01:54:33,061 INFO  fetcher.Fetcher - * queue: http://nutch.apache.org
+2016-05-27 01:54:33,061 INFO  fetcher.Fetcher -   maxThreads    = 1
+2016-05-27 01:54:33,061 INFO  fetcher.Fetcher -   inProgress    = 0
+2016-05-27 01:54:33,061 INFO  fetcher.Fetcher -   crawlDelay    = 5000
+2016-05-27 01:54:33,061 INFO  fetcher.Fetcher -   minCrawlDelay = 0
+2016-05-27 01:54:33,061 INFO  fetcher.Fetcher -   nextFetchTime = 1464328477983
+2016-05-27 01:54:33,061 INFO  fetcher.Fetcher -   now           = 1464328473061
+2016-05-27 01:54:33,061 INFO  fetcher.Fetcher -   0. http://nutch.apache.org/apidocs/apidocs-2.2/index.html
+2016-05-27 01:54:34,075 INFO  fetcher.Fetcher - -activeThreads=10, spinWaiting=10, fetchQueues.totalSize=1
+2016-05-27 01:54:34,075 INFO  fetcher.Fetcher - * queue: http://nutch.apache.org
+2016-05-27 01:54:34,075 INFO  fetcher.Fetcher -   maxThreads    = 1
+2016-05-27 01:54:34,075 INFO  fetcher.Fetcher -   inProgress    = 0
+2016-05-27 01:54:34,075 INFO  fetcher.Fetcher -   crawlDelay    = 5000
+2016-05-27 01:54:34,075 INFO  fetcher.Fetcher -   minCrawlDelay = 0
+2016-05-27 01:54:34,075 INFO  fetcher.Fetcher -   nextFetchTime = 1464328477983
+2016-05-27 01:54:34,075 INFO  fetcher.Fetcher -   now           = 1464328474075
+2016-05-27 01:54:34,075 INFO  fetcher.Fetcher -   0. http://nutch.apache.org/apidocs/apidocs-2.2/index.html
+2016-05-27 01:54:35,089 INFO  fetcher.Fetcher - -activeThreads=10, spinWaiting=10, fetchQueues.totalSize=1
+2016-05-27 01:54:35,089 INFO  fetcher.Fetcher - * queue: http://nutch.apache.org
+2016-05-27 01:54:35,089 INFO  fetcher.Fetcher -   maxThreads    = 1
+2016-05-27 01:54:35,089 INFO  fetcher.Fetcher -   inProgress    = 0
+2016-05-27 01:54:35,089 INFO  fetcher.Fetcher -   crawlDelay    = 5000
+2016-05-27 01:54:35,089 INFO  fetcher.Fetcher -   minCrawlDelay = 0
+2016-05-27 01:54:35,089 INFO  fetcher.Fetcher -   nextFetchTime = 1464328477983
+2016-05-27 01:54:35,089 INFO  fetcher.Fetcher -   now           = 1464328475089
+2016-05-27 01:54:35,089 INFO  fetcher.Fetcher -   0. http://nutch.apache.org/apidocs/apidocs-2.2/index.html
+2016-05-27 01:54:36,103 INFO  fetcher.Fetcher - -activeThreads=10, spinWaiting=10, fetchQueues.totalSize=1
+2016-05-27 01:54:36,103 INFO  fetcher.Fetcher - * queue: http://nutch.apache.org
+2016-05-27 01:54:36,103 INFO  fetcher.Fetcher -   maxThreads    = 1
+2016-05-27 01:54:36,103 INFO  fetcher.Fetcher -   inProgress    = 0
+2016-05-27 01:54:36,103 INFO  fetcher.Fetcher -   crawlDelay    = 5000
+2016-05-27 01:54:36,103 INFO  fetcher.Fetcher -   minCrawlDelay = 0
+2016-05-27 01:54:36,103 INFO  fetcher.Fetcher -   nextFetchTime = 1464328477983
+2016-05-27 01:54:36,103 INFO  fetcher.Fetcher -   now           = 1464328476103
+2016-05-27 01:54:36,103 INFO  fetcher.Fetcher -   0. http://nutch.apache.org/apidocs/apidocs-2.2/index.html
+2016-05-27 01:54:37,117 INFO  fetcher.Fetcher - -activeThreads=10, spinWaiting=10, fetchQueues.totalSize=1
+2016-05-27 01:54:37,117 INFO  fetcher.Fetcher - * queue: http://nutch.apache.org
+2016-05-27 01:54:37,117 INFO  fetcher.Fetcher -   maxThreads    = 1
+2016-05-27 01:54:37,117 INFO  fetcher.Fetcher -   inProgress    = 0
+2016-05-27 01:54:37,117 INFO  fetcher.Fetcher -   crawlDelay    = 5000
+2016-05-27 01:54:37,117 INFO  fetcher.Fetcher -   minCrawlDelay = 0
+2016-05-27 01:54:37,117 INFO  fetcher.Fetcher -   nextFetchTime = 1464328477983
+2016-05-27 01:54:37,117 INFO  fetcher.Fetcher -   now           = 1464328477117
+2016-05-27 01:54:37,117 INFO  fetcher.Fetcher -   0. http://nutch.apache.org/apidocs/apidocs-2.2/index.html
+2016-05-27 01:54:38,131 INFO  fetcher.Fetcher - fetching http://nutch.apache.org/apidocs/apidocs-2.2/index.html (queue crawl delay=5000ms)
+2016-05-27 01:54:38,131 INFO  fetcher.Fetcher - -activeThreads=10, spinWaiting=9, fetchQueues.totalSize=0
+2016-05-27 01:54:38,303 INFO  fetcher.Fetcher - -finishing thread FetcherThread, activeThreads=9
+2016-05-27 01:54:38,459 INFO  fetcher.Fetcher - -finishing thread FetcherThread, activeThreads=7
+2016-05-27 01:54:38,459 INFO  fetcher.Fetcher - -finishing thread FetcherThread, activeThreads=7
+2016-05-27 01:54:38,459 INFO  fetcher.Fetcher - -finishing thread FetcherThread, activeThreads=6
+2016-05-27 01:54:38,459 INFO  fetcher.Fetcher - -finishing thread FetcherThread, activeThreads=5
+2016-05-27 01:54:38,459 INFO  fetcher.Fetcher - -finishing thread FetcherThread, activeThreads=4
+2016-05-27 01:54:38,459 INFO  fetcher.Fetcher - -finishing thread FetcherThread, activeThreads=3
+2016-05-27 01:54:38,459 INFO  fetcher.Fetcher - -finishing thread FetcherThread, activeThreads=2
+2016-05-27 01:54:38,459 INFO  fetcher.Fetcher - -finishing thread FetcherThread, activeThreads=1
+2016-05-27 01:54:38,474 INFO  fetcher.Fetcher - -finishing thread FetcherThread, activeThreads=0
+2016-05-27 01:54:39,145 INFO  fetcher.Fetcher - -activeThreads=0, spinWaiting=0, fetchQueues.totalSize=0
+2016-05-27 01:54:39,145 INFO  fetcher.Fetcher - -activeThreads=0
+2016-05-27 01:54:40,066 INFO  fetcher.Fetcher - Fetcher: finished at 2016-05-27 01:54:40, elapsed: 00:00:23
+2016-05-27 01:54:40,066 INFO  parse.ParseSegment - ParseSegment: starting at 2016-05-27 01:54:40
+2016-05-27 01:54:40,066 INFO  parse.ParseSegment - ParseSegment: segment: crawl/segments/20160527015415
+2016-05-27 01:54:40,378 INFO  crawl.SignatureFactory - Using Signature impl: org.apache.nutch.crawl.MD5Signature
+2016-05-27 01:54:40,378 INFO  parse.ParseSegment - Parsed (0ms):http://nutch.apache.org/apidocs/apidocs-1.8/index.html
+2016-05-27 01:54:40,378 INFO  parse.ParseSegment - Parsed (0ms):http://nutch.apache.org/apidocs/apidocs-1.9/index.html
+2016-05-27 01:54:40,378 INFO  parse.ParseSegment - Parsed (0ms):http://nutch.apache.org/apidocs/apidocs-2.2.1/index.html
+2016-05-27 01:54:40,378 INFO  parse.ParseSegment - Parsed (0ms):http://nutch.apache.org/apidocs/apidocs-2.2/index.html
+2016-05-27 01:54:40,378 INFO  parse.ParseSegment - Parsed (0ms):http://nutch.apache.org/apidocs/apidocs-2.3/index.html
+2016-05-27 01:54:40,534 INFO  regex.RegexURLNormalizer - can't find rules for scope 'outlink', using default
+2016-05-27 01:54:41,298 INFO  parse.ParseSegment - ParseSegment: finished at 2016-05-27 01:54:41, elapsed: 00:00:01
+2016-05-27 01:54:41,314 INFO  crawl.CrawlDb - CrawlDb update: starting at 2016-05-27 01:54:41
+2016-05-27 01:54:41,314 INFO  crawl.CrawlDb - CrawlDb update: db: crawl/crawldb
+2016-05-27 01:54:41,314 INFO  crawl.CrawlDb - CrawlDb update: segments: [crawl/segments/20160527015415]
+2016-05-27 01:54:41,314 INFO  crawl.CrawlDb - CrawlDb update: additions allowed: true
+2016-05-27 01:54:41,314 INFO  crawl.CrawlDb - CrawlDb update: URL normalizing: true
+2016-05-27 01:54:41,314 INFO  crawl.CrawlDb - CrawlDb update: URL filtering: true
+2016-05-27 01:54:41,314 INFO  crawl.CrawlDb - CrawlDb update: 404 purging: false
+2016-05-27 01:54:41,314 INFO  crawl.CrawlDb - CrawlDb update: Merging segment data into db.
+2016-05-27 01:54:41,626 INFO  regex.RegexURLNormalizer - can't find rules for scope 'crawldb', using default
+2016-05-27 01:54:41,719 INFO  regex.RegexURLNormalizer - can't find rules for scope 'crawldb', using default
+2016-05-27 01:54:41,797 INFO  regex.RegexURLNormalizer - can't find rules for scope 'crawldb', using default
+2016-05-27 01:54:41,828 INFO  crawl.FetchScheduleFactory - Using FetchSchedule impl: org.apache.nutch.crawl.DefaultFetchSchedule
+2016-05-27 01:54:41,828 INFO  crawl.AbstractFetchSchedule - defaultInterval=2592000
+2016-05-27 01:54:41,828 INFO  crawl.AbstractFetchSchedule - maxInterval=7776000
+2016-05-27 01:54:42,562 INFO  crawl.CrawlDb - CrawlDb update: finished at 2016-05-27 01:54:42, elapsed: 00:00:01
+2016-05-27 01:54:42,593 INFO  crawl.LinkDb - LinkDb: starting at 2016-05-27 01:54:42
+2016-05-27 01:54:42,593 INFO  crawl.LinkDb - LinkDb: linkdb: crawl/linkdb
+2016-05-27 01:54:42,593 INFO  crawl.LinkDb - LinkDb: URL normalize: true
+2016-05-27 01:54:42,593 INFO  crawl.LinkDb - LinkDb: URL filter: true
+2016-05-27 01:54:42,593 INFO  crawl.LinkDb - LinkDb: internal links will be ignored.
+2016-05-27 01:54:42,593 INFO  crawl.LinkDb - LinkDb: adding segment: file:/C:/Cygwin/home/Eclipse/apache-nutch-1.7/crawl/segments/20160527015116
+2016-05-27 01:54:42,593 INFO  crawl.LinkDb - LinkDb: adding segment: file:/C:/Cygwin/home/Eclipse/apache-nutch-1.7/crawl/segments/20160527015124
+2016-05-27 01:54:42,593 INFO  crawl.LinkDb - LinkDb: adding segment: file:/C:/Cygwin/home/Eclipse/apache-nutch-1.7/crawl/segments/20160527015154
+2016-05-27 01:54:42,593 INFO  crawl.LinkDb - LinkDb: adding segment: file:/C:/Cygwin/home/Eclipse/apache-nutch-1.7/crawl/segments/20160527015316
+2016-05-27 01:54:42,593 INFO  crawl.LinkDb - LinkDb: adding segment: file:/C:/Cygwin/home/Eclipse/apache-nutch-1.7/crawl/segments/20160527015345
+2016-05-27 01:54:42,593 INFO  crawl.LinkDb - LinkDb: adding segment: file:/C:/Cygwin/home/Eclipse/apache-nutch-1.7/crawl/segments/20160527015415
+2016-05-27 01:54:43,841 INFO  crawl.LinkDb - LinkDb: merging with existing linkdb: crawl/linkdb
+2016-05-27 01:54:45,089 INFO  crawl.LinkDb - LinkDb: finished at 2016-05-27 01:54:45, elapsed: 00:00:02
+2016-05-27 01:54:45,089 INFO  crawl.Crawl - crawl finished: crawl

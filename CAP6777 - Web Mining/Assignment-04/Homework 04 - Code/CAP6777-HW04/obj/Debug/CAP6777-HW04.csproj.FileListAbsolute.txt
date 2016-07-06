@@ -1,0 +1,9 @@
+D:\Dropbox\Workspace\VisualStudio\CAP6777-HW04\CAP6777-HW4\bin\Debug\CAP6777-HW4.exe.config
+D:\Dropbox\Workspace\VisualStudio\CAP6777-HW04\CAP6777-HW4\obj\Debug\CAP6777-HW4.exe
+D:\Dropbox\Workspace\VisualStudio\CAP6777-HW04\CAP6777-HW4\obj\Debug\CAP6777-HW4.pdb
+D:\Dropbox\Workspace\VisualStudio\CAP6777-HW04\CAP6777-HW04\bin\Debug\CAP6777-HW4.exe.config
+D:\Dropbox\Workspace\VisualStudio\CAP6777-HW04\CAP6777-HW04\obj\Debug\CAP6777-HW4.exe
+D:\Dropbox\Workspace\VisualStudio\CAP6777-HW04\CAP6777-HW04\obj\Debug\CAP6777-HW4.pdb
+D:\Dropbox\Workspace\VisualStudio\CAP6777-HW04\CAP6777-HW04\bin\Debug\CAP6777-HW4.exe
+D:\Dropbox\Workspace\VisualStudio\CAP6777-HW04\CAP6777-HW04\bin\Debug\CAP6777-HW4.pdb
+D:\Dropbox\Workspace\VisualStudio\CAP6777-HW04\CAP6777-HW04\obj\Debug\CAP6777-HW04.csprojResolveAssemblyReference.cache

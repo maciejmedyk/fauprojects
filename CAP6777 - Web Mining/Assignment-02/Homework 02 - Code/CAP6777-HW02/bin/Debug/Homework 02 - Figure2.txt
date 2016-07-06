@@ -1,0 +1,36 @@
+<TABLE width="838" background"example_files/world.png" border="0">
+<TBODY>
+<TR>
+<TD width="196">&nbsp;  </TD>
+<TD width="461">
+<H3 style="color: rgb(204, 204, 204); font-size: 12px; font-weight: bold;">Largest metropolitan areas by continent</H3>
+<LI>Asia
+<OL>
+<LI>Shanghai, China (31.23⁰N, 121.47⁰E): 15M inhab.</LI>
+<LI>Bombay, India (18.96⁰N, 72.82⁰E): 12.9M inhab.</LI>
+<LI>Karachi, Pakistan (24.86⁰N, 67.01⁰E): 12M inhab.</LI>
+<LI>Delhi, India (28.67⁰N, 77.21⁰E): 11.2M inhab.</LI>
+<LI>Manila, Philippines (14.62⁰N, 120.97⁰E): 10.5M inhab.</LI>
+<LI>Seoul, South Korea (37.56⁰N, 126.99⁰E): 10.4M inhab.</LI>
+<LI>Jakarta, Indonesia (6.18⁰S, 106.83⁰E): 8.6M inhab.</LI>
+<LI>Tokyo, Japan (35.67⁰N, 139.77⁰E): 8.4M inhab.</LI></OL></LI>
+<LI>South America
+<OL>
+<LI>Buenos Aires, Argentina (34.61⁰S, 58.37⁰W): 11.6M inhab.</LI>
+<LI>Sao Paulo, Brazil (23.53⁰S, 46.63⁰W): 10M inhab.</LI>
+<LI>Mexico, City (19.43⁰N, 99.14⁰W): 8.7M inhab.</LI></OL></LI>
+<LI>Europe
+<OL>
+<LI>Moscow, Russia (55.75⁰N, 37.62⁰E): 10.5M inhab.</LI>
+<LI>Instanbul, Turkey (41.10⁰N, 29.00⁰E): 10M inhab.</LI></OL></LI>
+<LI>Africa
+<OL>
+<LI>Lagos, Nigeria (6.45⁰N, 3.47⁰E): 9M inhab.</LI></OL></LI>
+<LI>North America
+<OL>
+<LI>New York, United States (40.67⁰N, 73.94⁰W): 8.1M inhab.</LI></OL></LI></UL></TD>
+<TD width="167">&nbsp;     </TD></TR>
+<TR>
+<TD height="57">&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD></TR></TBODY></TABLE></DIV></DIV>
